@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#home__discountBanner" : {
+    "children" : [
+      "flex-layout.col#banner__discount",
+      "image#discount__image"
+    ],
+    "props" : {
+      "blockClass": "banners__container--one"
+    }
+  },
+  "flex-layout.col#home__banner--one" : {
+    "children" : [
+      "flex-layout.col#banner__cta--one",
+      "image#banner__image--one"
+    ],
+    "props" : {
+      "blockClass": "banners__container"
+    }
+  },
+  "flex-layout.col#home__banner--two" : {
+    "children" : [
+      "flex-layout.col#banner__cta--two",
+      "image#banner__image--two"
+    ],
+    "props" : {
+      "blockClass": "banner__container"
+    }
+  },
+  "flex-layout.col#home__banner--three" : {
+    "children" : [
+      "flex-layout.col#banner__cta--three",
+      "image#banner__image--three"
+    ],
+    "props" : {
+      "blockClass": "banners__container--one"
+    }
+  }
+}

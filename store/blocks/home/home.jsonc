@@ -1,0 +1,33 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home__section--one"
+    ]
+  }
+}
+
+/* {
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home__section--one"
+      "image#home__image",
+      "rich-text"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "Siguiendo el video",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "image#home__image" : {
+    "title" : "banner",
+    "props" : {
+      "src" : "assets/img/banner.jpg",
+      "title": "banner",
+      "blockClass": "home_image"
+    }
+  }
+} */

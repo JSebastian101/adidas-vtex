@@ -1,0 +1,155 @@
+{
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    },
+    "children": ["flex-layout.col#1", "flex-layout.col#2", "flex-layout.col#3", "flex-layout.col#4", "flex-layout.col#5"]
+  },
+  "flex-layout.col#1": {
+    "children" : [
+      "image#product__image--one",
+      "flex-layout.col#product__details--one"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },
+  "image#product__image--one" : {
+    "title" : "product-one",
+    "props" : {
+      "src" : "assets/img/shelfProduct1.jpg",
+      "title": "product-one"
+    }
+  },
+  "flex-layout.col#product__details--one" : {
+    "children" : [
+      "rich-text#details__name",
+      "rich-text#details__gender",
+      "rich-text#details__freeShipping"
+    ]
+  },
+
+  
+  "flex-layout.col#2": {
+    "children" : [
+      "image#product__image--two",
+      "flex-layout.col#product__details--two"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },
+  "image#product__image--two" : {
+    "title" : "product-two",
+    "props" : {
+      "src" : "assets/img/shelfProduct2.jpg",
+      "title": "product-two"
+    }
+  },
+  "flex-layout.col#product__details--two" : {
+    "children" : [
+      "rich-text#details__name",
+      "rich-text#details__gender",
+      "rich-text#details__freeShipping"
+    ]
+  },
+
+
+  "flex-layout.col#3": {
+    "children" : [
+      "image#product__image--three",
+      "flex-layout.col#product__details--three"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },
+  "image#product__image--three" : {
+    "title" : "product-three",
+    "props" : {
+      "src" : "assets/img/shelfProduct3.jpg",
+      "title": "product-three"
+    }
+  },
+  "flex-layout.col#product__details--three" : {
+    "children" : [
+      "rich-text#details__name",
+      "rich-text#details__gender",
+      "rich-text#details__freeShipping"
+    ]
+  },
+
+
+  "flex-layout.col#4": {
+    "children" : [
+      "image#product__image--four",
+      "flex-layout.col#product__details--four"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },
+  "image#product__image--four" : {
+    "title" : "product-four",
+    "props" : {
+      "src" : "assets/img/shelfProduct4.jpg",
+      "title": "product-four"
+    }
+  },
+  "flex-layout.col#product__details--four" : {
+    "children" : [
+      "rich-text#details__name",
+      "rich-text#details__gender",
+      "rich-text#details__freeShipping"
+    ]
+  },
+
+
+  "flex-layout.col#5": {
+    "children" : [
+      "image#product__image--five",
+      "flex-layout.col#product__details--five"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },
+  "image#product__image--five" : {
+    "title" : "product-five",
+    "props" : {
+      "src" : "assets/img/shelfProduct5.jpg",
+      "title": "product-five"
+    }
+  },
+  "flex-layout.col#product__details--five" : {
+    "children" : [
+      "rich-text#details__name",
+      "rich-text#details__gender",
+      "rich-text#details__freeShipping"
+    ]
+  },
+
+  "rich-text#details__name" : {
+    "props" : {
+      "text" : "TREZIOD"
+    }
+  },
+  "rich-text#details__gender" : {
+    "props" : {
+      "text" : "Hombre originals"
+    }
+  },
+  "rich-text#details__freeShipping" : {
+    "props" : {
+      "text" : "Envío gratis"
+    }
+  }
+}

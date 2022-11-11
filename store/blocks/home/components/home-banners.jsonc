@@ -1,0 +1,67 @@
+{
+  "flex-layout.col#banner__discount":{
+    "children": [
+      "rich-text#bannerDiscount__title",
+      "rich-text#bannerDiscount__info"
+    ]
+  },
+  "image#discount__image" : {
+    "title" : "discountBanner",
+    "props" : {
+      "src" : "assets/img/bannerDiscount.jpg",
+      "title" : "discountBanner",
+      "blockClass" : "home_image"
+      }
+  },
+  "flex-layout.col#banner__cta--one" : {
+    "children": [
+      "rich-text#banner__title--one",
+      "rich-text#banner__info--one"
+    ],
+    "props" : {
+      "blockClass": "banner__cta"
+    }
+  },
+  "image#banner__image--one" : {
+    "title" : "banner",
+    "props" : {
+      "src" : "assets/img/banner.jpg",
+      "title": "banner",
+      "blockClass": "home_image"
+    }
+  },
+  "flex-layout.col#banner__cta--two" : {
+    "children": [
+      "rich-text#banner__title--two",
+      "rich-text#banner__info--two"
+    ],
+    "props" : {
+      "blockClass": "banner__cta"
+    }
+  },
+  "image#banner__image--two" : {
+    "title" : "banner",
+    "props" : {
+      "src" : "assets/img/bannerTwo.jpg",
+      "title": "banner",
+      "blockClass": "home_image"
+    }
+  },
+  "flex-layout.col#banner__cta--three" : {
+    "children": [
+      "rich-text#banner__title--three",
+      "rich-text#banner__info--three"
+    ],
+    "props" : {
+      "blockClass": "banner__cta"
+    }
+  },
+  "image#banner__image--three" : {
+    "title" : "banner",
+    "props" : {
+      "src" : "assets/img/bannerThree.jpg",
+      "title": "banner",
+      "blockClass": "home_image"
+    }
+  }
+}
