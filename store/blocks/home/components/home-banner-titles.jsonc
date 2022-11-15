@@ -1,55 +1,55 @@
 {
-  "rich-text#bannerDiscount__title" : {
+  "rich-text#banner__title--zero" : {
     "props" : {
       "text" : "HASTA 40% OFF",
       "textColor": "c-on-emphasis",
       "font" : "t-heading-2",
-      "blockClass": "section--one-title",
+      "blockClass": "home--banner__title",
       "textAlignment" : "CENTER",
       "textPosition" : "CENTER"
     }
   },
-  "rich-text#bannerDiscount__info" : {
+  "rich-text#banner__info--zero" : {
     "props" : {
       "text" : "Además recibe 20% adicional al comprar más de $249.900 en el catálogo seleccionado. ¡No dejes pasar las ofertas! *El descuento se verá reflejado en el carrito.",
       "textColor": "c-on-emphasis",
       "font" : "t-heading-5",
-      "blockClass": "section--one-title"
+      "blockClass": "home--banner__info"
     }
   },
   "rich-text#banner__title--one" : {
     "props": {
       "text": "DESBLOQUEA EL PODER DE TUS PUNTOS",
       "font": "t-heading-2",
-      "blockClass": "section--one-title"
+      "blockClass": "home--banner__title"
     }
   },
   "rich-text#banner__info--one" : {
     "props" : {
       "text" : "Comienza a canjear tus puntos de adiClub para obtener más de lo que te gusta.",
       "font" : "t-heading-5",
-      "blockClass": "section--one-title"
+      "blockClass": "home--banner__info"
     }
   },
   "rich-text#banner__title--two" : {
     "props": {
       "text": "INSPIRADA EN LA COPA MUNDIAL DE LA FIFA™",
       "font": "t-heading-2",
-      "blockClass": "section--one-title"
+      "blockClass": "home--banner__title"
     }
   },  
   "rich-text#banner__info--two" : {
     "props" : {
       "text" : "Brilla con una colección inspirada en los llamativos colores del balón del Mundial.",
       "font" : "t-heading-5",
-      "blockClass": "section--one-title"
+      "blockClass": "home--banner__info"
     }
   },
   "rich-text#banner__title--three" : {
     "props": {
       "text": "INICIA TU VIAJE A QATAR",
       "font": "t-heading-2",
-      "blockClass": "section--one-title",
+      "blockClass": "home--banner__title",
       "textAlignment" : "CENTER",
       "textPosition" : "CENTER"
     }
@@ -58,7 +58,7 @@
     "props" : {
       "text" : "Entra para disfrutar como nunca la Copa Mundial y compartamos el sueño de nuestros hermanos latinos.",
       "font" : "t-heading-5",
-      "blockClass": "section--one-title"
+      "blockClass": "home--banner__info"
     }
   }
 }

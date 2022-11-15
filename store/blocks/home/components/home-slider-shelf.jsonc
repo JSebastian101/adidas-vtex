@@ -139,17 +139,20 @@
 
   "rich-text#details__name" : {
     "props" : {
-      "text" : "TREZIOD"
+      "text" : "TREZIOD",
+      "blockClass" : "name"
     }
   },
   "rich-text#details__gender" : {
     "props" : {
-      "text" : "Hombre originals"
+      "text" : "Hombre originals",
+      "blockClass" : "gender"
     }
   },
   "rich-text#details__freeShipping" : {
     "props" : {
-      "text" : "Envío gratis"
+      "text" : "Envío gratis",
+      "blockClass" : "shipping"
     }
   }
 }

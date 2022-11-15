@@ -1,28 +1,28 @@
 {
-  "flex-layout.col#home__cards--one" : {
+  "flex-layout.col#home__cards--gender" : {
     "children" : [
-      "rich-text#cards__title",
-      "flex-layout.row#home__cards"
+      "rich-text#cards__gender--title",
+      "flex-layout.row#cards__gender--container"
     ]
   },
-  "rich-text#cards__title" : {
+  "rich-text#cards__gender--title" : {
     "props" : {
       "text" : "¿Para quién compras?",
       "blockClass" : "cards__title"
     }
   },
-  "flex-layout.row#home__cards" : {
+  "flex-layout.row#cards__gender--container" : {
     "children" : [
-      "flex-layout.col#cards__gender--one", 
-      "flex-layout.col#cards__gender--two",
-      "flex-layout.col#cards__gender--three"  
+      "flex-layout.col#card__gender--one", 
+      "flex-layout.col#card__gender--two",
+      "flex-layout.col#card__gender--three"  
     ],
     "props" : {
       "blockClass" : "cards__container"
     }
   },
   /*  */
-  "flex-layout.col#cards__gender--one" : {
+  "flex-layout.col#card__gender--one" : {
     "children" : [
       "image#cards__image--one",
       "rich-text#cards__text--one"
@@ -34,7 +34,8 @@
   },
   "image#cards__image--one" : {
     "props" : {
-      "src" : "assets/img/cardWomen.jpg"
+      "src" : "assets/img/cardWomen.jpg",
+      "link" : "#"
     }
   },
   "rich-text#cards__text--one" : {
@@ -43,7 +44,7 @@
     }
   },
    /*  */
-  "flex-layout.col#cards__gender--two" : {
+  "flex-layout.col#card__gender--two" : {
     "children" : [
       "image#cards__image--two",
       "rich-text#cards__text--two"
@@ -55,7 +56,8 @@
   },
   "image#cards__image--two" : {
     "props" : {
-      "src" : "assets/img/cardMen.jpg"
+      "src" : "assets/img/cardMen.jpg",
+      "link" : "#"
     }
   },
   "rich-text#cards__text--two" : {
@@ -65,7 +67,7 @@
   }, 
   
   /*  */
-  "flex-layout.col#cards__gender--three" : {
+  "flex-layout.col#card__gender--three" : {
     "children" : [
       "image#cards__image--three",
       "rich-text#cards__text--three"
@@ -77,7 +79,8 @@
   },
   "image#cards__image--three" : {
     "props" : {
-      "src" : "assets/img/cardKid.jpg"
+      "src" : "assets/img/cardKid.jpg",
+      "link" : "#"
     }
   },
   "rich-text#cards__text--three" : {

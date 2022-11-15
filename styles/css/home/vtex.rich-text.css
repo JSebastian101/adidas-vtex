@@ -1,4 +1,37 @@
-.paragraph--section--one-title{
+/* .container--section--one-title{
   position: absolute;
-  z-index: 10;
+} */
+.container--home--banner__title,
+.container--home--banner__info {
+  position: relative;
+}
+.paragraph--cards__title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+.paragraph--tendencies__title{
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 16px 0 0 0;
+}
+.paragraph--tendencies__paragraph {
+  margin: 10px 0 0 0;
+  font-size: 0.8rem;
+}
+.container--cards__title{
+  width: 80%;
+  margin: 0 auto;
+}
+.paragraph--name {
+  margin: 2px 0 2px 0;
+  font-size: 0.9rem;
+}
+.paragraph--gender {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.paragraph--shipping {
+  font-size: 0.9rem;
+  margin: 2px 0 2px 0;
 }

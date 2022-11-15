@@ -1,33 +1,22 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home__section--one"
+      "flex-layout.row#home__container"
+    ]
+  },
+  "flex-layout.row#home__container" : {
+    "children": [
+      "flex-layout.col#home"
+    ] 
+  },
+  "flex-layout.col#home" : {
+    "children" : [
+      "flex-layout.col#home__banner--container",
+      "flex-layout.col#home__cards--gender",
+      "slider-layout#text-test",
+      "flex-layout.col#home__cards--tendencies",
+      "flex-layout.col#home__cards--tendencies",
+      "slider-layout#text-test"
     ]
   }
 }
-
-/* {
-  "store.home": { 
-    "blocks": [
-      "flex-layout.row#home__section--one"
-      "image#home__image",
-      "rich-text"
-    ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "Siguiendo el video",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
-  },
-  "image#home__image" : {
-    "title" : "banner",
-    "props" : {
-      "src" : "assets/img/banner.jpg",
-      "title": "banner",
-      "blockClass": "home_image"
-    }
-  }
-} */

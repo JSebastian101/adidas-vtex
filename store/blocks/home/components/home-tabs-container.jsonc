@@ -1,0 +1,25 @@
+{
+  "tab-layout#home__tabs--container" : {
+    "children" : [
+      "tab-list#home__tabs--list",
+      "tab-content#home__tabs--content"
+    ],
+    "props" : {
+      "defaultActiveTabId" : "product1"
+    }
+  },
+  "tab-list#home__tabs--list": {
+    "children" : [
+      "tab-list.item#tabs__list--one",
+      "tab-list.item#tabs__list--two"
+    ]
+  },
+  "tab-list.item#tabs__list--one": {
+    "props" : {
+      "tabId" : "product1"
+    }
+  },
+  "tab-content#home__tabs--content" : {
+
+  }
+}

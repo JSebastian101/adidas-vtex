@@ -1,0 +1,25 @@
+{
+  "flex-layout.col#home__cards--tendencies" : {
+    "children" : [
+      "rich-text#cards__tendencies--title",
+      "flex-layout.row#home__cards--two"
+    ]
+  },
+  "rich-text#cards__tendencies--title" : {
+    "props" : {
+      "text" : "TENDENCIAS",
+      "blockClass" : "cards__title"
+    }
+  },
+  "flex-layout.row#home__cards--two" : {
+    "children" : [
+      "flex-layout.col#cards__tendencies--one", 
+      "flex-layout.col#cards__tendencies--two",
+      "flex-layout.col#cards__tendencies--three",
+      "flex-layout.col#cards__tendencies--one"
+    ],
+    "props" : {
+      "blockClass" : "cards__container"
+    }
+  }
+}
