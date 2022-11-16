@@ -13,7 +13,7 @@
     "children" : [
       "flex-layout.col#home__banner--container",
       "flex-layout.col#home__cards--gender",
-      "slider-layout#text-test",
+      "tab-layout#home__tabs--container",
       "flex-layout.col#home__cards--tendencies",
       "flex-layout.col#home__cards--tendencies",
       "slider-layout#text-test"
