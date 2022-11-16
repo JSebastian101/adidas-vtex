@@ -1,0 +1,18 @@
+{
+  "header-row#header__top" : {
+    "children" : ["header-spacer"],
+    "props" : {
+      "blockClass" : "header__top"
+    }
+  },
+  "header-row#header__middle" : {
+    "children" : ["flex-layout.row#header__middle--support"], 
+    "props" : {
+      "blockClass" : "header__middle"
+    }
+
+  }, 
+  "header-row#header__bottom" : {
+    "children" : ["image#header__logo", "header-spacer", "flex-layout.row#header__bottom--menu", "header-spacer", "flex-layout#header__bottom--user"]
+  }
+}

@@ -1,0 +1,5 @@
+.headerRowContainer--header__middle {
+  justify-content: flex-end;
+  width: 90%;
+  margin: 0 auto;
+}

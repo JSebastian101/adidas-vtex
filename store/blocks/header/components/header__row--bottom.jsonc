@@ -1,0 +1,52 @@
+{
+  "image#header__logo" : {
+    "props" : {
+      "src" : "assets/img/icon-adidas-logo.svg"
+    }
+  },
+  "flex-layout.row#header__bottom--menu" : {
+    "children" : [
+      "rich-text#menu__item--one",
+      "rich-text#menu__item--two",
+      "rich-text#menu__item--three",
+      "rich-text#menu__item--four",
+      "rich-text#menu__item--five",
+      "rich-text#menu__item--six"
+    ]
+  },
+  "flex-layout#header__bottom--user" : {
+    "children" : [
+
+    ]
+  },
+  "rich-text#menu__item--one" : {
+    "props" : {
+      "text" : "Mujer"
+    }
+  },
+  "rich-text#menu__item--two" : {
+    "props" : {
+      "text" : "Hombre"
+    }
+  },
+  "rich-text#menu__item--three" : {
+    "props" : {
+      "text" : "Niños"
+    }
+  },
+  "rich-text#menu__item--four" : {
+    "props" : {
+      "text" : "Deporte"
+    }
+  },
+  "rich-text#menu__item--five" : {
+    "props" : {
+      "text" : "Mundo Adidas"
+    }
+  },
+  "rich-text#menu__item--six" : {
+    "props" : {
+      "text" : "Regalos"
+    }
+  }
+}
