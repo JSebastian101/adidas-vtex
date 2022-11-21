@@ -1,0 +1,9 @@
+.paragraph--menu__item--one, 
+.paragraph--menu__item--two {
+  margin: 5px 0;
+  font-size: .9rem;
+  padding-right: 15px;
+}
+.paragraph--menu__item--one {
+  font-weight: 700;
+}

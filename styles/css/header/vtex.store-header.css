@@ -1,0 +1,13 @@
+.headerRowContainer--header__middle {
+  justify-content: flex-end;
+  width: 90%;
+  margin: 0 auto;
+}
+.headerRowContainer--header__bottom {
+  width: 90%;
+  margin: 0 auto;
+}
+.headerRowBackground--header__top {
+  height: 30px;
+  background-color: black;
+}

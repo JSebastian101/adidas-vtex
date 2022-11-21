@@ -1,0 +1,16 @@
+.imageElement--home__user--logo {
+  margin: 0 15px ;
+}
+/* .imageElement--home__user--login {
+  margin-right: 15px;
+} */
+.imageElement--home__user--logo,
+.imageElement--home__user--login:hover {
+  cursor: pointer;
+}
+.autoCompleteOuterContainer--searchBar {
+  border: none;
+}
+.autoCompleteInnerContainer--searchBar {
+  border: none;
+}
