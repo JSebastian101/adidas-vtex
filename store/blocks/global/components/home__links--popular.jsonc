@@ -1,0 +1,70 @@
+{
+  "flex-layout.col#home__links--popular" : {
+    "children" : [
+      "rich-text#hlinks__popular--title",
+      "flex-layout.row#home__links--popular"
+    ]
+  },
+  "rich-text#hlinks__popular--title" : {
+    "props" : {
+      "text" : "Popular ahora",
+      "blockClass" : "cards__title"
+      }
+  },
+  "flex-layout.row#home__links--popular" : {
+    "children" : [
+      "rich-text#links__popular--one",
+      "rich-text#links__popular--two",
+      "rich-text#links__popular--three",
+      "rich-text#links__popular--four",
+      "rich-text#links__popular--five",
+      "rich-text#links__popular--six"
+    ],
+    "props" : {
+      "blockClass" : "home__links--popular",
+      "rowGap" : 3
+    }
+  },
+  "rich-text#links__popular--one": {
+    "props" : {
+      "url" : "#",
+      "text" : "Materiales Reciclados",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--two": {
+    "props" : {
+      "url" : "#",
+      "text" : "Guayos",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--three": {
+    "props" : {
+      "url" : "#",
+      "text" : "Superstar",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--four": {
+    "props" : {
+      "url" : "#",
+      "text" : "Forum",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--five": {
+    "props" : {
+      "url" : "#",
+      "text" : "Lego",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--six": {
+    "props" : {
+      "url" : "#",
+      "text" : "Samba",
+      "blockClass" : "popularLink"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "responsive-layout.desktop" : {
+    "children" : [
+      "flex-layout.row#home__container"
+    ]
+  },
+  "flex-layout.row#home__container" : {
+    "children": [
+      "flex-layout.col#home"
+    ] 
+  },
+  "flex-layout.col#home" : {
+    "children" : [
+      "flex-layout.col#home__banner--container",
+      "flex-layout.col#home__links--popular",
+      "flex-layout.col#home__cards--gender",
+      "flex-layout.col#home__section--soccerTeams",
+      "tab-layout#home__tabs--container",
+      "flex-layout.col#home__cards--tendencies",
+      "flex-layout.col#home__cards--tendenciesTwo",
+      "flex-layout.col#home__banner--oceans",
+      "flex-layout.row#home__section--history",
+      "flex-layout.row#home__section--adiClub",
+      "slider-layout#text-test"
+    ]
+  }
+}

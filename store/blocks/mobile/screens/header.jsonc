@@ -1,0 +1,36 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "header-row#header__top",
+      "header-row#header__bottom--mobile"
+    ]
+  },
+  "header-row#header__bottom--mobile": {
+    "children": [
+      "drawer",
+      "header-force-center#header__logo--mobile",
+      "flex-layout.row#header__section--user"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#header__section--user" : {
+    "children" : [
+      "modal-trigger#home__user--login",
+      "image#home__user--favourites", //cambiar por el logo de buscar o barra de busqueda
+      "minicart.v2"
+    ]
+  },
+  "header-force-center#header__logo--mobile" : {
+    "children" : [
+      "image#header__logo"
+    ]
+  },
+  "drawer": {
+    "children": []
+  } 
+}

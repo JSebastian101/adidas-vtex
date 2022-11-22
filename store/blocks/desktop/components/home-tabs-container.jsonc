@@ -1,0 +1,74 @@
+{
+  "tab-layout#home__tabs--container" : {
+    "children" : [
+      "tab-list#home__tabs--list",
+      "tab-content#home__tabs--content"
+    ],
+    "props" : {
+      "defaultActiveTabId" : "product1",
+      "blockClass" : "home__tabs--container"
+    }
+  },
+  "tab-list#home__tabs--list": {
+    "children" : [
+      "tab-list.item#tabs__list--one",
+      "tab-list.item#tabs__list--two",
+      "tab-list.item#tabs__list--three"
+    ],
+    "props" : {
+      "blockClass" : "tabs__list"
+    }
+  },
+  "tab-list.item#tabs__list--one": {
+    "props" : {
+      "tabId" : "product1",
+      "label": "NOVEDADES",
+      "blockClass" : "tabs__list--item"
+    }
+  },
+  "tab-list.item#tabs__list--two" : {
+    "props" : {
+      "tabId" : "product2",
+      "label": "EXCLUSIVO MIEMBROS ADICLUB",
+      "blockClass" : "tabs__list--item"
+    }
+  },
+  "tab-list.item#tabs__list--three" : {
+    "props" : {
+      "tabId" : "product3",
+      "label" : "COLECCIONES",
+      "blockClass" : "tabs__list--item"
+    }
+  },
+  "tab-content#home__tabs--content" : {
+    "children" : [
+      "tab-content.item#tabs__content--one",
+      "tab-content.item#tabs__content--two",
+      "tab-content.item#tabs__content--three"
+    ]
+  },
+  "tab-content.item#tabs__content--one" : {
+    "children" : [
+      "slider-layout#text-test"
+    ],
+    "props" : {
+      "tabId" : "product1"
+    }
+  },
+  "tab-content.item#tabs__content--two" : {
+    "children" : [
+      "slider-layout#text-test"
+    ],
+    "props" : {
+      "tabId" : "product2"
+    }
+  },
+  "tab-content.item#tabs__content--three" : {
+    "children" : [
+      "slider-layout#text-test"
+    ],
+    "props" : {
+      "tabId" : "product3"
+    }
+  }
+}

@@ -1,16 +1,47 @@
-.flexColChild--banners__container {
+/* sección 1 de banners del home */
+.flexCol--banners__container, .flexCol--banner__container {
   position: relative;
 }
-.flexCol--banner__cta {
-  position: absolute;
-  z-index: 10;
+.flexColChild--banners__container, .flexColChild--banner__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.flexColChild--banners__container:first-child {
   display: flex;
   flex-direction: column;
-}
-.flexColChild--shelf__cart {
   width: 70%;
-  margin-left: 10rem;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
+.flexColChild--banner__container:first-child {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 10;
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* sección popular ahora */
+.flexCol--banner__cta, .flexCol--banner__cta--center {
+  height: max-content;
+}
+.flexColChild--banner__cta {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Sección banner oceans */
+.flexColChild--banner__cta--center {
+  margin: 0 auto;
+}
+
+/* sección Cards (gender/tendencies/running) */
 .flexRowContent--cards__container {
   width: 80%;
   display: flex;
@@ -22,3 +53,39 @@
 .flexRow--cards__container{
   margin: 0 0 50px 0;
 }
+
+/* sección links popular */
+.flexRowContent--home__links--popular {
+  width: 80%;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.flexRowContent--home__links--popular :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 33% !important;
+}
+
+/* Sección teams */
+.flexCol--home__section--soccerTeams {
+  background-color: #EBEDEE;
+  padding: 26px 0px;
+}
+.flexRowContent--home__soccerTeams--section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* sección tab carrousel */
+
+/* sección historia */
+
+.flexRow--home__section--history {
+  padding: 50px 0;
+  background-color: #F5F5E5; 
+}
+.flexRowContent--home__section--history {
+  width: 80%;
+  margin: 0 auto;
+}
+

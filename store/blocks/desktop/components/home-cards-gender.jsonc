@@ -1,0 +1,91 @@
+{
+  "flex-layout.col#home__cards--gender" : {
+    "children" : [
+      "rich-text#cards__gender--title",
+      "flex-layout.row#cards__gender--container"
+    ]
+  },
+  "rich-text#cards__gender--title" : {
+    "props" : {
+      "text" : "¿Para quién compras?",
+      "blockClass" : "cards__title"
+    }
+  },
+  "flex-layout.row#cards__gender--container" : {
+    "children" : [
+      "flex-layout.col#card__gender--one", 
+      "flex-layout.col#card__gender--two",
+      "flex-layout.col#card__gender--three"  
+    ],
+    "props" : {
+      "blockClass" : "cards__container"
+    }
+  },
+  /*  */
+  "flex-layout.col#card__gender--one" : {
+    "children" : [
+      "image#cards__image--one",
+      "rich-text#cards__text--one"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "colGap": 5
+    }
+  },
+  "image#cards__image--one" : {
+    "props" : {
+      "src" : "assets/img/cardWomen.jpg",
+      "link" : "#"
+    }
+  },
+  "rich-text#cards__text--one" : {
+    "props" : {
+      "text" : "Mujer"
+    }
+  },
+   /*  */
+  "flex-layout.col#card__gender--two" : {
+    "children" : [
+      "image#cards__image--two",
+      "rich-text#cards__text--two"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "rowGap": 5
+    }
+  },
+  "image#cards__image--two" : {
+    "props" : {
+      "src" : "assets/img/cardMen.jpg",
+      "link" : "#"
+    }
+  },
+  "rich-text#cards__text--two" : {
+    "props" : {
+      "text" : "Hombre"
+    }
+  }, 
+  
+  /*  */
+  "flex-layout.col#card__gender--three" : {
+    "children" : [
+      "image#cards__image--three",
+      "rich-text#cards__text--three"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "rowGap": 5
+    }
+  },
+  "image#cards__image--three" : {
+    "props" : {
+      "src" : "assets/img/cardKid.jpg",
+      "link" : "#"
+    }
+  },
+  "rich-text#cards__text--three" : {
+    "props" : {
+      "text" : "Niños"
+    }
+  }
+}

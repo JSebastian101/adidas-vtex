@@ -1,0 +1,25 @@
+{
+  "flex-layout.col#home__cards--tendenciesTwo" : {
+    "children" : [
+      "rich-text#cards__tendenciesTwo--title",
+      "flex-layout.row#home__cards--three"
+    ]
+  },
+  "rich-text#cards__tendenciesTwo--title" : {
+    "props" : {
+      "text" : "ENCUENTRA TUS TENIS PARA CORRER",
+      "blockClass" : "cards__title"
+    }
+  },
+  "flex-layout.row#home__cards--three" : {
+    "children" : [
+      "flex-layout.col#cards__tendenciesTwo--one", 
+      "flex-layout.col#cards__tendenciesTwo--two",
+      "flex-layout.col#cards__tendenciesTwo--three",
+      "flex-layout.col#cards__tendenciesTwo--one"
+    ],
+    "props" : {
+      "blockClass" : "cards__container"
+    }
+  }
+}

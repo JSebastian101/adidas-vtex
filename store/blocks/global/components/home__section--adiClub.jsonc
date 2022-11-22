@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#home__section--adiClub" : {
+    "children" : [
+      "rich-text#home__section--adiClub",
+      "link#home__section--adiClub"
+    ]
+  },
+  "rich-text#home__section--adiClub" : {
+    "props" : {
+      "text" : "ÚNETE AL CLUB Y CONSIGUE UN 15% DE DESCUENTO"
+    }
+  },
+  "link#home__section--adiClub" : {
+    "props" : {
+      "href": "#",
+      "label" : "Registrate Gratis"
+    }
+  }
+}
