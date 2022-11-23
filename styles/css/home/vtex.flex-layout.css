@@ -53,6 +53,9 @@
 .flexRow--cards__container{
   margin: 0 0 50px 0;
 }
+.flexColChild--container__card:hover {
+  cursor: pointer;
+}
 
 /* sección links popular */
 .flexRowContent--home__links--popular {
@@ -88,4 +91,26 @@
   width: 80%;
   margin: 0 auto;
 }
+.flexCol--history__section--content {
+  width: 90% !important;
+  display: flex;
+  justify-content: start;
+}
+.flexColChild--history__section--content {
+  height: max-content !important;
+}
 
+/* Adiclub */
+
+.flexRow--home__section--adiClub {
+  height: 100%;
+  background-color: #EDE734;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--home__section--adiClub {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}

@@ -36,7 +36,7 @@
   "link#details__button--oceans" : {
     "props" : {
       "href" : "#",
-      "label" : "CONOCE MÁS &rarr;",
+      "label" : "CONOCE MÁS →",
       "displayMode" : "button",
       "buttonProps" : {
         "size" : "small"

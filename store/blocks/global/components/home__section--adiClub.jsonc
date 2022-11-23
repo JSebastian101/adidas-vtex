@@ -3,17 +3,29 @@
     "children" : [
       "rich-text#home__section--adiClub",
       "link#home__section--adiClub"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "home__section--adiClub",
+      "colSizing" : "auto",
+      "colGap" : 5
+    }
   },
   "rich-text#home__section--adiClub" : {
     "props" : {
-      "text" : "ÚNETE AL CLUB Y CONSIGUE UN 15% DE DESCUENTO"
+      "text" : "ÚNETE AL CLUB Y CONSIGUE <br> UN 15% DE DESCUENTO",
+      "blockClass" : "home--banner__title",
+      "font" : "t-heading-3"
     }
   },
   "link#home__section--adiClub" : {
     "props" : {
       "href": "#",
-      "label" : "Registrate Gratis"
+      "label" : "Registrate Gratis →",
+      "displayMode" : "button",
+      "buttonProps" : {
+        "size" : "regular"
+      },
+      "blockClass" : "adiClub--cta"
     }
   }
 }

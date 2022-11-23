@@ -40,7 +40,8 @@
   },
   "rich-text#cards__text--one" : {
     "props" : {
-      "text" : "Mujer"
+      "text" : "Mujer",
+      "blockClass" : "card__gender--text"
     }
   },
    /*  */
@@ -62,7 +63,8 @@
   },
   "rich-text#cards__text--two" : {
     "props" : {
-      "text" : "Hombre"
+      "text" : "Hombre",
+      "blockClass" : "card__gender--text"
     }
   }, 
   
@@ -85,7 +87,8 @@
   },
   "rich-text#cards__text--three" : {
     "props" : {
-      "text" : "Niños"
+      "text" : "Niños",
+      "blockClass" : "card__gender--text"
     }
   }
 }

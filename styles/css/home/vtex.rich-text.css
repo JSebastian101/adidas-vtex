@@ -10,6 +10,13 @@
   font-weight: 700;
   margin: 40px 0 0px 0;
 }
+/* Cards gender */
+.paragraph--card__gender--text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 15px 0px;
+}
+
 .paragraph--tendencies__title{
   font-size: 1rem;
   font-weight: 700;
@@ -35,6 +42,9 @@
   font-size: 0.9rem;
   margin: 2px 0 2px 0;
 }
+
+
+
 .paragraph--header__support--text {
   white-space: nowrap;
   font-size: 13px;
@@ -73,4 +83,24 @@
 
 .paragraph--teams__title {
   margin: 0 0 8px 0;
+}
+
+/* History */
+.wrapper--home__history--title {
+  width: 75%;
+}
+.paragraph--home__history--title {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+/* Adiclub */
+
+/* vtex-flex-layout-0-x- */.flexRowContent--home__section--adiClub:last-child {
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
 }

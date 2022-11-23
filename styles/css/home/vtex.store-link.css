@@ -4,3 +4,61 @@
   font-size: .9rem;
   margin-bottom: 100px;
 }
+
+.buttonLink--oceans__cta {
+  border-radius: 0;
+  border : 2px solid white;
+  background-color: black;
+  padding: 15px 0 20px 0;
+}
+.label--oceans__cta, .label--adiClub--cta {
+  color: white;
+  font-weight: 600;
+}
+.label--oceans__cta:hover {
+  color: rgba(255, 255, 255, 0.744);
+}
+.buttonLink--oceans__cta:hover  {
+  background-color: black;
+  border : 2px solid white;
+}
+
+/* button adiclub */
+
+.buttonLink--adiClub--cta {
+  position: relative;
+  border-radius: 0;
+  height: max-content;
+  background-color: black;
+  border: none;
+  align-self: center;
+  padding: 15px 0 20px 0;
+}
+.label--adiClub--cta:hover {
+  border: none;
+}
+.buttonLink--adiClub--cta:hover {
+  border: none;
+}
+.buttonLink--adiClub--cta::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  height: 100%;
+  right: -3px;
+  top: 3px;
+  width: 3px;
+}
+.buttonLink--adiClub--cta::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 3px;
+  width: 100%;
+  bottom: -3px;
+  left: 3px;
+}
