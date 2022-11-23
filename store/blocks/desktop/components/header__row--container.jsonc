@@ -13,21 +13,16 @@
 
   }, 
   "header-row#header__bottom" : {
-    "children" : ["image#header__logo", "header-spacer", "flex-layout.row#header__bottom--menu", "header-spacer", /* "search-bar#test", */ "flex-layout.row#header__bottom--user"],
+    "children" : [
+      "image#header__logo", 
+      "header-spacer", 
+      "flex-layout.row#header__bottom--menu", 
+      "header-spacer", 
+      /* "search-bar#test", */
+      "search-bar#test", 
+      "flex-layout.row#header__bottom--user"],
     "props" : {
       "blockClass" : "header__bottom"
     }
-  }/* ,
-  "search-bar#test" : {
-    "blocks" : ["autocomplete-result-list.v2"],
-    "props" : {
-      "placeholder" : "Buscar",
-      "maxWidth" : 200,
-      "blockClass" : "searchBar",
-      "openAutocompleteOnFocus": true
-    }
-  },
-  "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
-  } */
+  }
 }

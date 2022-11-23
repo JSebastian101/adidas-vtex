@@ -1,0 +1,14 @@
+{
+  "search-bar#test" : {
+    "blocks" : ["autocomplete-result-list.v2"],
+    "props" : {
+      "placeholder" : "Buscar",
+      "maxWidth" : 200,
+      "blockClass" : "searchBar",
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  }
+}

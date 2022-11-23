@@ -18,10 +18,13 @@
   "flex-layout.col#banner__cta--one" : {
     "children": [
       "rich-text#banner__title--one",
-      "rich-text#banner__info--one"
+      "rich-text#banner__info--one",
+      "link#cta__bannerOne--one",
+      "link#cta__bannerOne--two"
     ],
     "props" : {
-      "blockClass": "banner__cta"
+      "blockClass": "banner__cta",
+      "rowGap" :  5
     }
   },
   "image#banner__image--one" : {
@@ -34,10 +37,13 @@
   "flex-layout.col#banner__cta--two" : {
     "children": [
       "rich-text#banner__title--two",
-      "rich-text#banner__info--two"
+      "rich-text#banner__info--two",
+      "link#cta__bannerTwo--one",
+      "link#cta__bannerTwo--two"
     ],
     "props" : {
-      "blockClass": "banner__cta"
+      "blockClass": "banner__cta",
+      "rowGap" :  5
     }
   },
   "image#banner__image--two" : {
@@ -50,10 +56,12 @@
   "flex-layout.col#banner__cta--three" : {
     "children": [
       "rich-text#banner__title--three",
-      "rich-text#banner__info--three"
+      "rich-text#banner__info--three",
+      "link#cta__bannerOne--two"
     ],
     "props" : {
-      "blockClass": "banner__cta"
+      "blockClass": "banner__cta",
+      "rowGap" :  5
     }
   },
   "image#banner__image--three" : {

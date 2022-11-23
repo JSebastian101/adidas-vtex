@@ -64,5 +64,37 @@
       "textAlignment" : "CENTER",
       "textPosition" : "CENTER"
     }
+  },
+  "link#cta__bannerOne--one" : {
+    "props" : {
+      "label" : "Ver mis puntos →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
+  },
+  "link#cta__bannerOne--two" : {
+    "props" : {
+      "label" : "Descubre más →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
+  },
+  "link#cta__bannerTwo--one" : {
+    "props" : {
+      "label" : "Comprar ahora →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
+  },
+  "link#cta__bannerTwo--two" : {
+    "props" : {
+      "label" : "Comprar al rihla pack →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
   }
 }

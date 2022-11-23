@@ -2,9 +2,12 @@
 .container--home--banner__info {
   position: relative;
 } */
-.paragraph--home--banner__title {
+
+.paragraph--home--banner__title, .paragraph--home--banner__info {
   line-height: 35px ;
+  margin: 0;
 }
+
 .paragraph--cards__title {
   font-size: 40px;
   font-weight: 700;
