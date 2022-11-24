@@ -13,6 +13,7 @@
     "children" : [
       "flex-layout.col#home__banner--container",
       "flex-layout.col#home__links--popular",
+      "search-result-layout.customQuery#home__search",
       "flex-layout.col#home__cards--gender",
       "flex-layout.col#home__section--soccerTeams",
       "tab-layout#home__tabs--container",
@@ -22,6 +23,59 @@
       "slider-layout#text-test",
       "flex-layout.row#home__section--history",
       "flex-layout.row#home__section--adiClub"
+    ]
+  },
+  "search-result-layout.customQuery#home__search" : {
+    "props" : {
+      "querySchema" : {
+        "skusFilter" : "ALL",
+        "simulationBehavior" : "skip"
+      }
+    },
+    "blocks" : [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop" : {
+    "children" : [
+      "rich-text#banner__title--two"
+    ]
+  },
+  "search-result-layout.mobile#home__search--mobile" : {
+    "children" : [
+      "flex-layout.row#home__results"
+    ]
+  },
+  "flex-layout.row#home__results" : {
+    "children" : [
+/*       "flex-layout.col#home__results--filter", */
+      "flex-layout.col#home__results--search"
+    ]
+  }/* ,
+  "flex-layout.col#home__results--filter" : {
+    "props" : {
+      "width" : "30%"
+    }
+  } */,
+  "flex-layout.col#home__results--search" : {
+    "props" : {
+      "width" : "70%"
+    },
+    "children" : [
+      "search-content#home__results--search"
+    ]
+  }, 
+  "search-content#home__results--search" : {
+    "blocks" : [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery" : {
+    "blocks" : [
+      "product-summary.shelf"
     ]
   }
 }
