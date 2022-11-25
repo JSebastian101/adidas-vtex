@@ -40,7 +40,7 @@
   },
   "search-result-layout.desktop#home__search--desktop" : {
     "children" : [
-      "rich-text#banner__title--two"
+      "flex-layout.row#home__results"
     ]
   },
   "search-result-layout.mobile#home__search--mobile" : {
@@ -70,7 +70,7 @@
   "search-content#home__results--search" : {
     "blocks" : [
       "gallery",
-      "not-found"
+      "not-found" 
     ]
   },
   "gallery" : {

@@ -21,7 +21,7 @@
     "children" : [
       "modal-trigger#home__user--login",
       "image#home__user--favourites",
-      "image#home__user--cartshop"
+      "minicart.v2"
     ],
     "props" : {
       "blockClass" : "header__bottom--user"
