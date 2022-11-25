@@ -1,3 +1,5 @@
+
+
 /* sección 1 de banners del home */
 .flexCol--banners__container, .flexCol--banner__container {
   position: relative;
@@ -113,4 +115,20 @@
   width: 70%;
   margin: 0 auto;
   justify-content: center;
+}
+
+/* Carrousel card */
+
+.flexCol--shelf__cart {
+  width: max-content;
+}
+
+/* Mejores productos */
+
+.flexCol--home__slider--bestProducts {
+  width: 80%;
+  margin: 0 auto 30px auto;
+}
+.flexColChild--home__slider--bestProducts {
+  height: max-content;
 }
