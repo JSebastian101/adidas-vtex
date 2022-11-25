@@ -4,7 +4,7 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "rich-text#footer"
     ]
   },
   "footer-layout.mobile": { 
@@ -21,6 +21,11 @@
     "props": {
       "width": 100,
       "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+    }
+  },
+  "rich-text#footer" : {
+    "props" : {
+      "text" : "hola"
     }
   }
 }
