@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#home__slider--bestProducts" : {
+    "children" : [
+      "rich-text#slider__bestProducts--title",
+      "slider-layout#slider--bestProducts--content"
+    ],
+    "props" : {
+      "blockClass" : "home__slider--bestProducts"
+    }
+  },
+  "rich-text#slider__bestProducts--title" : {
+    "props" : {
+      "text" : "LO MEJOR DE ADIDAS",
+      "blockClass" : "slider__title"
+    }
+  },
+  "slider-layout#slider--bestProducts--content": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.col#1", 
+      "flex-layout.col#2", 
+      "flex-layout.col#3", 
+      "flex-layout.col#4", 
+      "flex-layout.col#5",
+      "flex-layout.col#1",
+      "flex-layout.col#2"]
+  }
+}

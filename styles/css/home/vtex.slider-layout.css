@@ -1,0 +1,19 @@
+/* .sliderLayoutContainer--carousel {
+  
+} */
+.sliderLayoutContainer--carousel {
+  width: 100vw;
+}
+.sliderLeftArrow--carousel {
+  top: -14%;
+  left: 80%;
+  max-width: max-content;
+}
+.sliderRightArrow--carousel {
+  top: -14%;
+  left: 83%;
+  max-width: max-content;
+}
+.sliderLayoutContainer--carousel {
+  margin-bottom: 20px;
+}
