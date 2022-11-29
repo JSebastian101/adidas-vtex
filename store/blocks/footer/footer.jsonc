@@ -1,31 +1,32 @@
 {
   "footer": {
+    "title" : "footer",
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": { 
+    "title" : "footer-desktop",
     "children": [
-      "rich-text#footer"
+      "flex-layout.row#footer__section--container"
     ]
   },
+  "flex-layout.row#footer__section--container" : {
+    "title" : "footer-container",
+    "children" : [
+      "flex-layout.col#footer__sections--columns"
+    ]
+  },
+  "flex-layout.col#footer__sections--columns" : {
+    "children" : [
+      "flex-layout.row#footer__section--one",
+      "flex-layout.col#footer__section--two"
+    ]
+  },
+  
   "footer-layout.mobile": { 
+    "title" : "footer-mobile",
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer__mobile--one",
+      "flex-layout.row#footer__mobile--two"
     ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
-  },
-  "rich-text#footer" : {
-    "props" : {
-      "text" : "hola"
-    }
   }
 }
