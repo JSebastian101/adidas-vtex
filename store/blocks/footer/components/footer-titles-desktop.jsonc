@@ -1,0 +1,44 @@
+{
+  "rich-text#group__one--title" : {
+    "props" : {
+      "text" : "PRODUCTOS",
+      "blockClass" : "footer-title"
+    }
+  },
+  "rich-text#group__two--title" : {
+    "props" : {
+      "text" : "DEPORTES",
+      "blockClass" : "footer-title"
+    }
+  },
+  "rich-text#group__two--titleTwo" : {
+    "props" : {
+      "text" : "COLECCIONES",
+      "blockClass" : "footer-title"
+    }
+  },
+  "rich-text#group__three--title" : {
+    "props" : {
+      "text" : "ASISTENCIA",
+      "blockClass" : "footer-title"
+    }
+  },
+  "rich-text#group__four--title" : {
+    "props" : {
+      "text" : "INFORMACIÓN DE<br>LA EMPRESA",
+      "blockClass" : "footer-title"
+    }
+  },
+  "rich-text#group__four--titleTwo" : {
+    "props" : {
+      "text" : "TIENDAS",
+      "blockClass" : "footer-title"
+    }
+  },
+  "rich-text#group__five--title" : {
+    "props" : {
+      "text" : "SÍGUENOS",
+      "blockClass" : "footer-title"
+    }
+  }
+}

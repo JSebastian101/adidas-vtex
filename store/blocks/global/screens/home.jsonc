@@ -1,9 +1,14 @@
 {
   "store.home": { 
     "blocks": [
-      "responsive-layout.desktop"/* ,
-      "responsive-layout.tablet",
+      "responsive-layout.desktop",
+      "responsive-layout.tablet"/* ,
       "responsive-layout.phone" */
+    ]
+  },
+  "responsive-layout.tablet" : {
+    "children" : [
+      "search-result-layout.customQuery#home__search"
     ]
   }
 }
