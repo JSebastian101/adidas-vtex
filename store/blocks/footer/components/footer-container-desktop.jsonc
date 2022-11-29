@@ -26,7 +26,11 @@
       "rich-text#groupOne__li--nine",
       "rich-text#groupOne__li--ten",
       "rich-text#groupOne__li--eleven",
-      "rich-text#groupOne__li--twelve"
+      "rich-text#groupOne__li--twelve",
+      "rich-text#groupOne__li--thirteen",
+      "rich-text#groupOne__li--fourteen",
+      "rich-text#groupOne__li--fiveteen",
+      "rich-text#groupOne__li--sixteen"
     ],
     "props" : {
       "blockClass" : "footer__group--column"

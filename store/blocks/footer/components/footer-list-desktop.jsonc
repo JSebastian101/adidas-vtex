@@ -84,6 +84,33 @@
       "blockClass" : "footer-li-breaker"
     }
   },
+  "rich-text#groupOne__li--thirteen" : {
+    "props" : {
+      "text" : "adiClub",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--fourteen" : {
+    "props" : {
+      "text" : "adidas en Casa",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--fiveteen" : {
+    "props" : {
+      "text" : "adidas app",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--sixteen" : {
+    "props" : {
+      "text" : "adidas Runners",
+      "blockClass" : "footer-li"
+    }
+  },
+
+
+
     /*  GROUP TWO */
 
     /* 
