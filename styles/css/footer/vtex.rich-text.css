@@ -20,7 +20,9 @@
 .paragraph--footer-copyright {
   margin-bottom: 20px;
 }
-
+.container--footer-copyright {
+  background-color: #363738;
+}
 /* mobile */
 .container--footer__li--mobile {
   display: flex;
@@ -29,7 +31,7 @@
 .wrapper--footer__li--mobile {
   padding: 10px 0px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .container--footer-li-two {
     display: flex;
     justify-content: center;
