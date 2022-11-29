@@ -49,7 +49,7 @@
   },
   "tab-content.item#tabs__content--one" : {
     "children" : [
-      "slider-layout#text-test"
+      "slider-layout#tabs__products--sliderOne"
     ],
     "props" : {
       "tabId" : "product1"
@@ -57,7 +57,7 @@
   },
   "tab-content.item#tabs__content--two" : {
     "children" : [
-      "slider-layout#text-test"
+      "slider-layout#tabs__products--sliderTwo"
     ],
     "props" : {
       "tabId" : "product2"
@@ -65,7 +65,7 @@
   },
   "tab-content.item#tabs__content--three" : {
     "children" : [
-      "slider-layout#text-test"
+      "slider-layout#tabs__products--sliderOne"
     ],
     "props" : {
       "tabId" : "product3"

@@ -1,3 +1,5 @@
+
+
 /* sección 1 de banners del home */
 .flexCol--banners__container, .flexCol--banner__container {
   position: relative;
@@ -115,4 +117,36 @@
   justify-content: center;
   align-items: center;
   padding: 40px 0;
+}
+
+/* Carrousel card */
+
+.flexCol--shelf__cart {
+  width: max-content;
+}
+
+/* Mejores productos */
+
+.flexCol--home__slider--bestProducts {
+  width: 80%;
+  margin: 0 auto 30px auto;
+}
+.flexColChild--home__slider--bestProducts {
+  height: max-content;
+}
+
+/* Carrousel card */
+
+.flexCol--shelf__cart {
+  width: max-content;
+}
+
+/* Mejores productos */
+
+.flexCol--home__slider--bestProducts {
+  width: 80%;
+  margin: 0 auto 30px auto;
+}
+.flexColChild--home__slider--bestProducts {
+  height: max-content;
 }

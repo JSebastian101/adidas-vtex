@@ -20,7 +20,7 @@
       "flex-layout.col#home__cards--tendencies",
       "flex-layout.col#home__cards--tendenciesTwo",
       "flex-layout.col#home__banner--oceans",
-      "slider-layout#text-test",
+      "flex-layout.col#home__slider--bestProducts",
       "flex-layout.row#home__section--history",
       "flex-layout.row#home__section--adiClub"
     ]
