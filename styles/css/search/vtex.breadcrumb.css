@@ -1,0 +1,25 @@
+.container--search-results__navbar--breadcrumb {
+  display: flex;
+  align-items: center;
+}
+
+.link--search-results__navbar--breadcrumb--1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+@media (max-width: 800px) {
+  .link--search-results__navbar--breadcrumb--1 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 600px) {
+  .link--search-results__navbar--breadcrumb--1 {
+    font-size: 1.3rem;
+  }
+}
+.arrow--search-results__navbar--breadcrumb, 
+.homeLink--search-results__navbar--breadcrumb,
+.link--search-results__navbar--breadcrumb--1 {
+  color: black
+}

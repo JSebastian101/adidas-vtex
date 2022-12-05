@@ -1,0 +1,17 @@
+.image__price, .image__selling-price, .image__whislist {
+  position: absolute;
+  z-index: 10;
+}
+.nameContainer--search-result__product--name, .productBrandContainer--search-result__product--brand {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 0px;
+}
+.brandName--search-result__product--name {
+  margin: 2px 0 2px 0;
+  font-size: 0.9rem;
+}
+.productBrandName--search-result__product--brand {
+  font-size: 0.9rem;
+  margin: 0;
+}

@@ -1,0 +1,18 @@
+
+.wishlistIconContainer--search-result__product--whislist :global(.vtex-button__label) {
+  padding: 5px 0px;
+}
+.wishlistIconContainer--search-result__product--whislist {
+  position: absolute;
+  top: 0%;
+  left: 90%;
+}
+.wishlistIconContainer--search-result__product--whislist :global(.vtex-button):hover {
+  background-color: transparent;
+}
+@media (max-width: 800px) {
+  .wishlistIconContainer--search-result__product--whislist {
+    position: absolute;
+    left: 75%;
+  }
+}

@@ -1,0 +1,39 @@
+/* search content filters */
+
+.modal--navbar__filters--modal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.paper--navbar__filters--modal {
+  width: 420px;
+  overflow-x: hidden;
+  margin: 2rem 0;
+  height: 100%;
+  padding: 20px;
+}
+
+.paper--navbar__filters--modal :global(.vtex-search-result-3-x-filter__container--title) {
+  display: none !important;
+}
+
+.paper--navbar__filters--modal :global(.vtex-search-result-3-x-filterIcon) {
+  color: black;
+}
+.paper--navbar__filters--modal :global(.vtex-search-result-3-x-filterTitleSpan) {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.paper--navbar__filters--modal :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+  display: flex;
+  flex-wrap: wrap;
+}
+.paper--navbar__filters--modal :global(.vtex-checkbox__line-container) {
+  display: flex;
+  align-items: center;
+  margin: 0 10px
+}
+.paper--navbar__filters--modal :global(.vtex-search-result-3-x-filterItem) {
+  width: max-content;
+  
+}

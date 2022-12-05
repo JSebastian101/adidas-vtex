@@ -1,0 +1,8 @@
+.searchResultContainer--search-results__global--container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container--layout--search-results__global--container :global(.vtex-store-components-3-x-container) {
+  height: max-content;
+  overflow: hidden;
+}

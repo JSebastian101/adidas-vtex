@@ -17,6 +17,7 @@
   },
   "flex-layout.col#footer__sections--columns" : {
     "children" : [
+      "flex-layout.row#home__section--adiClub",
       "flex-layout.row#footer__section--one",
       "flex-layout.col#footer__section--two"
     ]
@@ -25,6 +26,7 @@
   "footer-layout.mobile": { 
     "title" : "footer-mobile",
     "children": [
+      "flex-layout.row#home__section--adiClub",
       "flex-layout.row#footer__section--oneMobile",
       "flex-layout.row#footer__section--twoMobile",
       "rich-text#footer__copyright"

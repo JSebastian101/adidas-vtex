@@ -12,8 +12,9 @@
     "title" : "discountBanner",
     "props" : {
       "src" : "assets/img/bannerDiscount.jpg",
-      "title" : "discountBanner"
-      }
+      "title" : "discountBanner",
+      "blockClass" : "banner__image--zero"
+    }
   },
   "flex-layout.col#banner__cta--one" : {
     "children": [
@@ -31,7 +32,8 @@
     "title" : "banner",
     "props" : {
       "src" : "assets/img/banner.jpg",
-      "title": "banner"
+      "title": "banner",
+      "blockClass" : "banner__image--one"
     }
   },
   "flex-layout.col#banner__cta--two" : {
@@ -50,7 +52,8 @@
     "title" : "banner",
     "props" : {
       "src" : "assets/img/bannerTwo.jpg",
-      "title": "banner"
+      "title": "banner",
+      "blockClass" : "banner__image--two"
     }
   },
   "flex-layout.col#banner__cta--three" : {
@@ -68,7 +71,8 @@
     "title" : "banner",
     "props" : {
       "src" : "assets/img/bannerThree.jpg",
-      "title": "banner"
+      "title": "banner",
+      "blockClass" : "banner__image--three"
     }
   }
 }

@@ -1,0 +1,16 @@
+/* search result navbar */
+.paragraph--navbar__filters--button {
+  margin: 0;
+  border: 1px solid black;
+  padding: 5px 15px;
+  font-weight: 700;
+}
+.paragraph--navbar__filters--button:hover {
+  color: #767677;
+  border: 1px solid #767677;
+  cursor: pointer;
+}
+/* search result banner talla */
+.paragraph--search-results__banner--title {
+  font-weight: 700;
+}

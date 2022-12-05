@@ -5,10 +5,5 @@
       "responsive-layout.tablet"/* ,
       "responsive-layout.phone" */
     ]
-  },
-  "responsive-layout.tablet" : {
-    "children" : [
-      "search-result-layout.customQuery#home__search"
-    ]
   }
 }
