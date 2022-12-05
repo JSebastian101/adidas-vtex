@@ -18,7 +18,7 @@
       "image#banner__image--zero"
     ],
     "props" : {
-      "blockClass": "banners__container"
+      "blockClass": "banner__content--zero"
     }
   },
   "flex-layout.col#home__banner--one" : {
@@ -27,7 +27,7 @@
       "image#banner__image--one"
     ],
     "props" : {
-      "blockClass": "banner__container"
+      "blockClass": "banner__content--one"
     }
   },
   "flex-layout.col#home__banner--two" : {
@@ -36,7 +36,7 @@
       "image#banner__image--two"
     ],
     "props" : {
-      "blockClass": "banner__container"
+      "blockClass": "banner__content--two"
     }
   },
   "flex-layout.col#home__banner--three" : {
@@ -45,7 +45,7 @@
       "image#banner__image--three"
     ],
     "props" : {
-      "blockClass": "banners__container"
+      "blockClass": "banner__content--three"
     }
   }
 }

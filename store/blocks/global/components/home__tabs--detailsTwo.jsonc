@@ -9,9 +9,9 @@
   },
   "flex-layout.col#sliderTwo__details--one" : {
     "children" : [
-      "rich-text#details__name",
-      "rich-text#details__gender",
-      "rich-text#details__freeShipping"
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
     ]
   },
   "image#sliderTwo__image--two" : {
@@ -24,9 +24,9 @@
   },
   "flex-layout.col#sliderTwo__details--two" : {
     "children" : [
-      "rich-text#details__name",
-      "rich-text#details__gender",
-      "rich-text#details__freeShipping"
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
     ]
   },
   "image#sliderTwo__image--three" : {
@@ -39,9 +39,9 @@
   },
   "flex-layout.col#sliderTwo__details--three" : {
     "children" : [
-      "rich-text#details__name",
-      "rich-text#details__gender",
-      "rich-text#details__freeShipping"
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
     ]
   },
   "image#sliderTwo__image--four" : {
@@ -54,9 +54,9 @@
   },
   "flex-layout.col#sliderTwo__details--four" : {
     "children" : [
-      "rich-text#details__name",
-      "rich-text#details__gender",
-      "rich-text#details__freeShipping"
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
     ]
   },
   "image#sliderTwo__image--five" : {
@@ -69,25 +69,25 @@
   },
   "flex-layout.col#sliderTwo__details--five" : {
     "children" : [
-      "rich-text#details__name",
-      "rich-text#details__gender",
-      "rich-text#details__freeShipping"
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
     ]
   },
   /* Details */
-  "rich-text#details__name" : {
+  "rich-text#details__name--two" : {
     "props" : {
       "text" : "Chaqueta",
       "blockClass" : "name"
     }
   },
-  "rich-text#details__gender" : {
+  "rich-text#details__gender--two" : {
     "props" : {
       "text" : "Hombre originals",
       "blockClass" : "gender"
     }
   },
-  "rich-text#details__freeShipping" : {
+  "rich-text#details__freeShipping--two" : {
     "props" : {
       "text" : "Solo para miembros",
       "blockClass" : "shipping"

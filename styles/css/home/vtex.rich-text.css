@@ -6,6 +6,7 @@
 .paragraph--home--banner__title, .paragraph--home--banner__info {
   line-height: 35px ;
   margin: 0;
+  text-shadow: 1px 1px 2px black;
 }
 
 .paragraph--cards__title, .paragraph--slider__title {

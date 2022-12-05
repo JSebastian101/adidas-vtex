@@ -1,6 +1,6 @@
 .container {
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 
@@ -21,5 +21,18 @@
   border: none;
 }
 
-
-/* link boon */
+/* tablet */
+@media(max-width: 1024px) {
+  .imageElement--banner__image--zero, 
+  .imageElement--banner__image--three{
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+  }
+  .imageElement--banner__image--one,
+  .imageElement--banner__image--two {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+} 
