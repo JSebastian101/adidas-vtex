@@ -15,7 +15,123 @@
     "title" : "home tablet content",
     "children" : [
       "flex-layout.col#home__banner--container",
-      "flex-layout.col#home__links--popular"
+      "flex-layout.col#home__links--popular",
+      "flex-layout.col#home-mobile__cards__gender",
+      "flex-layout.col#home__section--soccerTeams",
+      "tab-layout#home__tabs--container",
+      "flex-layout.col#home-mobile__cards__tendencies-one",
+      "flex-layout.col#home-mobile__cards--tendencies-two",
+      "flex-layout.col#home__banner--oceans"
+    ]
+  },
+
+
+
+  "responsive-layout.phone" : {
+    "title" : "home phone container",
+    "children" : [
+      "flex-layout.row#home-phone__banner--container"
+    ]
+  },
+  "flex-layout.row#home-phone__banner--container" : {
+    "title" : "home phone columns container",
+    "children" : [
+      "flex-layout.col#home-phone__banner--container"
+    ]
+  },
+  "flex-layout.col#home-phone__banner--container" : {
+    "title" : "home phone content",
+    "children" : [
+      "flex-layout.col#home__banner--container",
+      "flex-layout.col#home__links--popular",
+      "flex-layout.col#home-mobile__cards__gender",
+      "flex-layout.col#home__section--soccerTeams",
+      "tab-layout#home__tabs--container",
+      "flex-layout.col#home-mobile__cards__tendencies-one",
+      "flex-layout.col#home-mobile__cards--tendencies-two",
+      "flex-layout.col#home__banner--oceans"
+    ]
+  },
+  "flex-layout.col#home-mobile__cards__gender" : {
+    "title" : "gender cards mobile container",
+    "children" : [
+      "rich-text#cards__gender--title",
+      "slider-layout#home__cards__gender"
+    ]
+  },
+  "slider-layout#home__cards__gender" : {
+    "title" : "gender cards slider layout",
+    "props": {
+      "itemsPerPage": {
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "home__cards__carousel"
+    },
+    "children" : [
+      "flex-layout.col#card__gender--one", 
+      "flex-layout.col#card__gender--two",
+      "flex-layout.col#card__gender--three"  
+    ]
+  },
+
+  "flex-layout.col#home-mobile__cards__tendencies-one" : {
+    "title" : "tendencies-one cards mobile container",
+    "children" : [
+      "rich-text#cards__tendencies--title",
+      "slider-layout#home__cards--tendencies-one"
+    ]
+  },
+  "slider-layout#home__cards--tendencies-one" : {
+    "title" : "tendencies-one cards slider layout",
+    "props" : {
+      "itemsPerPage" : {
+        "tablet" : 2,
+        "phone" : 1
+      },
+      "infinite": false,
+      "showNavigationArrows" : "always",
+      "showPaginationDots" : "never",
+      "blockClass" : "home__tendencies--carousel"
+    },
+    "children" : [
+      "flex-layout.col#cards__tendencies--one",
+      "flex-layout.col#cards__tendencies--two",
+      "flex-layout.col#cards__tendencies--three",
+      "flex-layout.col#cards__tendencies--one"
+    ]
+  },
+
+
+  "flex-layout.col#home-mobile__cards--tendencies-two" : {
+    "title" : "tendencies-two cards mobile container",
+    "children" : [
+      "rich-text#cards__tendenciesTwo--title",
+      "slider-layout#home__cards--tendencies-two"
+    ]
+  },
+  "slider-layout#home__cards--tendencies-two" : {
+    "props" : {
+      "itemsPerPage" : {
+        "tablet" : 2,
+        "phone" : 1
+      },
+      "infinite" : false,
+      "showNavigationArrows" : "always",
+      "showPaginationDots" : "never",
+      "blockClass" : "home__tendencies--carousel"
+    },
+    "children" : [
+      "flex-layout.col#cards__tendenciesTwo--one", 
+      "flex-layout.col#cards__tendenciesTwo--two",
+      "flex-layout.col#cards__tendenciesTwo--three",
+      "flex-layout.col#cards__tendenciesTwo--one"
     ]
   }
+
+
+
 }

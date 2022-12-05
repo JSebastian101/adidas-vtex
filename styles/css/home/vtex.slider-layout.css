@@ -14,6 +14,20 @@
   left: 83%;
   max-width: max-content;
 }
+
+@media (max-width:1250px) {
+  .sliderLeftArrow--carousel {
+    top: -14%;
+    left: 90%;
+    max-width: max-content;
+  }
+  .sliderRightArrow--carousel {
+    top: -14%;
+    left: 93%;
+    max-width: max-content;
+  }
+}
+
 .sliderLayoutContainer--carousel {
   margin-bottom: 20px;
 }

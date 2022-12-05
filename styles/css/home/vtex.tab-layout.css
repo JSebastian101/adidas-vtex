@@ -2,6 +2,14 @@
   width: 80%;
   margin: 50px auto;
 }
+
+@media(max-width: 1250px) {
+  .container--home__tabs--container {
+    width: 100%;
+  }
+}
+
+
 .listContainer--tabs__list {
   justify-content: start;
 }

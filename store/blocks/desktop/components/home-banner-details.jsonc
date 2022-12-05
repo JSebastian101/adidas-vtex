@@ -5,7 +5,7 @@
       "rich-text#banner__info--zero"
     ],
     "props" : {
-      "blockClass": "banner__cta--center"
+      "blockClass": "banner__cta--zero"
     }
   },
   "image#banner__image--zero" : {
@@ -24,7 +24,7 @@
       "link#cta__bannerOne--two"
     ],
     "props" : {
-      "blockClass": "banner__cta",
+      "blockClass": "banner__cta--one",
       "rowGap" :  5
     }
   },
@@ -44,7 +44,7 @@
       "link#cta__bannerTwo--two"
     ],
     "props" : {
-      "blockClass": "banner__cta",
+      "blockClass": "banner__cta--two",
       "rowGap" :  5
     }
   },
@@ -63,7 +63,7 @@
       "link#cta__bannerOne--two"
     ],
     "props" : {
-      "blockClass": "banner__cta",
+      "blockClass": "banner__cta--three",
       "rowGap" :  5
     }
   },

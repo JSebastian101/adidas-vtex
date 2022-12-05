@@ -1,39 +1,45 @@
 {
   "flex-layout.col#home__banner--oceans" : {
+    "title" : "banner oceans container",
     "children" : [
       "flex-layout.col#banner__details--oceans",
       "image#banner__details--oceans"
     ],
     "props" : {
-      "blockClass" : "banners__container"
+      "blockClass" : "home__ocean-banner__container"
     }
   },
   "flex-layout.col#banner__details--oceans" : {
+    "title" : "banner oceans details content",
     "children" : [
       "rich-text#details__title--oceans",
       "link#details__button--oceans"
     ],
     "props" : {
-      "blockClass": "banner__cta--center"
+      "blockClass": "ocean-banner__content"
     }
   },
   "image#banner__details--oceans" : {
+    "title" : "home banner oceans image",
     "props" : {
       "src" : "assets/img/oceans__desktop.jpg",
-      "title" : "OceansBanner"
+      "title" : "OceansBanner",
+      "blockClass" : "banner__image--oceans"
     }
   },
   "rich-text#details__title--oceans" : {
+    "title" : "home banner text details",
     "props" : {
       "text" : "PROTEGER LOS OCÉANOS ES NUESTRA PRINCIPAL<br> PRIORIDAD. NUESTRA MISIÓN VA MÁS ALLÁ DEL <br> DEPORTE. ES NUESTRO FUTURO.",
       "textColor": "c-on-emphasis",
       "font" : "t-heading-3",
-      "blockClass": "home--banner__title",
+      "blockClass": "home--ocean-banner__title",
       "textAlignment" : "CENTER",
       "textPosition" : "CENTER"
     }
   },
   "link#details__button--oceans" : {
+    "title" : "home banner cta details",
     "props" : {
       "href" : "#",
       "label" : "CONOCE MÁS →",
@@ -41,7 +47,7 @@
       "buttonProps" : {
         "size" : "small"
       },
-      "blockClass" : "oceans__cta"
+      "blockClass" : "home--ocean-banner__cta"
     }
   }
 }

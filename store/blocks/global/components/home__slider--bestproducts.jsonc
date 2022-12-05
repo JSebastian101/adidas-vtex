@@ -1,5 +1,6 @@
 {
   "flex-layout.col#home__slider--bestProducts" : {
+    "title" : "home slider best products container",
     "children" : [
       "rich-text#slider__bestProducts--title",
       "slider-layout#slider--bestProducts--content"
@@ -9,12 +10,14 @@
     }
   },
   "rich-text#slider__bestProducts--title" : {
+    "title" : "home slider best products title",
     "props" : {
       "text" : "LO MEJOR DE ADIDAS",
       "blockClass" : "slider__title"
     }
   },
   "slider-layout#slider--bestProducts--content": {
+    "title" : "home slider best products content",
     "props": {
       "itemsPerPage": {
         "desktop": 5,
