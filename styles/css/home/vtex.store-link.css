@@ -5,25 +5,8 @@
   margin-bottom: 100px;
 }
 
-.buttonLink--oceans__cta {
-  border-radius: 0;
-  border : 2px solid white;
-  background-color: black;
-  padding: 15px 0 20px 0;
-}
-.label--oceans__cta, .label--home__button--one {
-  color: white;
-  font-weight: 600;
-}
-.label--oceans__cta:hover {
-  color: rgba(255, 255, 255, 0.744);
-}
-.buttonLink--oceans__cta:hover  {
-  background-color: black;
-  border : 2px solid white;
-}
 
-/* button adiclub */
+/* button type one */
 
 .buttonLink--home__button--one {
   position: relative;
@@ -63,4 +46,25 @@
   width: 100%;
   bottom: -4px;
   left: 3px;
+}
+
+/* Butoon type two */
+
+.buttonLink--home--ocean-banner__cta {
+  border-radius: 0;
+  border : 2px solid white;
+  background-color: black;
+  padding: 15px 0 20px 0;
+}
+.label--home__button--one,
+.label--home--ocean-banner__cta {
+  color: white;
+  font-weight: 600;
+}
+.label--home--ocean-banner__cta:hover {
+  color: rgba(255, 255, 255, 0.744);
+}
+.buttonLink--home--ocean-banner__cta:hover  {
+  background-color: black;
+  border : 2px solid white;
 }

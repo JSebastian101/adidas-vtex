@@ -23,8 +23,16 @@
 
 /* tablet */
 @media(max-width: 1024px) {
-  .imageElement--banner__image--zero, 
-  .imageElement--banner__image--three{
+  .imageElement--banner__image--zero {
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+  }
+  .imageElement--banner__image--oceans {
+    height: 100%;
+    object-fit: cover;
+  }
+  .imageElement--banner__image--three {
     height: 100%;
     object-fit: cover;
     object-position: right;

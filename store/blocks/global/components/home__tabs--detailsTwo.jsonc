@@ -1,10 +1,9 @@
 {
   "image#sliderTwo__image--one" : {
-    "title" : "product-one",
+    "title" : "tablayou slider two product image",
     "props" : {
       "src" : "assets/img/slider-image-one.jpg",
-      "title": "product-one",
-      "maxWidth" : 278
+      "title": "product-one"
     }
   },
   "flex-layout.col#sliderTwo__details--one" : {
@@ -15,11 +14,10 @@
     ]
   },
   "image#sliderTwo__image--two" : {
-    "title" : "product-two",
+    "title" : "tablayou slider two product image",
     "props" : {
       "src" : "assets/img/slider-image-two.jpg",
-      "title": "product-two",
-      "maxWidth" : 278
+      "title": "product-two" 
     }
   },
   "flex-layout.col#sliderTwo__details--two" : {
@@ -30,11 +28,10 @@
     ]
   },
   "image#sliderTwo__image--three" : {
-    "title" : "product-three",
+    "title" : "tablayou slider two product image",
     "props" : {
       "src" : "assets/img/slider-image-three.jpg",
-      "title": "product-three",
-      "maxWidth" : 278
+      "title": "product-three"
     }
   },
   "flex-layout.col#sliderTwo__details--three" : {
@@ -45,11 +42,10 @@
     ]
   },
   "image#sliderTwo__image--four" : {
-    "title" : "product-four",
+    "title" : "tablayou slider two product image",
     "props" : {
       "src" : "assets/img/slider-image-four.jpg",
-      "title": "product-four",
-      "maxWidth" : 278
+      "title": "product-four"
     }
   },
   "flex-layout.col#sliderTwo__details--four" : {
@@ -60,11 +56,10 @@
     ]
   },
   "image#sliderTwo__image--five" : {
-    "title" : "product-five",
+    "title" : "tablayou slider two product image",
     "props" : {
       "src" : "assets/img/slider-image-five.jpg",
-      "title": "product-five",
-      "maxWidth" : 278
+      "title": "product-five"
     }
   },
   "flex-layout.col#sliderTwo__details--five" : {
@@ -76,18 +71,21 @@
   },
   /* Details */
   "rich-text#details__name--two" : {
+    "title" : "tablayout slider-two product-name",
     "props" : {
-      "text" : "Chaqueta",
+      "text" : "CHAQUETA",
       "blockClass" : "name"
     }
   },
   "rich-text#details__gender--two" : {
+    "title" : "tablayout slider-two product-name",
     "props" : {
       "text" : "Hombre originals",
       "blockClass" : "gender"
     }
   },
   "rich-text#details__freeShipping--two" : {
+    "title" : "tablayout slider-two product-name",
     "props" : {
       "text" : "Solo para miembros",
       "blockClass" : "shipping"

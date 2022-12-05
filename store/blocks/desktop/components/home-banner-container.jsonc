@@ -13,6 +13,7 @@
   },
   /* contenido */
   "flex-layout.col#home__banner--zero" : {
+    "title" : "home banner zero",
     "children" : [
       "flex-layout.col#banner__cta--zero",
       "image#banner__image--zero"
