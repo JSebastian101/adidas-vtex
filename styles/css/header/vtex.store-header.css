@@ -11,3 +11,9 @@
   height: 30px;
   background-color: black;
 }
+
+/* MOBILE */
+.headerRowContainer--header__bottom--mobile {
+  display: flex;
+  justify-content: space-between;
+}

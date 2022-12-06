@@ -189,3 +189,9 @@
   line-height: 35px;
   margin: 40px 0px 20px 0px;
 }
+
+
+/* banner oceans */
+.paragraph--home--ocean-banner__title {
+  text-shadow: 1px 1px 2px black;
+}

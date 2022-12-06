@@ -1,36 +1,93 @@
 {
-  "header-layout.mobile": {
-    "children": [
+  "header-layout.mobile" : {
+    "title" : "header layout mobile",
+    "children" : [
       "header-row#header__top",
       "header-row#header__bottom--mobile"
     ]
   },
-  "header-row#header__bottom--mobile": {
-    "children": [
-      "drawer",
+  "header-row#header__bottom--mobile" : {
+    "title" : "header row bottom mobil<e",
+    "children" : [
+      "drawer#header__drawer--menu",
       "header-force-center#header__logo--mobile",
-      "flex-layout.row#header__section--user"
+      "flex-layout.row#header__user-section--mobile"
     ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+    "props" : {
+      "blockClass" : "header__bottom--mobile"
     }
   },
-  "flex-layout.row#header__section--user" : {
+  "drawer#header__drawer--menu" : {
+    "title" : "header drawer menu",
     "children" : [
-      "modal-trigger#home__user--login",
-      "image#home__user--favourites", //cambiar por el logo de buscar o barra de busqueda
-      "minicart.v2"
+
     ]
   },
   "header-force-center#header__logo--mobile" : {
+    "title" : "header logo mobile",
     "children" : [
       "image#header__logo"
     ]
   },
-  "drawer": {
-    "children": []
-  } 
+  "flex-layout.row#header__user-section--mobile" : {
+    "title" : "header user section",
+    "children" : [
+      "modal-trigger#header__user-section--login",
+      "modal-trigger#header__user-section--search",
+      "minicart.v2"
+    ],
+    "props" : {
+      "blockClass" : "header__user-section--mobile",
+      "preserveLayoutOnMobile" : true
+    }
+  },
+  "modal-trigger#header__user-section--login" : {
+    "title" : "modal-trigger login",
+    "children" : [
+      "icon#user-section__login--icon",
+      "modal-layout#header__modal--login"
+    ]
+  },
+  "modal-trigger#header__user-section--search" : {
+    "title" : "modal-trigger search bar",
+    "children" : [
+      "icon#user-section__searchbar--icon",
+      "modal-layout#header__modal--searchbar"
+    ]
+  },
+  "modal-layout#header__modal--login" : {
+    "title" : "modal-content  login",
+    "children" : [
+      "login-content#modal__login--mobile"
+    ],
+    "props" : {
+      "blockClass" : "header__modal--login"
+    }
+  },
+  "modal-layout#header__modal--searchbar" : {
+    "title" : "modal-content searchbar",
+    "children" : [
+      "search-bar#test"
+    ],
+    "props" : {
+      "blockClass" : "header__modal--searchbar"
+    }
+  },
+  "login-content#modal__login--mobile" : {
+
+  },
+  "icon#user-section__login--icon" : {
+    "title" : "icon user section login",
+    "props" : {
+      "id" : "hpa-profile",
+      "width" : 24
+    }
+  },
+  "icon#user-section__searchbar--icon" : {
+    "title" : "icon user section searchbar",
+    "props" : {
+      "id" : "hpa-search",
+      "width" : 24
+    }
+  }
 }
