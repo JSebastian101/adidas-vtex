@@ -4,8 +4,10 @@
 }
 
 @media(max-width: 1250px) {
-  .container--home__tabs--container {
+  .container--home__tabs--container,
+  .flexCol--home__slider--bestProducts {
     width: 100%;
+    margin-left: 10px;
   }
 }
 

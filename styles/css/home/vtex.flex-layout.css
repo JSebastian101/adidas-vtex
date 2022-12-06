@@ -148,8 +148,6 @@
   }
 }
 
-/* Sección cards */
-
 
 /* Sección teams */
 .flexCol--home__section--soccerTeams {
@@ -174,11 +172,10 @@
 @media (max-width: 640px) {
   .flexRowContent--home__soccerTeams--section {
     width: 100%;
+    margin-left: 10px;
   }
 }
 
-
-/* sección tab carrousel */
 
 /* sección historia */
 
@@ -198,6 +195,17 @@
 .flexColChild--history__section--content {
   height: max-content !important;
 }
+
+@media (min-width: 900px) and (max-width: 1260px) {
+ .flexRowContent--home__section--history {
+  width: 90%;
+ }
+}
+@media (max-width: 900px) {
+  .flexRowContent--home__section--history {
+   width: 100%;
+  }
+ }
 
 /* Adiclub */
 
@@ -230,21 +238,19 @@
 .flexColChild--home__slider--bestProducts {
   height: max-content;
 }
+@media(max-width: 1250px) {
+  .flexCol--home__slider--bestProducts {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+
+
 
 /* Carrousel card */
 
 .flexCol--shelf__cart {
   width: max-content;
-}
-
-/* Mejores productos */
-
-.flexCol--home__slider--bestProducts {
-  width: 80%;
-  margin: 0 auto 30px auto;
-}
-.flexColChild--home__slider--bestProducts {
-  height: max-content;
 }
 
 

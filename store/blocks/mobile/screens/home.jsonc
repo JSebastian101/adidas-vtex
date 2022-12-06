@@ -21,7 +21,9 @@
       "tab-layout#home__tabs--container",
       "flex-layout.col#home-mobile__cards__tendencies-one",
       "flex-layout.col#home-mobile__cards--tendencies-two",
-      "flex-layout.col#home__banner--oceans"
+      "flex-layout.col#home__banner--oceans",
+      "flex-layout.col#home__slider--bestProducts",
+      "flex-layout.row#home__section--history"
     ]
   },
 
@@ -49,7 +51,9 @@
       "tab-layout#home__tabs--container",
       "flex-layout.col#home-mobile__cards__tendencies-one",
       "flex-layout.col#home-mobile__cards--tendencies-two",
-      "flex-layout.col#home__banner--oceans"
+      "flex-layout.col#home__banner--oceans",
+      "flex-layout.col#home__slider--bestProducts",
+      "flex-layout.row#home__section--history"
     ]
   },
   "flex-layout.col#home-mobile__cards__gender" : {
