@@ -56,5 +56,19 @@
       "search-result-layout.mobile#global",
       "search-not-found-layout"
     ]
+  },
+  "search-not-found-layout": {
+    "children": ["not-found"]
+  },
+  "store.not-found#search": {
+    "blocks": ["rich-text#not-found"]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**SEARCH NOT FOUND**",
+      "font": "t-heading-1"
+    }
   }
 }
