@@ -2,3 +2,17 @@
   display: flex;
   justify-content: center;
 }
+
+/* header mobile */
+
+.paper--header__modal--searchbar {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.paper--header__modal--searchbar :global(.vtex-store-components-3-x-searchBarContainer) {
+  width: 100% !important;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+}

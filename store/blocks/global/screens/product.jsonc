@@ -42,7 +42,8 @@
       "product-images",
       "product-rating-inline",
       "product-rating-summary",
-      "product-reviews"
+      "product-reviews",
+      "buy-button"
     ]
   },
   "flex-layout.col#product__info--data" : {

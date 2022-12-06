@@ -21,6 +21,16 @@
   border: none;
 }
 
+
+/* desktop */
+.imageElement--banner__image--zero,
+.imageElement--banner__image--one,
+.imageElement--banner__image--two,
+.imageElement--banner__image--three {
+  height: 100%;
+}
+
+
 /* tablet */
 @media(max-width: 1024px) {
   .imageElement--banner__image--zero {

@@ -1,7 +1,11 @@
 {
   "image#header__logo" : {
     "props" : {
-      "src" : "assets/img/icon-adidas-logo.svg"
+      "src" : "assets/img/icon-adidas-logo.svg",
+      "link" : {
+        "url" : "https://adidas--itgloberspartnercl.myvtex.com/"
+
+      }
     }
   },
   "flex-layout.row#header__bottom--menu" : {
