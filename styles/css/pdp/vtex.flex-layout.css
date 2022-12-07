@@ -1,0 +1,97 @@
+
+.flexCol--pdp__container--desktop {
+  display: flex;
+  flex-direction: row;
+}
+.flexColChild--pdp__container--desktop:first-child {
+  width: 70%;
+  border-right: 1px solid rgb(212, 211, 211);
+}
+.flexColChild--pdp__container--desktop:last-child {
+  width: 30%;
+}
+.flexCol--pdp__image--container {
+  position: relative;
+}
+.flexColChild--pdp__image--container:first-child {
+  position: absolute;
+  z-index: 10;
+  left: 1%;
+  height: max-content !important;
+}
+
+.flexColChild--pdp__image--container :global(.vtex-store-components-3-x-productImageTag) {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+/* Disclosure */
+
+.flexColChild--pdp__left-section--container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.flexColChild--pdp__left-section--container:nth-child(even) {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 40px auto;
+  
+}
+.flexRowContent--pdp__disclosure-trigger--container {
+  display: flex;
+  align-items: center;
+}
+.flexRowContent--pdp__disclosure-trigger--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd) {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  margin-left: 15px;
+}
+.flexRowContent--pdp__disclosure-trigger--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even) {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  margin-right: 15px;
+}
+
+
+.flexColChild--pdp__left-section--container :global(.vtex-disclosure-layout-1-x-trigger--hidden) {
+  margin: 0;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray !important;
+  background-color: transparent;
+}
+.flexColChild--pdp__left-section--container :global(.vtex-disclosure-layout-1-x-trigger ) {
+  margin: 0;
+  padding: 10px 0;
+  border: none;
+  background-color: transparent;
+}
+.flexColChild--pdp__left-section--container :global(.vtex-disclosure-layout-1-x-content--visible) {
+  margin: 0;
+  padding: 10px 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+
+/* RIGHT SECTION */
+
+.flexCol--pdp__right-section--container {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexRowContent--pdp__right-section--reviews :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  justify-content: flex-end;
+}
+.flexRowContent--pdp__right-section--reviews :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+  width: max-content;
+  margin: 0;
+}
+.flexRowContent--pdp__right-section--reviews :global(.vtex-reviews-and-ratings-3-x-stars) {
+  color: black;
+}

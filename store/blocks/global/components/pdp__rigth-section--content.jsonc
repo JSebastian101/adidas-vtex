@@ -1,0 +1,93 @@
+{
+  "flex-layout.col#pdp__right-section--container" : {
+    "title" : "Product Detail Page right section",
+    "children" : [
+      "flex-layout.row#pdp__right-section--reviews",
+      "vtex.store-components:product-name",
+      "flex-layout.col#pdp__right-section--price",
+      "flex-layout.col#pdp__right-section--sku-selector"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--container"
+    }
+  },
+  "flex-layout.row#pdp__right-section--reviews" : {
+    "title" : "Product Detail Page right section reviews",
+    "children" : [
+      "rich-text#pdp__right-section--category",
+      "product-rating-summary"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--reviews"
+    }
+  },
+  "rich-text#pdp__right-section--category" : {
+    "title" : "Product Detail Page right section category",
+    "props" : {
+      "text" : "Hombre ● Originals"
+    }
+  },
+  "flex-layout.col#pdp__right-section--price" : {
+    "title" : "Product Detail Page right section price",
+    "children" : [
+      "product-price#product-detail-page",
+      "modal-trigger#pdp__price--details"
+    ]
+  },
+  "product-price#product-detail-page" : {
+    "props" : {
+      "showInstallments": true
+    }
+  },
+  "modal-trigger#pdp__price--details" : {
+    "title" : "Product Detail Page right section price details",
+    "children" : [
+      "rich-text#pdp__price--details",
+      "modal-layout#pdp__price--details"
+    ]
+  },
+  "rich-text#pdp__price--details" : {
+    "props" : {
+      "text" : "ver más"
+    }
+  },
+  "modal-layout#pdp__price--details" : {
+    "title" : "Product Detail Page right modal price details",
+    "children" : [
+      "flex-layout.col#pdp__price--details"
+    ] 
+  },
+  "flex-layout.col#pdp__price--details" : {
+    "title" : "Product Detail Page right modal-content price details",
+    "children" : [
+      "rich-text#pdp__price-details--title",
+      "rich-text#pdp__price-details--payment"
+    ]
+  },
+  "rich-text#pdp__price-details--title" : {
+    "title" : "pdp price-details modal title",
+    "props" : {
+      "text" : "OPCIONES DE FINANCIACIÓN"
+    }
+  },
+  "rich-text#pdp__price-details--payment" : {
+    "title" : "pdp price-details modal payment",
+    "props" : {
+      "text" : "Hasta 12 x $14.999,17 más interés bancario.<br>Pagá en hasta 12 cuotas sin interés con tu tarjeta de crédito Visa, Mastercard, American Express y otras más.* Toda Compra con Tarjeta de Credito financiada a cuotas, estan sujeta a tasa de Interés según banco emisor."
+    }
+  },
+  "flex-layout.col#pdp__right-section--sku-selector" : {
+    "title" : "Product Detail Page right section sku-selector",
+    "children" : [
+      "rich-text#pdp__sku-selector--title",
+      "sku-selector"
+    ]
+  },
+  "rich-text#pdp__sku-selector--title" : {
+    "title" : "pdp sku-selector title",
+    "props" : {
+      "text" : "Tallas"
+    }
+  }
+
+}
