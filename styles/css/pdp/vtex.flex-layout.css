@@ -84,6 +84,7 @@
 .flexCol--pdp__right-section--container {
   width: 90%;
   margin: 0 auto;
+  max-height: 1120px;
 }
 .flexRowContent--pdp__right-section--reviews :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   justify-content: flex-end;

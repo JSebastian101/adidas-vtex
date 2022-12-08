@@ -5,7 +5,10 @@
       "flex-layout.row#pdp__right-section--reviews",
       "vtex.store-components:product-name",
       "flex-layout.col#pdp__right-section--price",
-      "flex-layout.col#pdp__right-section--sku-selector"
+      "flex-layout.col#pdp__right-section--sku-selector",
+      "rich-text#pdp__right-section--size-selected",
+      "flex-layout.row#pdp__right-section--actions",
+      "flex-layout.col#pdp__right-section--info"
     ],
     "props" : {
       "blockClass" : "pdp__right-section--container"
@@ -47,6 +50,7 @@
     ]
   },
   "rich-text#pdp__price--details" : {
+    "title" : "pdp right section modal trigger",
     "props" : {
       "text" : "ver más"
     }
@@ -80,14 +84,153 @@
     "title" : "Product Detail Page right section sku-selector",
     "children" : [
       "rich-text#pdp__sku-selector--title",
-      "sku-selector"
-    ]
+      "sku-selector",
+      "flex-layout.row#pdp__right-section--size-guide"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--sku-selector"
+    }
   },
   "rich-text#pdp__sku-selector--title" : {
     "title" : "pdp sku-selector title",
     "props" : {
       "text" : "Tallas"
     }
-  }
+  },
+  "flex-layout.row#pdp__right-section--size-guide" : {
+    "title" : "Product Detail Page right section size guide",
+    "children" : [
+      "icon#pdp__right-section--size-guide",
+      "rich-text#pdp__right-section--size-guide"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "pdp__right-section--size-guide"
+    }
+  },
+  "icon#pdp__right-section--size-guide" : {
+    "title" : "pdp right section size guide icon",
+    "props" : {
+      "id" : "sti-discount",
+      "blockClass" : "#pdp__right-section--size-guide"
+    }
+  },
+  "rich-text#pdp__right-section--size-guide" : {
+    "title" : "pdp right section size guide link",
+    "props" : {
+      "text" : "Guía de tallas",
+      "props" : "pdp__right-section--size-guide"
+    }
+  },
+  "rich-text#pdp__right-section--size-selected" : {
+    "title" : "pdp right section size selected",
+    "props" : {
+      "text" : "Tu talla es la US 10.5, según tu elección anterior",
+      "blockClass" : "pdp__right-section--size-selected"
+    }
+  },
+  "flex-layout.row#pdp__right-section--actions" : {
+    "title" : "Product Detail Page right section actions",
+    "children" : [
+      "buy-button#pdp",
+      "add-to-list-btn#pdp"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "pdp__right-section--actions"
+    }
+  },
+  "add-to-list-btn#pdp" : {
+    "title" : "wish-list btn pdp",
+    "props" : {
+      "blockClass" : "pdp__product--whislist"
+    }
+  },
+  "buy-button#pdp" : {
+    "props" : {
+      "shouldOpenMinicart" : true,
+      "showTooltipOnSkuNotSelected" : true,
+      "blockClass" : "buy-button#pdp"
+    }
+  },
+  "flex-layout.col#pdp__right-section--info" : {
+    "title" : "Product Detail Page right section info",
+    "children" : [
+      "flex-layout.row#pdp__right-section--info-one",
+      "flex-layout.row#pdp__right-section--info-two",
+      "flex-layout.row#pdp__right-section--info-three"
+    ],
+    "props" : {
+      "blockClass" : "#pdp__right-section--info"
+    }
+  },
+  "flex-layout.row#pdp__right-section--info-one" : {
+    "title": "Product Detail Page right section info-one",
+    "children" : [
+      "icon#pdp__right-section--info-one",
+      "rich-text#pdp__right-section--info-one"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--info"
+    }
+  },
+  "flex-layout.row#pdp__right-section--info-two" : {
+    "title": "Product Detail Page right section info-two",
+    "children" : [
+      "icon#pdp__right-section--info-two",
+      "rich-text#pdp__right-section--info-two"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--info"
+    }
+  },
+  "flex-layout.row#pdp__right-section--info-three" : {
+    "title": "Product Detail Page right section info-three",
+    "children" : [
+      "icon#pdp__right-section--info-three",
+      "rich-text#pdp__right-section--info-three"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--info"
+    }
+  },
+  "icon#pdp__right-section--info-one" : {
+    "title" : "",
+    "props" : {
 
+    }
+  },
+  "rich-text#pdp__right-section--info-one" : {
+    "title" : "pdp right section info text",
+    "props" : {
+      "text" : "ENVÍO GRATIS A PARTIR DE $149.900 POR +<br>$14.990 SOLICITA EL ENVÍO EXPRESS",
+      "blockClass" : "pdp__right-section--info"
+    }
+  },
+  "icon#pdp__right-section--info-two" : {
+    "title" : "",
+    "props" : {
+
+    }
+  },
+  "rich-text#pdp__right-section--info-two" : {
+    "title" : "pdp right section info text",
+    "props" : {
+      "text" : "PAGA SEGURO PUEDES PAGAR EN LÍNEA",
+      "blockClass" : "pdp__right-section--info"
+    }
+  },
+  "icon#pdp__right-section--info-three" : {
+    "title" : "",
+    "props" : {
+
+    }
+  },
+  "rich-text#pdp__right-section--info-three" : {
+    "title" : "pdp right section info text",
+    "props" : {
+      "text" : "DEVOLUCIONES GRATIS ¿NO ES TU TALLA? DEVUELVE EN UN PLAZO DE 60 DÍAS",
+      "blockClass" : "pdp__right-section--info"
+    }
+  }
 }

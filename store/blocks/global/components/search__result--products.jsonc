@@ -65,7 +65,7 @@
     "title" : "",
     "children" : [
       "product-summary-image#product-image",
-      "add-to-list-btn",
+      "add-to-list-btn#plp",
       "product-list-price",
       "product-selling-price"
     ],
@@ -95,7 +95,7 @@
       "blockClass" : "search-result__product--image"
     }
   }, 
-  "add-to-list-btn" : {
+  "add-to-list-btn#plp" : {
     "title" : "wish-list button",
     "props" : {
       "blockClass" : "search-result__product--whislist"
