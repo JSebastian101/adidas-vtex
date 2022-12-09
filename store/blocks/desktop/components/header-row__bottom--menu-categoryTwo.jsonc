@@ -1,0 +1,37 @@
+{
+  "flex-layout.col#sports__category--futbol" : {
+    "title" : "sports menu categorires",
+    "children" : [
+      "rich-text#category__futbol--title",
+      "vtex.menu@2.x:menu#futbol__subcategory"
+    ]
+  },
+  "flex-layout.col#sports__category--running" : {
+    "title" : "sports menu categorires",
+    "children" : [
+      "rich-text#category__running--title",
+      "vtex.menu@2.x:menu#running__subcategory"
+    ]
+  },
+  "flex-layout.col#sports__category--training" : {
+    "title" : "sports menu categorires",
+    "children" : [
+      "rich-text#category__training--title",
+      "vtex.menu@2.x:menu#training__subcategory"
+    ]
+  },
+  "flex-layout.col#sports__category--tennis" : {
+    "title" : "sports menu categorires",
+    "children" : [
+      "rich-text#category__tennis--title",
+      "vtex.menu@2.x:menu#tennis__subcategory"
+    ]
+  },
+  "flex-layout.col#sports__category--cycling" : {
+    "title" : "sports menu categorires",
+    "children" : [
+      "rich-text#category__cycling--title",
+      "vtex.menu@2.x:menu#cycling__subcategory"
+    ]
+  }
+}
