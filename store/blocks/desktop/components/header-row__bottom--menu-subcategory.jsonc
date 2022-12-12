@@ -7,7 +7,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -23,7 +23,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -39,7 +39,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -55,7 +55,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -71,7 +71,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -87,7 +87,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -103,7 +103,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -119,7 +119,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -135,7 +135,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -151,7 +151,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -167,7 +167,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -190,7 +190,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -207,7 +207,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -224,7 +224,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -241,7 +241,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -258,7 +258,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -275,7 +275,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -292,7 +292,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -309,7 +309,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -326,7 +326,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -343,7 +343,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -360,7 +360,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -377,7 +377,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -394,7 +394,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -411,7 +411,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -431,7 +431,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -448,7 +448,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -465,7 +465,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -482,7 +482,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -499,7 +499,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -516,7 +516,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -533,7 +533,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -550,7 +550,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "menu__subcategory--name",
       "itemProps": {
         "type": "internal",
         "href": "/construccion",
@@ -571,7 +571,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -588,7 +588,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -605,7 +605,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -622,7 +622,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -639,7 +639,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -656,7 +656,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -673,7 +673,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -690,7 +690,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -707,7 +707,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -724,7 +724,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",
@@ -741,7 +741,7 @@
       "type" : "custom",
       "iconId": null,
       "highlight" : false,
-      "blockClass" : "content-blue",
+      "blockClass" : "menu__subcategory--name",
       "itemProps" : {
         "type" : "internal",
         "href" : "/electrodomesticos",

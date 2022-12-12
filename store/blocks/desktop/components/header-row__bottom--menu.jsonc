@@ -20,7 +20,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu--item--one",
+      "blockClass": "menu__department--name-one",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -40,7 +40,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu--item--one",
+      "blockClass": "menu__department--name-one",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -60,7 +60,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu--item--one",
+      "blockClass": "menu__department--name-one",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -80,7 +80,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu--item--two",
+      "blockClass": "menu__department--name",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -100,7 +100,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu--item--two",
+      "blockClass": "menu__department--name",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -108,10 +108,10 @@
         "tagTitle": "MUNDO ADIDAS",
         "text": "MUNDO ADIDAS"
       }
-    }/* ,
+    },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-1"
-    ] */
+      "vtex.menu@2.x:submenu#department__sports"
+    ]
   },
   "menu-item#department__gifts": {
     "title" : "department gifts",
@@ -120,7 +120,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu--item--two",
+      "blockClass": "menu__department--name",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -128,9 +128,9 @@
         "tagTitle": "REGALOS",
         "text": "REGALOS"
       }
-    }/* ,
+    },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-1"
-    ] */
+      "vtex.menu@2.x:submenu#department__sports"
+    ]
   }
 }

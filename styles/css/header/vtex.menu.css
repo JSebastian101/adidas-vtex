@@ -1,0 +1,29 @@
+.styledLinkContainer--menu__department--name-one,
+.styledLinkContainer--menu__department--name {
+  margin: 0 20px 0 0;
+  font-size: 14px;
+}
+.styledLinkContent--menu__department--name-one {
+  font-weight: bold;
+}
+.submenuWrapper--submenu--department__gender--isOpen,
+.submenuWrapper--submenu__department--sports--isOpen {
+  z-index: 20;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.styledLinkContainer--menu__subcategory--name {
+  margin-left: 0;
+}
+.styledLinkContent--menu__subcategory--name {
+  font-size: 13px;
+}
+.styledLinkContent--menu__subcategory--name:hover {
+  text-decoration: underline;
+}
+
+.submenu--submenu--department__gender,
+.submenu--submenu__department--sports {
+  border-top: 1px solid rgb(232, 226, 226);;
+}

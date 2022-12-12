@@ -6,9 +6,18 @@
       "width" : "100%"
     },
     "children" : [
+      "flex-layout.col#header__menu--container-two"
+    ]
+  },
+  "flex-layout.col#header__menu--container-two" : {
+    "title" : "menu-container",
+    "children" : [
       "flex-layout.row#menu__department--sports",
       "flex-layout.row#menu__all-products--global"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "header__menu--container"
+    }
   },
   "flex-layout.row#menu__department--sports" : {
     "title" : "",

@@ -14,7 +14,8 @@
       "vtex.menu@2.x:menu#header__bottom--menu"
     ],
     "props" : {
-      "colSizing" : "auto"
+      "colSizing" : "auto",
+      "blockClass" : "header__bottom--menu"
     }
   },
   "flex-layout.row#header__bottom--user" : {

@@ -24,3 +24,48 @@
 .flexRowContent--header__user-section--mobile :global(.vtex-button__label) {
   padding-left: 6px
 }
+
+
+
+/* MENU */
+
+.flexColChild--header__menu--container {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexColChild--header__menu--container:last-child {
+  width: 100%;
+  border-top: 1px solid rgb(232, 226, 226);
+}
+.flexRow--menu__all-products--global {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.flexRow--submenu--department__gender,
+.flexRow--submenu--department--sports {
+  width: 100%;
+}
+.flexRow--submenu__department--sports {
+  width: 100%;
+}
+.flexRowContent--submenu--department__gender :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: auto !important;
+  border-right: 1px solid rgb(232, 226, 226);
+}
+.flexRowContent--menu__all-products--global :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 22% !important;
+}
+
+
+
+.flexColChild--menu__category--column,
+.flexColChild--menu__category--column-one {
+  height: max-content !important;
+}
+.flexColChild--menu__category--column-one {
+  padding-left: 15px;
+}
+
+

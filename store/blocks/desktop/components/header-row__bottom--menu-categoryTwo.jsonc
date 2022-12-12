@@ -4,34 +4,253 @@
     "children" : [
       "rich-text#category__futbol--title",
       "vtex.menu@2.x:menu#futbol__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
   "flex-layout.col#sports__category--running" : {
     "title" : "sports menu categorires",
     "children" : [
       "rich-text#category__running--title",
       "vtex.menu@2.x:menu#running__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
   "flex-layout.col#sports__category--training" : {
     "title" : "sports menu categorires",
     "children" : [
       "rich-text#category__training--title",
       "vtex.menu@2.x:menu#training__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
   "flex-layout.col#sports__category--tennis" : {
     "title" : "sports menu categorires",
     "children" : [
       "rich-text#category__tennis--title",
       "vtex.menu@2.x:menu#tennis__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
   "flex-layout.col#sports__category--cycling" : {
     "title" : "sports menu categorires",
     "children" : [
       "rich-text#category__cycling--title",
       "vtex.menu@2.x:menu#cycling__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#sports__category--others" : {
+    "title" : "sports menu categorires",
+    "children" : [
+      "rich-text#category__others--title",
+      "vtex.menu@2.x:menu#others__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  /* Futbol */
+  "rich-text#category__futbol--title" : {
+    "title" : "category futbol title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "FUTBOL"
+    }
+  },
+  "vtex.menu@2.x:menu#futbol__subcategory" : {
+    "title" : "",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__futbol--image",
+      "menu-item#shoes__subcategory--item-one",
+      "menu-item#shoes__subcategory--item-two",
+      "menu-item#shoes__subcategory--item-three",
+      "menu-item#shoes__subcategory--item-four",
+      "menu-item#shoes__subcategory--item-five",
+      "menu-item#shoes__subcategory--item-six",
+      "menu-item#shoes__subcategory--item-seven",
+      "menu-item#shoes__subcategory--item-eight",
+      "menu-item#shoes__subcategory--item-nine",
+      "menu-item#shoes__subcategory--item-ten"
     ]
+  },
+
+  /* running */
+  "rich-text#category__running--title" : {
+    "title" : "category running title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "RUNNING"
+    }
+  },
+  "vtex.menu@2.x:menu#running__subcategory" : {
+    "title" : "",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__running--image",
+      "menu-item#sports__subcategory--item-one",
+      "menu-item#sports__subcategory--item-two",
+      "menu-item#sports__subcategory--item-three",
+      "menu-item#sports__subcategory--item-four",
+      "menu-item#sports__subcategory--item-five",
+      "menu-item#sports__subcategory--item-six",
+      "menu-item#sports__subcategory--item-seven",
+      "menu-item#sports__subcategory--item-eight",
+      "menu-item#sports__subcategory--item-nine",
+      "menu-item#sports__subcategory--item-ten",
+      "menu-item#sports__subcategory--item-eleven"
+    ]
+  },
+
+  /* training */
+  "rich-text#category__training--title" : {
+    "title" : "category training title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "TRAINING"
+    }
+  },
+  "vtex.menu@2.x:menu#training__subcategory" : {
+    "title" : "",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__training--image",
+      "menu-item#accessories__subcategory--item-one",
+      "menu-item#accessories__subcategory--item-two",
+      "menu-item#accessories__subcategory--item-three",
+      "menu-item#accessories__subcategory--item-four",
+      "menu-item#accessories__subcategory--item-five",
+      "menu-item#accessories__subcategory--item-six",
+      "menu-item#accessories__subcategory--item-seven",
+      "menu-item#accessories__subcategory--item-eight"
+    ]
+  },
+
+  /* tennis */
+  "rich-text#category__tennis--title" : {
+    "title" : "category tennis title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "TENNIS"
+    }
+  },
+  "vtex.menu@2.x:menu#tennis__subcategory" : {
+    "title" : "",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__tennis--image",
+      "menu-item#accessories__subcategory--item-one",
+      "menu-item#accessories__subcategory--item-two",
+      "menu-item#accessories__subcategory--item-three",
+      "menu-item#accessories__subcategory--item-four"
+    ]
+  },
+
+  /* cycling */
+  "rich-text#category__cycling--title" : {
+    "title" : "category cycling title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "CYCLING"
+    }
+  },
+  "vtex.menu@2.x:menu#cycling__subcategory" : {
+    "title" : "",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__cycling--image",
+      "menu-item#accessories__subcategory--item-one",
+      "menu-item#accessories__subcategory--item-two",
+      "menu-item#accessories__subcategory--item-three",
+      "menu-item#accessories__subcategory--item-four"
+    ]
+  },
+  "rich-text#category__others--title" : {
+    "title" : "category others title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "OTROS DEPORTES"
+    }
+  },
+  "vtex.menu@2.x:menu#others__subcategory" : {
+    "title" : "",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "menu-item#shoes__subcategory--item-one",
+      "menu-item#shoes__subcategory--item-two",
+      "menu-item#shoes__subcategory--item-three",
+      "menu-item#shoes__subcategory--item-four",
+      "menu-item#shoes__subcategory--item-five"
+    ]
+  },
+
+  /* images */
+"image#subcategory__cycling--image" : {
+  "title" : "menu subcategory image",
+  "props" : {
+    "src" : "assets/img/header__menu--sports-cycling.jpg",
+    "maxWidth" : 179,
+    "maxHeight" : 83
   }
+},
+"image#subcategory__tennis--image" : {
+  "title" : "menu subcategory image",
+  "props" : {
+    "src" : "assets/img/header__menu--sports-tennis.jpg",
+    "maxWidth" : 179,
+    "maxHeight" : 83
+  }
+},
+"image#subcategory__training--image" : {
+  "title" : "menu subcategory image",
+  "props" : {
+    "src" : "assets/img/header__menu--sports-training.jpg",
+    "maxWidth" : 179,
+    "maxHeight" : 83
+  }
+},
+"image#subcategory__running--image" : {
+  "title" : "menu subcategory image",
+  "props" : {
+    "src" : "assets/img/header__menu--sports-running.jpg",
+    "maxWidth" : 179,
+    "maxHeight" : 83
+  }
+},
+"image#subcategory__futbol--image" : {
+  "title" : "menu subcategory image",
+  "props" : {
+    "src" : "assets/img/header__menu--sports-futbol.jpg",
+    "maxWidth" : 179,
+    "maxHeight" : 83
+  }
+}
 }

@@ -6,12 +6,22 @@
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu__department--gender",
-      "flex-layout.row#menu__all-products--global"
+      "flex-layout.col#header__menu--container"
     ]
   },
+  "flex-layout.col#header__menu--container" : {
+    "title" : "menu-container",
+    "children" : [
+      "flex-layout.row#menu__department--gender",
+      "flex-layout.row#menu__all-products--global"
+    ],
+    "props" : {
+      "blockClass" : "header__menu--container"
+    }
+  },
+
   "flex-layout.row#menu__department--gender" : {
-    "title" : "",
+    "title" : "menu department gender",
     "children" : [
       "flex-layout.col#gender__category--best-products",
       "flex-layout.col#gender__category--shoes",
@@ -27,7 +37,15 @@
   "flex-layout.row#menu__all-products--global" : {
     "title" : "",
     "children" : [
-
-    ]
+      "rich-text#menu__all-products",
+      "rich-text#menu__all-products--shoes",
+      "rich-text#menu__all-products--clothes",
+      "rich-text#menu__all-products--accesories",
+      "rich-text#menu__all-products--sports",
+      "rich-text#menu__all-products--world-cup"
+    ],
+    "props" : {
+      "blockClass" : "menu__all-products--global"
+    }
   }
 }

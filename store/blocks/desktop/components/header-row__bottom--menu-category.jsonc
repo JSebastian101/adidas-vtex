@@ -4,49 +4,67 @@
     "children" : [
       "rich-text#category__best-products--title",
       "vtex.menu@2.x:menu#best-products__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
   "flex-layout.col#gender__category--shoes" : {
     "title" : "gender menu categories",
     "children" : [
       "rich-text#category__shoes--title",
       "vtex.menu@2.x:menu#shoes__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column-one"
+    }
   },
   "flex-layout.col#gender__category--clothes" : {
     "title" : "gender menu categories",
     "children" : [
       "rich-text#category__clothes--title",
       "vtex.menu@2.x:menu#clothes__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
   "flex-layout.col#gender__category--accessories" : {
     "title" : "gender menu categories",
     "children" : [
       "rich-text#category__accessories--title",
       "vtex.menu@2.x:menu#accessories__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
   "flex-layout.col#gender__category--sports" : {
     "title" : "gender menu categories",
     "children" : [
       "rich-text#category__sports--title",
       "vtex.menu@2.x:menu#sports__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
   "flex-layout.col#gender__category--world-cup" : {
     "title" : "gender menu categories",
     "children" : [
       "rich-text#category__world-cup--title",
       "vtex.menu@2.x:menu#world-cup__subcategory"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
   },
 
   /* best-products */
   "rich-text#category__best-products--title" : {
     "title" : "category best-products title",
     "props" : {
-      "blockClass" : "",
+      "blockClass" : "menu__category--title",
       "text" : "PRODUCTO DESTACADO"
     }
   },
@@ -75,7 +93,7 @@
   "rich-text#category__shoes--title" : {
     "title" : "category shoes title",
     "props" : {
-      "blockClass" : "",
+      "blockClass" : "menu__category--title",
       "text" : "CALZADO"
     }
   },
@@ -107,7 +125,7 @@
   "rich-text#category__clothes--title" : {
     "title" : "category clothes title",
     "props" : {
-      "blockClass" : "",
+      "blockClass" : "menu__category--title",
       "text" : "ROPA"
     }
   },
@@ -139,7 +157,7 @@
   "rich-text#category__accessories--title" : {
     "title" : "category accessories title",
     "props" : {
-      "blockClass" : "",
+      "blockClass" : "menu__category--title",
       "text" : "ACCESORIOS"
     }
   },
@@ -165,7 +183,7 @@
   "rich-text#category__sports--title" : {
     "title" : "category sports title",
     "props" : {
-      "blockClass" : "",
+      "blockClass" : "menu__category--title",
       "text" : "DEPORTES"
     }
   },
@@ -194,7 +212,7 @@
   "rich-text#category__world-cup--title" : {
     "title" : "category world-cup title",
     "props" : {
-      "blockClass" : "",
+      "blockClass" : "menu__category--title",
       "text" : "COPA DEL MUNDO ⚽"
     }
   },
