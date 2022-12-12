@@ -1,0 +1,35 @@
+{
+  "vtex.menu@2.x:submenu#department__sports" : {
+    "title" : "menu department sports",
+    "props" : {
+      "blockClass": "submenu__department--sports",
+      "width" : "100%"
+    },
+    "children" : [
+      "flex-layout.col#header__menu--container-two"
+    ]
+  },
+  "flex-layout.col#header__menu--container-two" : {
+    "title" : "menu-container",
+    "children" : [
+      "flex-layout.row#menu__department--sports",
+      "flex-layout.row#menu__all-products--global"
+    ],
+    "props" : {
+      "blockClass" : "header__menu--container"
+    }
+  },
+  "flex-layout.row#menu__department--sports" : {
+    "title" : "",
+    "children" : [
+      "flex-layout.col#sports__category--futbol",
+      "flex-layout.col#sports__category--running",
+      "flex-layout.col#sports__category--training",
+      "flex-layout.col#sports__category--tennis",
+      "flex-layout.col#sports__category--cycling"
+    ],
+    "props" : {
+      "blockClass" : "submenu__department--sports"
+    }
+  }
+}

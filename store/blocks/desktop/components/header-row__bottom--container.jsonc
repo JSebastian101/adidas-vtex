@@ -9,16 +9,13 @@
     }
   },
   "flex-layout.row#header__bottom--menu" : {
+    "title" : "header bottom menu",
     "children" : [
-      "rich-text#menu__item--one",
-      "rich-text#menu__item--two",
-      "rich-text#menu__item--three",
-      "rich-text#menu__item--four",
-      "rich-text#menu__item--five",
-      "rich-text#menu__item--six"
+      "vtex.menu@2.x:menu#header__bottom--menu"
     ],
     "props" : {
-      "colSizing" : "auto"
+      "colSizing" : "auto",
+      "blockClass" : "header__bottom--menu"
     }
   },
   "flex-layout.row#header__bottom--user" : {
@@ -68,42 +65,6 @@
       "defaultOption" : 0,
       "emailAndPasswordTitle" : "test",
       "optionsTitle" : "test 2"
-    }
-  }, 
-  "rich-text#menu__item--one" : {
-    "props" : {
-      "text" : "MUJER",
-      "blockClass" : "menu__item--one"
-    }
-  },
-  "rich-text#menu__item--two" : {
-    "props" : {
-      "text" : "HOMBRE",
-      "blockClass" : "menu__item--one"
-    }
-  },
-  "rich-text#menu__item--three" : {
-    "props" : {
-      "text" : "NIÑOS",
-      "blockClass" : "menu__item--one"
-    }
-  },
-  "rich-text#menu__item--four" : {
-    "props" : {
-      "text" : "DEPORTE",
-      "blockClass" : "menu__item--two"
-    }
-  },
-  "rich-text#menu__item--five" : {
-    "props" : {
-      "text" : "MUNDO ADIDAS",
-      "blockClass" : "menu__item--two"
-    }
-  },
-  "rich-text#menu__item--six" : {
-    "props" : {
-      "text" : "REGALOS",
-      "blockClass" : "menu__item--two"
     }
   }
 }
