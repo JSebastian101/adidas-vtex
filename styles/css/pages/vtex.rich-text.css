@@ -1,0 +1,79 @@
+.paragraph--sg__breadcrumb--back {
+  font-size: 13px;
+  font-weight: bold;
+  border-right: 1px solid black;
+  padding-right: 8px;
+}
+.paragraph--sg__breadcrumb--products,
+.paragraph--sp__page--update {
+  font-size: 13px;
+  font-weight: lighter;
+}
+.paragraph--sg__page--title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.paragraph--sp__page--update,
+.paragraph--sg__page--title {
+  margin: 0;
+}
+
+.paragraph--sg__paragraph--one,
+.paragraph--sg__paragraph--two,
+.paragraph--sg__paragraph--space,
+.paragraph--sg__paragraph--exchange {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.strong--sg__paragraph--two,
+.strong--sg__paragraph--exchange {
+  font-weight: lighter;
+  color: #0286cd;
+}
+.strong--sg__paragraph--exchange:first-child {
+  color: black;
+  font-weight: bold;
+}
+.strong--sg__paragraph--two:hover,
+.strong--sg__paragraph--exchange:hover {
+  cursor: pointer;
+  color: #056ea7;
+  text-decoration: underline;
+}
+
+.paragraph--sg__title--disclaimer {
+  font-size: 32px;
+  font-weight: lighter;
+  margin: 0 0 5px 0;
+}
+
+.paragraph--sg__size-disclaimer--note {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.wrapper--sg__paragraph--exchange {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 20px;
+}
+.paragraph--sg__men-guide--title,
+.paragraph--sg__men-table--title {
+  margin: 0;
+  font-weight: bold;
+}
+.paragraph--sg__men-guide--title {
+  font-size: 42px;
+}
+.paragraph--sg__men-table--title  {
+  font-size: 28px;
+}
+
+/* INSTRUCTIONS */
+.paragraph--sg__my-size--list-item {
+  font-size: 13px;
+  font-weight: lighter;
+}
+.strong--sg__my-size--list-item {
+  font-size: 22px;
+}

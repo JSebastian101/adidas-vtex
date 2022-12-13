@@ -96,3 +96,84 @@
 .flexRowContent--pdp__right-section--reviews :global(.vtex-reviews-and-ratings-3-x-stars) {
   color: black;
 }
+
+/* RIGHT SECTION CONTENT */
+.flexColChild--pdp__right-section--container {
+  height: max-content !important;
+}
+.flexColChild--pdp__right-section--container :global(.vtex-store-components-3-x-productBrand) {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* price */
+.flexColChild--pdp__right-section--price :global(.vtex-store-components-3-x-sellingPriceValue) {
+  font-size: 16px;
+  padding: 0
+}
+.flexColChild--pdp__right-section--price :global(.vtex-store-components-3-x-priceContainer) {
+  padding: 10px 0;
+}
+
+.flexColChild--pdp__right-section--price :global(.vtex-store-components-3-x-price_installment):last-child {
+  font-weight: bold;
+}
+
+
+/* sku selector */
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-skuSelectorTextContainer) {
+  display: none;
+}
+
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {
+  margin: 0;
+}
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  margin: 0;
+}
+
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-skuSelectorItem--selected) {
+  border: 1px solid black;
+  background-color: black;
+  border: 1px ;
+}
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-skuSelectorItemTextValue):active,
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-skuSelectorItemTextValue):focus {
+  color: white;
+}
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+  border: none;
+}
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-frameAround) {
+  display: none;
+}
+.flexColChild--pdp__right-section--sku-selector :global(.vtex-store-components-3-x-skuSelectorItem) {
+  border: 1px solid rgb(167, 167, 167);
+  margin: 0;
+}
+
+/* size guide */
+
+.flexRowContent--pdp__right-section--size-guide {
+  display: flex;
+  justify-content: flex-start;
+}
+.flexRowContent--pdp__right-section--size-guide :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  display: flex;
+  align-items: center;
+}
+
+/* pdp info */
+
+.flexRowContent--pdp__right-section--info :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  display: flex;
+  align-items: center;
+}
+.flexRowContent--pdp__right-section--info {
+  display: flex;
+  justify-content: flex-start;
+}
+.flexCol--pdp__right-section--information {
+  padding-top: 15px;
+}

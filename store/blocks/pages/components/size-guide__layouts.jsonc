@@ -1,0 +1,93 @@
+{
+  "flex-layout.row#sg__breadcrumb" : {
+    "title" : "size-guide breadcrumb",
+    "children" : [
+      "icon#sg__breadcrumb--back",
+      "rich-text#sg__breadcrumb--back",
+      "rich-text#sg__breadcrumb--products"
+    ],
+    "props" : {
+      "blockClass" : "sg__breadcrumb",
+      "colSizing" : "auto",
+      "colGap" : 3
+    }
+  },
+  "flex-layout.row#sg__page--title" : {
+    "title" : "size-guide page title",
+    "children" : [
+      "rich-text#sg__page--title",
+      "rich-text#sg__page--update"
+    ],
+    "props" : {
+      "blockClass" : "sg__page--title",
+      "colSizing" : "auto"
+    }
+  },
+  "flex-layout.row#sg__table--image" : {
+    "title" : "size-guide table image",
+    "children" : [
+      "image#sg__table--image"
+    ],
+    "props" : {
+      "blockClass" : "sg__table--image"
+    }
+  },
+  "flex-layout.row#sg__my-size--list" : {
+    "title" : "sg my-suze instruction list",
+    "children" : [
+      "flex-layout.col#sg__my-size--list"
+    ]
+  },
+  "flex-layout.col#sg__my-size--list" : {
+    "title" : "sg my-suze instruction list",
+    "children" : [
+      "rich-text#sg__my-size--list-item-one",
+      "image#sg__my-size--list-item-one",
+      "rich-text#sg__my-size--list-item-two",
+      "image#sg__my-size--list-item-two",
+      "rich-text#sg__my-size--list-item-three",
+      "image#sg__my-size--list-item-three",
+      "rich-text#sg__my-size--list-item-four"
+    ],
+    "props" : {
+      "blockClass" : "sg__my-size--list"
+    }
+  },
+  "flex-layout.row#sg__store-details" : {
+    "title" : "sg store-details",
+    "children" : [
+      "flex-layout.col#sg__store-details--delivery",
+      "flex-layout.col#sg__store-details--client-service"
+    ],
+    "props" : {
+      "blockClass" : "sg__store-details",
+      "colSizing" : "equal"
+    }
+  },
+  "flex-layout.col#sg__store-details--delivery" : {
+    "title" : "sg store-details delivery",
+    "children" : [
+      "rich-text#store-details__delivery--title",
+      "rich-text#store-details__delivery--paragraph",
+      "link#store-details__login",
+      "link#store-details__tracking"
+    ],  
+    "props" : {
+      "blockClass" : "sg__store-details--delivery"
+    }
+  },
+  "flex-layout.col#sg__store-details--client-service" : {
+    "title" : "sg store-details client-service",
+    "children" : [
+      "rich-text#store-details__client-service--question",
+      "rich-text#store-details__client-service--title",
+      "rich-text#store-details__client-service--status",
+      "rich-text#store-details__client-service--schedule-one",
+      "rich-text#store-details__client-service--schedule-two",
+      "link#store-details__cliente-service--cta"
+    ],
+    "props" : {
+      "blockClass" : "sg__store-details--client-service"
+    }
+  }
+}

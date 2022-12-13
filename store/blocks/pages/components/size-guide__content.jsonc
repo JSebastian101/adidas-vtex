@@ -1,0 +1,273 @@
+{
+  /* BREADCRUMB */
+  "icon#sg__breadcrumb--back" : {
+    "title" : "sg breadcrumb icon",
+    "props" : {
+      "id" : "nav-caret--left",
+      "size" : 13
+    }
+  },
+  "rich-text#sg__breadcrumb--back" : {
+    "title" : "sg breadcrumb back",
+    "props" : {
+      "text" : "Atrás",
+      "blockClass" : "sg__breadcrumb--back"
+    }
+  },
+  "rich-text#sg__breadcrumb--products" : {
+    "title" : "sg breadcrumb products",
+    "props" : {
+      "text" : "PRODUCTOS",
+      "blockClass" : "sg__breadcrumb--products"
+    }
+  },
+  /* TITLE */
+  
+  "rich-text#sg__page--title" : {
+    "title" : "sg page title",
+    "props" : {
+      "text" : "¿Cuál es mi talla adidas?",
+      "blockClass" : "sg__page--title"
+    }
+  },
+  "rich-text#sg__page--update" : {
+    "title" : "sg page last-update",
+    "props" : {
+      "text" : "Última actualización: **06/08/2021**",
+      "blockClass" : "sp__page--update"
+    }
+  },
+
+  /* Paragraphs */
+  "rich-text#sg__paragraph--one" : {
+    "title" : "sg paragraph one",
+    "props" : {
+      "text" : "Queremos que encuentres la talla adidas que mejor te quede cuando compres en nuestra tienda online. Para ponértelo más fácil, ponemos a tu disposición distintas guías de tallas que te ayudarán a encontrar el producto adidas que mejor te sienta.",
+      "blockClass" : "sg__paragraph--one"
+    }
+  },
+
+  "rich-text#sg__paragraph--space": {
+    "title" : "sg paragraph space",
+    "props" : {
+      "text" : "&nbsp;",
+      "blockClass" : "sg__paragraph--space"
+    }
+  },
+  "rich-text#sg__paragraph--two" : {
+    "title" : "sg paragraph two",
+    "props" : {
+      "text" : "Si quieres saber cuál es tu talla, haz clic sobre el icono 'Guía de tallas' que encontrarás en la página del producto donde se abrirá la correspondiente tabla de tallas. Recuerda que tenemos un gran variedad en **calzado**, **ropa** y **accesorios**.",
+      "blockClass" : "sg__paragraph--two",
+      "url" : "/electrodomesticos"
+    }
+  },
+
+  /* Paragraph section 2 */
+
+  "rich-text#sg__title--disclaimer" : {
+    "title" : "sg title disclaimer",
+    "props" : {
+      "text" : "°°°ALGUNAS HORMAS PUEDEN VARIAR°°°",
+      "blockClass" : "sg__title--disclaimer"
+    }
+  },
+  "rich-text#sg__paragraph--three" : {
+    "title" : "sg paragraph three",
+    "props" : {
+      "text" : "Algunos productos pueden tener diferencias de talle con relación a nuestras guías de tallas debido a diferentes circunstancias como; tecnología, manufactura, diseño, entre otros. Por tal motivo, en algunos productos encuentras una recomendación de talla, que te recomendamos seguir. ",
+      "blockClass" : "sg__paragraph--one"
+    }
+  },
+  "image#sg__size-disclaimer--image" : {
+    "title" : "sg size disclaimer image",
+    "props" : {
+      "src" : "assets/img/size-guide__disclaimer.jpg",
+      "maxWidth" : 457,
+      "maxHeight" : 250,
+      "blockClass" : "sg__size-disclaimer--image"
+    }
+  },
+  "rich-text#sg__size-disclaimer--note" : {
+    "title" : "sg size disclaimer note",
+    "props" : {
+      "text" : "**Nota**: Esta recomendación se basa en las devoluciones de los consumidores. Analizamos los motivos de devolución y los utilizamos para brindarte una mejor orientación.",
+      "blockClass" : "sg__size-disclaimer--note"
+    }
+  },
+  "rich-text#sg__title--exchange" : {
+    "title" : "sg title exchange",
+    "props" : {
+      "text" : "¿QUÉ PASA SI NO ES MI TALLA O NO ME GUSTÓ?",
+      "blockClass" : "sg__title--disclaimer" 
+    }
+  },
+  "rich-text#sg__paragraph--exchange" : {
+    "title" : "sg paragraph exchange",
+    "props" : {
+      "text" : "**Devolución gratuita**: No hay problema, realiza la devolución de forma gratuita dentro de un plazo de 90 días después de la fecha de compra. Para más infromación consulta nuestras **opciones y políticas de devoluciones**.",
+      "blockClass" : "sg__paragraph--exchange"
+    }
+  },
+
+  /* TABLE */
+  "rich-text#sg__men-guide--title" : {
+    "title" : "sg title men-guide title",
+    "props" : {
+      "text" : " 1 . TALLAS HOMBRE",
+      "blockClass" : "sg__men-guide--title"
+    }
+  },
+  "rich-text#sg__men-table--title" : {
+    "title" : "sg title men-guide title",
+    "props" : {
+      "text" : "TALLAS PARA CALZADO DE HOMBRE",
+      "blockClass" : "sg__men-table--title"
+    }
+  },
+  "image#sg__table--image" : {
+    "title" : "sg table image",
+    "props" : {
+      "src" : "assets/img/size-guide__table--image.jpg",
+      "maxWidth" : 950
+    }
+  },
+  "rich-text#sg__title--my-size" : {
+    "title" : "sg title my-size",
+    "props" : {
+      "text" : "¿CÓMO SABER MI TALLA DE ZAPATILLAS ADIDAS?",
+      "blockClass" : "sg__title--disclaimer"
+    }
+  },
+
+  /* INSTRUCTION LIST */
+  "rich-text#sg__my-size--list-item-one" : {
+    "title" : "sg my-size list-item",
+    "props" : {
+      "text" : ". **1.** Coloca tu pie en una superficie dura sobre una hoja de papel blanca con el talón contra la pared:",
+      "blockClass" : "sg__my-size--list-item"
+    }
+  },
+  "image#sg__my-size--list-item-one" : {
+    "title" : "sg my-size list-item image",
+    "props" : {
+      "src" : "assets/img/size-guide__list--item-one.jpg",
+      "maxWidth" : 230,
+      "blockClass" : "sg__my-size--list-image"
+    }
+  },
+  "rich-text#sg__my-size--list-item-two" : {
+    "title" : "sg my-size list-item",
+    "props" : {
+      "text" : ". **2.** Marca con un lápiz (¡O pide ayuda!) desde tu talón hasta dónde llega tu dedo más largo:",
+      "blockClass" : "sg__my-size--list-item"
+    }
+  },
+  "image#sg__my-size--list-item-two" : {
+    "title" : "sg my-size list-item image",
+    "props" : {
+      "src" : "assets/img/size-guide__list--item-two.jpg",
+      "maxWidth" : 230,
+      "blockClass" : "sg__my-size--list-image"
+    }
+  },
+  "rich-text#sg__my-size--list-item-three" : {
+    "title" : "sg my-size list-item",
+    "props" : {
+      "text" : ". **3.** Mide la distancia de tu pie marcada en la hoja, desde el borde de la hoja hasta la punta del pie en centímetros (cm):",
+      "blockClass" : "sg__my-size--list-item"
+    }
+  },
+  "image#sg__my-size--list-item-three" : {
+    "title" : "sg my-size list-item image",
+    "props" : {
+      "src" : "assets/img/size-guide__list--item-three.jpg",
+      "maxWidth" : 230,
+      "blockClass" : "sg__my-size--list-image"
+    }
+  },
+  "rich-text#sg__my-size--list-item-four" : {
+    "title" : "sg my-size list-item",
+    "props" : {
+      "text" : ". **4.**  Compara los tu medida en centímetros con la tabla de tallas para saber tu talla ideal.",
+      "blockClass" : "sg__my-size--list-item"
+    }
+  },
+
+  /* STORE DETAILS LEFT SIDE */
+  "rich-text#store-details__delivery--title" : {
+    "title" : "store-details delivery title",
+    "props" : {
+      "text" : "¿DÓNDE ESTÁ MI PEDIDO?",
+      "blockClass" : "store-details__delivery--title"
+    }
+  },
+  "rich-text#store-details__delivery--paragraph" : {
+    "title" : "store-details delivery paragraph",
+    "props" : {
+      "text" : "Accede a tu cuenta o usa la cuenta de invitado para comprobar el estado de un pedido.",
+      "blockClass" : "store-details__delivery--paragraph"
+    }
+  },
+  "link#store-details__login" : {
+    "title" : "store-details login",
+    "props" : {
+      "href" : "/",
+      "label" : "INICIAR SESIÓN",
+      "blockClass" : "store-details__button"
+    }
+  },
+  "link#store-details__tracking" : {
+    "title" : "store-details tracking",
+    "props" : {
+      "href" : "/",
+      "label" : "SEGUIMIENTO DE PEDIDOS",
+      "blockClass" : "store-details__button"
+    }
+  },
+
+  /* STORE DETAILS RIGHT SIDE */
+  "rich-text#store-details__client-service--question" : {
+    "title" : "store-details cliente-service question",
+    "props" : {
+      "text" : "¿AÚN SIGUES CON LA DUDA?",
+      "blockClass" : "store-details__client-service--question"
+    }
+  },
+  "rich-text#store-details__client-service--title" : {
+    "title" : "store-details cliente-service title",
+    "props" : {
+      "text" : "PREGUNTA AL SERVICIO DE ATENCIÓN AL CLIENTE",
+      "blockClass" : "store-details__client-service--title"
+    }
+  },
+  "rich-text#store-details__client-service--status" : {
+    "title" : "store-details cliente-service status",
+    "props" : {
+      "text" : "",
+      "blockClass" : ""
+    }
+  },
+  "rich-text#store-details__client-service--schedule-one" : {
+    "title" : "store-details cliente-service schedule-one",
+    "props" : {
+      "text" : "**Lun a Vie**: 9am a 9pm",
+      "blockClass" : "store-details__client-service--schedule-one"
+    }
+  },
+  "rich-text#store-details__client-service--schedule-two" : {
+    "title" : "store-details cliente-service schedule-two",
+    "props" : {
+      "text" : "**Sábado**: 10am a 6pm",
+      "blockClass" : "store-details__client-service--schedule-two"
+    }
+  },
+  "link#store-details__cliente-service--cta" : {
+    "title" : "store-details cliente-service cta",
+    "props" : {
+      "href" : "/",
+      "label" : "SERVICIO AL CLIENTE",
+      "blockClass" : ""
+    }
+  }
+}

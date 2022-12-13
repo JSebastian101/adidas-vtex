@@ -74,19 +74,22 @@
   "rich-text#pdp__disclosure-description--trigger" : {
     "title" : "pdp disclosure-description trigger",
     "props" : {
-      "text" : "Descripción"
+      "text" : "Descripción",
+      "blockClass" : "pdp__disclosure--trigger"
     }
   },
   "rich-text#pdp__disclosure-specifications--trigger" : {
     "title" : "pdp disclosure-description trigger",
     "props" : {
-      "text" : "Especificaciones"
+      "text" : "Especificaciones",
+      "blockClass" : "pdp__disclosure--trigger"
     }
   },
   "rich-text#pdp__disclosure-rating--trigger" : {
     "title" : "pdp disclosure-description rating",
     "props" : {
-      "text" : "Rating"
+      "text" : "Rating",
+      "blockClass" : "pdp__disclosure--trigger"
     }
   },
   "disclosure-state-indicator": {
