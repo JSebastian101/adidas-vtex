@@ -1,0 +1,353 @@
+{
+  "flex-layout.row#category__best-products-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__best-products-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__shoes-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__shoes-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__clothes-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__clothes-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__accesories-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__accessories-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__sports-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__sports-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__world-cup-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__world-cup-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__sports-two-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__sports-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__futbol-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__futbol-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__running-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__running-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__training-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__training-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__tennis-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__tennis-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__cycling-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__cycling-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#category__others-trigger" : {
+    "title" : "category trigger row",
+    "children" : [
+      "menu-item#category__others-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+
+
+
+  /* category list items */
+  "menu-item#category__best-products-mobile": {
+    "title" : "category best-products",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "best-products",
+        "text": "PRODUCTO DESTACADO"
+      }
+    }
+  },
+  "menu-item#category__shoes-mobile": {
+    "title" : "category shoes",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "shoes",
+        "text": "CALZADO"
+      }
+    }
+  },
+  "menu-item#category__clothes-mobile": {
+    "title" : "category clothes",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "clothes",
+        "text": "ROPA"
+      }
+    }
+  },
+  "menu-item#category__accessories-mobile": {
+    "title" : "category accessories",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "accessories",
+        "text": "ACCESORIOS"
+      }
+    }
+  },
+  "menu-item#category__sports-mobile": {
+    "title" : "category sports",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "sports",
+        "text": "DEPORTES"
+      }
+    }
+  },
+  "menu-item#category__world-cup-mobile": {
+    "title" : "category world-cup",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "world-cup",
+        "text": "COPA DEL MUNDO ⚽"
+      }
+    }
+  },
+  "menu-item#category__futbol-mobile": {
+    "title" : "category futbol",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "futbol",
+        "text": "FUTBOL"
+      }
+    }
+  },
+  "menu-item#category__running-mobile": {
+    "title" : "category running",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "running",
+        "text": "RUNNING"
+      }
+    }
+  },
+  "menu-item#category__training-mobile": {
+    "title" : "category training",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "training",
+        "text": "TRAINING"
+      }
+    }
+  },
+  "menu-item#category__tennis-mobile": {
+    "title" : "category tennis",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "tennis",
+        "text": "TENNIS"
+      }
+    }
+  },
+  "menu-item#category__cycling-mobile": {
+    "title" : "category cycling",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "cycling",
+        "text": "CYCLING"
+      }
+    }
+  },
+  "menu-item#category__others-mobile": {
+    "title" : "category others",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "others",
+        "text": "OTROS DEPORTES"
+      }
+    }
+  }
+}

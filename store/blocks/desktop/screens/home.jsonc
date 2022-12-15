@@ -23,7 +23,15 @@
       "flex-layout.col#home__cards--tendenciesTwo",
       "flex-layout.col#home__banner--oceans",
       "flex-layout.col#home__slider--bestProducts",
-      "flex-layout.row#home__section--history"
+      "flex-layout.row#home__section--history",
+      "whatsapp-button"
     ]
+  },
+  "whatsapp-button" : {
+    "props" : {
+      "logo" : "assets/img/whatsapp-logo.png",
+      "phone" : "3176723596",
+      "message" : "Bienvenido"
+    }
   }
 }

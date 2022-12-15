@@ -1,0 +1,228 @@
+{
+  "flex-layout.row#department__gender--female-trigger" : {
+    "title" : "department trigger row",
+    "children" : [
+      "menu-item#department__gender--female-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#department__gender--male-trigger" : {
+    "title" : "department trigger row",
+    "children" : [
+      "menu-item#department__gender--male-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#department__gender--kids-trigger" : {
+    "title" : "department trigger row",
+    "children" : [
+      "menu-item#department__gender--kids-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#department__sports-trigger" : {
+    "title" : "department trigger row",
+    "children" : [
+      "menu-item#department__sports-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#department__adidas-trigger" : {
+    "title" : "department trigger row",
+    "children" : [
+      "menu-item#department__adidas-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "flex-layout.row#department__gifts-trigger" : {
+    "title" : "department trigger row",
+    "children" : [
+      "menu-item#department__gifts-mobile",
+      "icon#drawer__arrow"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "department__trigger--container"
+    }
+  },
+  "menu-item#department__gender--female-mobile": {
+    "title" : "department gender female",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name-one",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "MUJER",
+        "text": "MUJER"
+      }
+    }
+  },
+  "menu-item#department__gender--male-mobile": {
+    "title" : "department gender male",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name-one",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "HOMBRE",
+        "text": "HOMBRE"
+      }
+    }
+  },
+  "menu-item#department__gender--kids-mobile": {
+    "title" : "department gender kids",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name-one",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "NIÑOS",
+        "text": "NIÑOS"
+      }
+    }
+  },
+  "menu-item#department__sports-mobile": {
+    "title" : "department sports",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "DEPORTES",
+        "text": "DEPORTES"
+      }
+    }
+  },
+  "menu-item#department__adidas-mobile": {
+    "title" : "department adidas",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "MUNDO ADIDAS",
+        "text": "MUNDO ADIDAS"
+      }
+    }
+  },
+  "menu-item#department__gifts-mobile": {
+    "title" : "department gifts",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "REGALOS",
+        "text": "REGALOS"
+      }
+    }
+  },
+  "menu-item#department__sports-mobile--bold": {
+    "title" : "department sports",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name-one",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "DEPORTES",
+        "text": "DEPORTES"
+      }
+    }
+  },
+  "menu-item#department__adidas-mobile--bold": {
+    "title" : "department adidas",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name-one",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "MUNDO ADIDAS",
+        "text": "MUNDO ADIDAS"
+      }
+    }
+  },
+  "menu-item#department__gifts-mobile--bold": {
+    "title" : "department gifts",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__department--name-one",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "REGALOS",
+        "text": "REGALOS"
+      }
+    }
+  },
+  "icon#drawer__arrow" : {
+    "title" : "icon drawer arrow",
+    "props" : {
+      "id" : "nav-caret--right",
+      "size" : 13
+    }
+  }
+}

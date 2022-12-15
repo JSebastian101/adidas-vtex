@@ -27,3 +27,16 @@
 .submenu--submenu__department--sports {
   border-top: 1px solid rgb(232, 226, 226);;
 }
+
+
+/* Mobile */
+
+.menuContainerNav--header__menu-department--mobile,
+.menuContainerNav--header__menu-category-mobile {
+width: 100%
+}
+.menuContainer--header__menu-department--mobile,
+.menuContainer--header__menu-category-mobile {
+  width: 90%;
+  margin: 0 auto
+}
