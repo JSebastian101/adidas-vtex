@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#department__gender--female-header" : {
+    "title" : "drawer department header",
+    "children" : [
+      "menu-item#department__gender--female-mobile",
+      "drawer-close-button"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "drawer__header--department"
+    }
+  },
+  "flex-layout.row#department__gender--male-header" : {
+    "title" : "drawer department header",
+    "children" : [
+      "menu-item#department__gender--male-mobile",
+      "drawer-close-button"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "drawer__header--department"
+    }
+  },
+  "flex-layout.row#department__gender--kids-header" : {
+    "title" : "drawer department header",
+    "children" : [
+      "menu-item#department__gender--kids-mobile",
+      "drawer-close-button"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "drawer__header--department"
+    }
+  },
+  "flex-layout.row#department__sports-header" : {
+    "title" : "drawer department header",
+    "children" : [
+      "menu-item#department__sports-mobile--bold",
+      "drawer-close-button"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "drawer__header--department"
+    }
+  },
+  "flex-layout.row#department__adidas-header" : {
+    "title" : "drawer department header",
+    "children" : [
+      "menu-item#department__adidas-mobile--bold",
+      "drawer-close-button"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "drawer__header--department"
+    }
+  },
+  "flex-layout.row#department__gifts-header" : {
+    "title" : "drawer department header",
+    "children" : [
+      "menu-item#department__gifts-mobile--bold",
+      "drawer-close-button"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "drawer__header--department"
+    }
+  }
+}

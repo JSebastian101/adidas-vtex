@@ -20,7 +20,7 @@
     }
   },
   "flex-layout.row#menu__department--sports" : {
-    "title" : "",
+    "title" : "menu departments sports",
     "children" : [
       "flex-layout.col#sports__category--futbol",
       "flex-layout.col#sports__category--running",

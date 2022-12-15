@@ -20,8 +20,33 @@
   "drawer#header__drawer--menu" : {
     "title" : "header drawer menu",
     "children" : [
-
+      "vtex.menu@2.x:menu#header__menu--mobile"
+    ],
+    "blocks" : [
+      "drawer-header#header--menu"
+    ],
+    "props" : {
+      "isFullWidth" : true,
+      "maxWidth" : "100%",
+      "blockClass" : "header__drawer-department--menu"
+    }
+  },
+  "drawer-header#header--menu": {
+    "title" : "header menu drawer-header",
+    "children" : [
+      "flex-layout.row#header__drawer--header"
     ]
+  },
+  "flex-layout.row#header__drawer--header" : {
+    "title" : "header menu drawer-header",
+    "children" : [
+      "image#header__logo",
+      "drawer-close-button"
+    ],
+    "props" : {
+      "blockClass" : "header__drawer--header",
+      "colSizing" : "auto"
+    }
   },
   "header-force-center#header__logo--mobile" : {
     "title" : "header logo mobile",

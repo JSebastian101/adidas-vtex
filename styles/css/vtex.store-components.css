@@ -54,3 +54,14 @@
     object-position: center;
   }
 } 
+
+
+/* PRECIO */
+
+.price_installment--pdp__price:last-child {
+  font-weight: bold;
+}
+
+.price_installmentContainer--pdp__price {
+  margin-top: 30px;
+}

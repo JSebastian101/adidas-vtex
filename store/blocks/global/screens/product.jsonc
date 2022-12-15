@@ -1,55 +1,47 @@
 {
   "store.product": {
+    "title" : "Product Detail Page",
     "children": [
-      "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__info",
-      "flex-layout.row#product__details"
+      "responsive-layout.desktop#pdp",
+      "responsive-layout.mobile#pdp"
     ]
   },
-  "flex-layout.row#product__breadcrumb" : {
-    "title" : "product breadcrumb",
+  "responsive-layout.desktop#pdp" : {
+    "title" : "Product Detail Page Desktop",
     "children" : [
-      "flex-layout.col#product__breadcrumb"
-
+      "flex-layout.row#pdp__container--desktop"
     ]
   },
-  "flex-layout.col#product__breadcrumb" : {
+  "flex-layout.row#pdp__container--desktop" : {
     "children" : [
-      "breadcrumb"
+      "flex-layout.col#pdp__container--desktop"
     ]
   },
-  "flex-layout.row#product__info" : {
-    "title" : "product details",
+  "flex-layout.col#pdp__container--desktop" : {
+    "title" : "Product Detail Page Desktop Container",
     "children" : [
-      "flex-layout.col#product__info--image",
-      "flex-layout.col#product__info--data"
-    ]
-  },
-  "flex-layout.row#product__details" : {
-    "title" : "product tabs",
-    "children" : [
-
-    ]
-  },
-  "rich-text#product" : {
+      "flex-layout.col#pdp__left-section--container",
+      "flex-layout.col#pdp__right-section--container"
+    ],
     "props" : {
-      "text" : "esto es una página de producto"
+      "blockClass" : "pdp__container--desktop",
+      "colSizing" : "auto"
     }
   },
-  "flex-layout.col#product__info--image" : {
-    "title" : "product info image",
+
+
+
+  "responsive-layout.mobile#pdp" : {
+    "title" : "Product Detail Page Mobile",
     "children" : [
-      "product-images",
-      "product-rating-inline",
-      "product-rating-summary",
-      "product-reviews",
-      "buy-button"
+      "flex-layout.row#pdp__container--mobile"
     ]
   },
-  "flex-layout.col#product__info--data" : {
-    "title" : "product info data",
+  "flex-layout.row#pdp__container--mobile" : {
+    "title" : "",
     "children" : [
-
+      "breadcrumb",
+      "product-images"
     ]
   }
 }

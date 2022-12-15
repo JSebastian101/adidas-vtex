@@ -1,0 +1,111 @@
+{
+  "disclosure-trigger#pdp__disclosure-description--trigger" : {
+    "title" : "pdp disclosure-description trigger",
+    "children" : [
+      "flex-layout.row#pdp__disclosure-description--trigger"
+    ]
+  },
+  "disclosure-trigger#pdp__disclosure-specifications--trigger" : {
+    "title" : "pdp disclosure-specifications trigger",
+    "children" : [
+      "flex-layout.row#pdp__disclosure-specifications--trigger"
+    ]
+  },
+  "disclosure-trigger#pdp__disclosure-rating--trigger" : {
+    "title" : "pdp disclosure-rating trigger",
+    "children" : [
+      "flex-layout.row#pdp__disclosure-rating--trigger"
+    ]
+  },
+  "flex-layout.row#pdp__disclosure-description--trigger" : {
+    "children" : [
+      "rich-text#pdp__disclosure-description--trigger",
+      "disclosure-state-indicator"
+    ],
+    "props" : {
+      "blockClass" : "pdp__disclosure-trigger--container",
+      "colSizing" : "auto"
+    }
+  },
+  "flex-layout.row#pdp__disclosure-specifications--trigger" : {
+    "children" : [
+      "rich-text#pdp__disclosure-specifications--trigger",
+      "disclosure-state-indicator"
+    ],
+    "props" : {
+      "blockClass" : "pdp__disclosure-trigger--container",
+      "colSizing" : "auto"
+    }
+  },
+  "flex-layout.row#pdp__disclosure-rating--trigger" : {
+    "children" : [
+      "rich-text#pdp__disclosure-rating--trigger",
+      "disclosure-state-indicator"
+    ],
+    "props" : {
+      "blockClass" : "pdp__disclosure-trigger--container",
+      "colSizing" : "auto"
+    }
+  },
+  "disclosure-content#pdp__disclosure-description--content" : {
+    "title" : "pdp disclosure-description content",
+    "children" : [
+      "product-description"
+    ],
+    "props" : {
+      "blockClass" : "pdp__disclosure--content"
+    }
+  },
+  "disclosure-content#pdp__disclosure-specifications--content" : {
+    "title" : "pdp disclosure-specification content",
+    "children" : [
+      "product-specifications"
+    ]
+  },
+  "disclosure-content#pdp__disclosure-rating--content" : {
+    "title" : "pdp disclosure-ratingcontent",
+    "children" : [
+      "product-reviews"
+    ],
+    "props" : {
+      "blockClass" : "pdp__disclosure--content"
+    }
+  },
+  "rich-text#pdp__disclosure-description--trigger" : {
+    "title" : "pdp disclosure-description trigger",
+    "props" : {
+      "text" : "Descripción",
+      "blockClass" : "pdp__disclosure--trigger"
+    }
+  },
+  "rich-text#pdp__disclosure-specifications--trigger" : {
+    "title" : "pdp disclosure-description trigger",
+    "props" : {
+      "text" : "Especificaciones",
+      "blockClass" : "pdp__disclosure--trigger"
+    }
+  },
+  "rich-text#pdp__disclosure-rating--trigger" : {
+    "title" : "pdp disclosure-description rating",
+    "props" : {
+      "text" : "Rating",
+      "blockClass" : "pdp__disclosure--trigger"
+    }
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon#disclosure__icon--show",
+      "Hide": "icon#disclosure__icon--hide"
+    }
+  },
+  "icon#disclosure__icon--show" : {
+    "props" : {
+      "id" : "nav-caret--down"
+    }
+  },
+  "icon#disclosure__icon--hide" : {
+    "props" : {
+      "id" : "nav-caret--up"
+    }
+  }
+}

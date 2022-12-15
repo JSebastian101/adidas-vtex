@@ -69,3 +69,27 @@
 }
 
 
+/* Mobile menu */
+
+.flexRow--header__drawer--header {
+  width: 60%;
+  margin-left: auto;
+}
+.flexRowContent--header__drawer--header {
+  display: flex;
+}
+
+.flexRow--drawer__header--department {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexRowContent--drawer__header--department {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexRowContent--department__trigger--container {
+  display: flex;
+  align-items: center;
+}
