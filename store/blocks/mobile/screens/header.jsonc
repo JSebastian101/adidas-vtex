@@ -20,7 +20,8 @@
   "drawer#header__drawer--menu" : {
     "title" : "header drawer menu",
     "children" : [
-      "vtex.menu@2.x:menu#header__menu--mobile"
+      "vtex.menu@2.x:menu#header__menu--mobile",
+      "vtex.menu@2.x:menu#header__menu-user--mobile"
     ],
     "blocks" : [
       "drawer-header#header--menu"
@@ -59,7 +60,9 @@
     "children" : [
       "modal-trigger#header__user-section--login",
       "modal-trigger#header__user-section--search",
-      "minicart.v2"
+      "image#home__user--cartshop"
+      /* ,
+      "minicart.v2" */
     ],
     "props" : {
       "blockClass" : "header__user-section--mobile",
@@ -69,7 +72,8 @@
   "modal-trigger#header__user-section--login" : {
     "title" : "modal-trigger login",
     "children" : [
-      "icon#user-section__login--icon",
+      "image#home__user--login",/* 
+      "icon#user-section__login--icon", */
       "modal-layout#header__modal--login"
     ]
   },

@@ -35,7 +35,7 @@
   "drawer#category__best-products" : {
     "title" : "menu drawer categoty gender",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__best-products"
     ],
     "blocks" : [
       "drawer-trigger#category__best-products",
@@ -50,7 +50,7 @@
   "drawer#category__shoes" : {
     "title" : "menu drawer categoty gender",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__shoes"
     ],
     "blocks" : [
       "drawer-trigger#category__shoes",
@@ -65,7 +65,7 @@
   "drawer#category__clothes" : {
     "title" : "menu drawer categoty gender",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__shoes"
     ],
     "blocks" : [
       "drawer-trigger#category__clothes",
@@ -80,7 +80,7 @@
   "drawer#category__accesories" : {
     "title" : "menu drawer categoty gender",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__accesories"
     ],
     "blocks" : [
       "drawer-trigger#category__accesories",
@@ -95,7 +95,7 @@
   "drawer#category__sports" : {
     "title" : "menu drawer categoty gender",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__sports"
     ],
     "blocks" : [
       "drawer-trigger#category__sports",
@@ -110,7 +110,7 @@
   "drawer#category__world-cup" : {
     "title" : "menu drawer categoty gender",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__sports"
     ],
     "blocks" : [
       "drawer-trigger#category__world-cup",
@@ -128,7 +128,7 @@
   "drawer#category__futbol" : {
     "title" : "menu drawer categoty sports",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__futbol"
     ],
     "blocks" : [
       "drawer-trigger#category__sports-two",
@@ -143,7 +143,7 @@
   "drawer#category__running" : {
     "title" : "menu drawer categoty sports",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__running"
     ],
     "blocks" : [
       "drawer-trigger#category__running",
@@ -158,7 +158,7 @@
   "drawer#category__training" : {
     "title" : "menu drawer categoty sports",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__training"
     ],
     "blocks" : [
       "drawer-trigger#category__training",
@@ -173,7 +173,7 @@
   "drawer#category__tennis" : {
     "title" : "menu drawer categoty sports",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__futbol"
     ],
     "blocks" : [
       "drawer-trigger#category__tennis",
@@ -188,7 +188,7 @@
   "drawer#category__cycling" : {
     "title" : "menu drawer categoty sports",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__running"
     ],
     "blocks" : [
       "drawer-trigger#category__cycling",
@@ -203,7 +203,7 @@
   "drawer#category__others" : {
     "title" : "menu drawer categoty sports",
     "children" : [
-
+      "vtex.menu@2.x:menu#subcategory__training"
     ],
     "blocks" : [
       "drawer-trigger#category__others",

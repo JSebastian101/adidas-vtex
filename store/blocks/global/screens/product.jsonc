@@ -28,20 +28,10 @@
       "colSizing" : "auto"
     }
   },
-
-
-
   "responsive-layout.mobile#pdp" : {
     "title" : "Product Detail Page Mobile",
     "children" : [
       "flex-layout.row#pdp__container--mobile"
-    ]
-  },
-  "flex-layout.row#pdp__container--mobile" : {
-    "title" : "",
-    "children" : [
-      "breadcrumb",
-      "product-images"
     ]
   }
 }

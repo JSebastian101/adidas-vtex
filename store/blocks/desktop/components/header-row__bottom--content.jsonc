@@ -1,0 +1,15 @@
+{
+  "minicart.v2#header__bottom--cart" : {
+    "props" : {
+      "variation" : "drawer"
+    }
+  },
+  "login-content#modal__login" : {
+    "title" : "header modal login-content",
+    "props" : {
+      "defaultOption" : 0,
+      "emailAndPasswordTitle" : "test",
+      "optionsTitle" : "test 2"
+    }
+  }
+}

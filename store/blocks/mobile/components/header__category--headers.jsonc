@@ -3,17 +3,11 @@
     "title" : "drawer category header",
     "children" : [
       "menu-item#category__best-products-mobile-bold",
-      "drawer-close-button#test"
+      "drawer-close-button"
     ],
     "props" : {
       "colSizing" : "auto",
       "blockClass" : "drawer__header--department"
-    }
-  },
-  "drawer-close-button#test" : {
-    "title" : "drawer close button filled",
-    "props" : {
-      "type" : "filled"
     }
   },
   "flex-layout.row#category__shoes-header" : {

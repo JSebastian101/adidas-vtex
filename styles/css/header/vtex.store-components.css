@@ -1,0 +1,11 @@
+.imageElement--home__user--login {
+  margin: 0;
+  height: max-content;
+  width: max-content;
+}
+@media(max-width:1024px) {
+  .imageElementLink--home__user--logo {
+    display: flex;
+    justify-content: center;
+  }
+}

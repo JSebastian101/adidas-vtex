@@ -214,6 +214,7 @@
     "props" : {
       "href" : "/",
       "label" : "INICIAR SESIÓN",
+      "displayMode" : "button",
       "blockClass" : "store-details__button"
     }
   },
@@ -222,6 +223,7 @@
     "props" : {
       "href" : "/",
       "label" : "SEGUIMIENTO DE PEDIDOS",
+      "displayMode" : "button",
       "blockClass" : "store-details__button"
     }
   },
@@ -245,7 +247,7 @@
     "title" : "store-details cliente-service status",
     "props" : {
       "text" : "",
-      "blockClass" : ""
+      "blockClass" : "store-details__client-service--status"
     }
   },
   "rich-text#store-details__client-service--schedule-one" : {
@@ -267,7 +269,8 @@
     "props" : {
       "href" : "/",
       "label" : "SERVICIO AL CLIENTE",
-      "blockClass" : ""
+      "displayMode" : "button",
+      "blockClass" : "store-details__cliente-service--cta"
     }
   }
 }

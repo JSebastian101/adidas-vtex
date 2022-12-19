@@ -63,3 +63,9 @@
 .paragraph--pdp__disclosure--trigger {
   font-weight: bolder;
 } 
+
+/*  */
+
+.paragraph--pdp__price-details--title {
+  margin: 0;
+}

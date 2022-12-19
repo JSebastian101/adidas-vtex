@@ -1,5 +1,8 @@
 {
   "store.custom#sizes-guide" : {
     "path" : "/sizes-guide"
+  },
+  "store.custom#cart" : {
+    "path" : "/cart"
   }
 }

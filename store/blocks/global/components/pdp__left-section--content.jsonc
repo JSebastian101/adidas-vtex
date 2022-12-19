@@ -12,11 +12,18 @@
   "flex-layout.col#pdp__image--container" : {
     "title" : "Product Detail Page image container",
     "children" : [
-      "breadcrumb",
+      "breadcrumb#pdp__image--breadcrumb",
       "product-images#pdp"
     ],
     "props" : {
       "blockClass" : "pdp__image--container"
+    }
+  },
+  "breadcrumb#pdp__image--breadcrumb" : {
+    "title" : "pdp breadcrumb",
+    "props" : {
+      "showOnMobile" : false,
+      "blockClass" : "pdp__image--breadcrumb"
     }
   },
   "product-images#pdp" : {

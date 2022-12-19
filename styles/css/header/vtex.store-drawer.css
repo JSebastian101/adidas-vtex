@@ -1,0 +1,4 @@
+.childrenContainer--header__drawer-department--menu {
+  display: flex;
+  flex-direction: column;
+}

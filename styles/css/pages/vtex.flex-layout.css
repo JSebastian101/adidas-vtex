@@ -34,3 +34,38 @@
   padding-bottom: 15px;
   border-bottom: 1px solid gainsboro;
 }
+
+.flexColChild--sg__store-details--delivery {
+  height: max-content !important;
+}
+.flexRowContent--sg__store-details :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  background-color: #EBEBEB;
+}
+.flexCol--sg__store-details--client-service,
+.flexCol--sg__store-details--delivery {
+ width: 90%;
+ margin: 0 auto;
+}
+.flexRow--sg__store-details {
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 40px;
+}
+/* cart */
+.flexRow--minicart-empty__row--container {
+  width: 70%;
+  margin: 0 auto;
+}
+.flexColChild--minicart-empty__section--payment {
+  height: max-content
+}
+.flexRow--minicart__row--desktop {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexCol--product-list__product-row {
+  display: flex;
+  flex-direction: row;
+}
+.flexCol--product-list__product-row {
+  border: 1px solid black;
+}

@@ -64,25 +64,34 @@
     "title" : "Product Detail Page right modal price details",
     "children" : [
       "flex-layout.col#pdp__price--details"
-    ] 
+    ],
+    "props" : {
+      "blockClass" : "pdp__price--details"
+    }
   },
   "flex-layout.col#pdp__price--details" : {
     "title" : "Product Detail Page right modal-content price details",
     "children" : [
       "rich-text#pdp__price-details--title",
       "rich-text#pdp__price-details--payment"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "pdp__price--details"
+    }
   },
   "rich-text#pdp__price-details--title" : {
     "title" : "pdp price-details modal title",
     "props" : {
-      "text" : "OPCIONES DE FINANCIACIÓN"
+      "text" : "OPCIONES DE FINANCIACIÓN",
+      "font" : "t-heading-2",
+      "blockClass" : "pdp__price-details--title"
     }
   },
   "rich-text#pdp__price-details--payment" : {
     "title" : "pdp price-details modal payment",
     "props" : {
-      "text" : "Hasta 12 x $14.999,17 más interés bancario.<br>Pagá en hasta 12 cuotas sin interés con tu tarjeta de crédito Visa, Mastercard, American Express y otras más.* Toda Compra con Tarjeta de Credito financiada a cuotas, estan sujeta a tasa de Interés según banco emisor."
+      "text" : "Hasta 12 x $14.999,17 más interés bancario.<br>Pagá en hasta 12 cuotas sin interés con tu tarjeta de crédito Visa, Mastercard, American Express y<br> otras más.* Toda Compra con Tarjeta de Credito financiada a cuotas, estan sujeta a tasa de Interés<br> según banco emisor.",
+      "blockClass" : "pdp__price-details--payment"
     }
   },
   "flex-layout.col#pdp__right-section--sku-selector" : {
@@ -107,7 +116,7 @@
     "title" : "Product Detail Page right section size guide",
     "children" : [
       "image#pdp__right-section--size-guide",
-      "rich-text#pdp__right-section--size-guide"
+      "link#pdp__right-section--size-guide"
     ],
     "props" : {
       "colSizing" : "auto",
@@ -124,10 +133,11 @@
       "maxHeight" : 16
     }
   },
-  "rich-text#pdp__right-section--size-guide" : {
+  "link#pdp__right-section--size-guide" : {
     "title" : "pdp right section size guide link",
     "props" : {
-      "text" : "Guía de tallas",
+      "href" : "/sizes-guide",
+      "label" : "Guía de tallas",
       "blockClass" : "pdp__right-section--size-guide"
     }
   },
@@ -146,7 +156,8 @@
     ],
     "props" : {
       "colSizing" : "auto",
-      "blockClass" : "pdp__right-section--actions"
+      "blockClass" : "pdp__right-section--actions",
+      "preserveLayoutOnMobile" : true
     }
   },
   "add-to-list-btn#pdp" : {

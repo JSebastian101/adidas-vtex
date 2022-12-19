@@ -1,9 +1,11 @@
 {
   "flex-layout.row#header__middle--support" : {
-    "children" : ["rich-text#header__support--help", 
-                  "rich-text#header__support--refunds", 
-                  "rich-text#header__support--shipping", 
-                  "rich-text#header__support--club"],
+    "children" : [
+      "rich-text#header__support--help", 
+      "rich-text#header__support--refunds", 
+      "rich-text#header__support--shipping", 
+      "rich-text#header__support--club"
+      ],
     "props" : {
       "colSizing" : "auto"
     }

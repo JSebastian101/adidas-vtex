@@ -1,0 +1,104 @@
+{
+  "menu-item#header__menu-user--account" : {
+    "title" : "menu-item user-section",
+    "props": {
+      "id": "best-products__subcategory--item-one",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__user--section",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Mi Cuenta",
+        "text": "Mi Cuenta"
+      }
+    }
+  },
+  "menu-item#header__menu-user--stores" : {
+    "title" : "menu-item user-section",
+    "props": {
+      "id": "best-products__subcategory--item-one",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__user--section",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Buscador de Tiendas",
+        "text": "Buscador de Tiendas"
+      }
+    }
+  },
+  "menu-item#header__menu-user--help" : {
+    "title" : "menu-item user-section",
+    "props": {
+      "id": "best-products__subcategory--item-one",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__user--section",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Ayuda",
+        "text": "Ayuda"
+      }
+    }
+  },
+  "menu-item#header__menu-user--returns" : {
+    "title" : "menu-item user-section",
+    "props": {
+      "id": "best-products__subcategory--item-one",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__user--section",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Solicitar mi Devolución",
+        "text": "Solicitar mi Devolución"
+      }
+    }
+  },
+  "menu-item#header__menu-user--delivery" : {
+    "title" : "menu-item user-section",
+    "props": {
+      "id": "best-products__subcategory--item-one",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__user--section",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Seguimiento de Pedidos",
+        "text": "Seguimiento de Pedidos"
+      }
+    }
+  },
+  "menu-item#header__menu-user--adidas" : {
+    "title" : "menu-item user-section",
+    "props": {
+      "id": "best-products__subcategory--item-one",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu__user--section",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "adidas APP",
+        "text": "adidas APP"
+      }
+    }
+  }
+}

@@ -103,5 +103,20 @@
       "isFullWidth" : true,
       "maxWidth" : "100%"
     }
+  },
+  "vtex.menu@2.x:menu#header__menu-user--mobile" : {
+    "title" : "header menu-user mobile",
+    "children" : [
+      "menu-item#header__menu-user--account",
+      "menu-item#header__menu-user--stores",
+      "menu-item#header__menu-user--help",
+      "menu-item#header__menu-user--returns",
+      "menu-item#header__menu-user--delivery",
+      "menu-item#header__menu-user--adidas"
+    ],
+    "props" : {
+      "orientation" : "vertical",
+      "blockClass" : "header__menu-user--mobile"
+    }
   }
 }
