@@ -15,49 +15,5 @@
     "props" : {
       "blockClass" : "product-list__container"
     }
-  },
-
-  "product-list-content-mobile" : {
-    "children" : [
-      "flex-layout.row#minicart__row--mobile"
-    ]
-  },
-
-
-  "flex-layout.row#minicart__row--mobile" : {
-    "children" : [
-      "flex-layout.col#minicart__col--image",
-      "flex-layout.col#minicart__col--info",
-      "flex-layout.col#minicart__col--remove"
-    ]
-  },
-  "flex-layout.col#minicart__col--image" : {
-    "children" : [
-      "product-list-image"
-    ]
-  },
-  "flex-layout.col#minicart__col--info" : {
-    "children" : [
-      //"product-name" ↓ ↓
-      //esto nos dará un error
-      //esto  pasa porque tanto vtex.product-list y vtex.store-componentes:product-name
-      // product-name es un bloque que puede ser referenciado por dos o más dependencias
-      // por eso este bloque deberá ser llamado como
-      "vtex.product-list:product-name",
-      "quantity-selector#minicart",
-      "price"
-    ]
-  },
-  "flex-layout.col#minicart__col--remove" : {
-    "children" : [
-      "remove-button" //elimina producto del carrito
-    ]
-  },
-  "quantity-selector#minicart" : {
-    //nos indica la cantidad de cada producto del carrito
-    //stepper tiene un más y un menos para subir
-    "props" : {
-      "mode" : "stepper"
-    }
   }
 }

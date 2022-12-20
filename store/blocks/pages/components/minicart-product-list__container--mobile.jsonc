@@ -1,0 +1,11 @@
+{
+  "product-list-content-mobile" : {
+    "title" : "product-list-content desktop",
+    "children" : [
+      "flex-layout.col#product-list__product-row"
+    ],
+    "props" : {
+      "blockClass" : "product-list-content__container--desktop"
+    }
+  }
+}

@@ -40,7 +40,8 @@
     ],
     "props" : {
       "blockClass" : "minicart__row--desktop",
-      "colSizing" : "auto"
+      "colSizing" : "auto",
+      "preserveLayoutOnMobile" : false
     }
   },
   "flex-layout.col#product-list__container" : {
@@ -59,7 +60,8 @@
     "title" : "minicart-summary container",
     "children" : [
       "minicart-checkout-button",
-      "minicart-summary"
+      "minicart-summary",
+      "flex-layout.col#minicart-empty__payment--section"
     ],
     "props" : {
       "blockClass" : "minicart-summary__container"

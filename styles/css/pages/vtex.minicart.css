@@ -1,6 +1,9 @@
 .minicartContainer--minicart__page {
   width: 100%
 }
+.minicartContainer--minicart__page :global(.vtex-minicart-2-x-popupStyles) {
+  max-height: max-content !important;
+}
 .minicartContainer--minicart__page :global(.vtex-minicart-2-x-minicartTitle) {
   display: none
 }
@@ -34,4 +37,5 @@
 .minicartProductListContainer--minicart-product-list__container {
   padding: 0;
 }
+
 /* //word-wrap: break-word;  */

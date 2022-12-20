@@ -37,7 +37,8 @@
       "quantity-selector"
     ],
     "props" : {
-      "blockClass" : "product-list__product--details"
+      "blockClass" : "product-list__product--details",
+      "colGap" : 5
     }
   },
   "flex-layout.col#product-list__product--actions" : {
@@ -79,10 +80,4 @@
       "showDeliveryTotal": false
     }
   }
-
-
-
-
-
-
 }

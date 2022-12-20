@@ -1,0 +1,16 @@
+.productImage--product-list__product--image {
+  height: 240px;
+  max-height: 240px;
+  width: 240px;
+}
+
+@media (max-width: 640px) {
+  .productImage--product-list__product--image {
+    height: 180px;
+    width: 180px;
+  }
+  .productImageContainer--product-list__product--image {
+    height: 180px;
+    width: 180px !important;
+  }
+}
