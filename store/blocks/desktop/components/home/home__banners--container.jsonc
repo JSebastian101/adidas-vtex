@@ -1,0 +1,54 @@
+{
+  "flex-layout.col#home__banner--container" : {
+    "title" : "home banners container",
+    "children" : [
+      "flex-layout.col#home__banner--zero",
+      "flex-layout.col#home__banner--one",
+      "flex-layout.col#home__banner--two",
+      "flex-layout.col#home__banner--three"
+    ],
+    "props" : {
+      "blockClass" : "home__banner--container"
+    }
+  },
+  "flex-layout.col#home__banner--zero" : {
+    "title" : "home banner-zero container",
+    "children" : [
+      "flex-layout.col#banner__cta--zero",
+      "image#banner__image--zero"
+    ],
+    "props" : {
+      "blockClass": "banner__content--zero"
+    }
+  },
+  "flex-layout.col#home__banner--one" : {
+    "title" : "home banner-one container",
+    "children" : [
+      "flex-layout.col#banner__cta--one",
+      "image#banner__image--one"
+    ],
+    "props" : {
+      "blockClass": "banner__content--one"
+    }
+  },
+  "flex-layout.col#home__banner--two" : {
+    "title" : "home banner-two container",
+    "children" : [
+      "flex-layout.col#banner__cta--two",
+      "image#banner__image--two"
+    ],
+    "props" : {
+      "blockClass": "banner__content--two"
+    }
+  },
+  "flex-layout.col#home__banner--three" : {
+    "title" : "home banner-three container",
+    "children" : [
+      "flex-layout.col#banner__cta--three",
+      "image#banner__image--three"
+    ],
+    "props" : {
+      "blockClass": "banner__content--three"
+    }
+  }
+}

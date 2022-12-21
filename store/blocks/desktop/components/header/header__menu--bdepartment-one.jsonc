@@ -1,0 +1,36 @@
+{
+  "vtex.menu@2.x:submenu#department__gender": {
+    "title" : "submenu department gender",
+    "props": {
+      "blockClass": "submenu--department__gender",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.col#header__menu--container"
+    ]
+  },
+  "flex-layout.col#header__menu--container" : {
+    "title" : "submenu department container",
+    "children" : [
+      "flex-layout.row#menu__department--gender",
+      "flex-layout.row#menu__all-products--global"
+    ],
+    "props" : {
+      "blockClass" : "header__menu--container"
+    }
+  },
+  "flex-layout.row#menu__department--gender" : {
+    "title" : "menu department gender",
+    "children" : [
+      "flex-layout.col#gender__category--best-products",
+      "flex-layout.col#gender__category--shoes",
+      "flex-layout.col#gender__category--clothes",
+      "flex-layout.col#gender__category--accessories",
+      "flex-layout.col#gender__category--sports",
+      "flex-layout.col#gender__category--world-cup"
+    ],
+    "props" : {
+      "blockClass" : "submenu--department__gender"
+    }
+  }
+}

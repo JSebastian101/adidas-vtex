@@ -1,0 +1,202 @@
+{
+  "image#banner__image--zero" : {
+    "title" : "banner-zero image",
+    "props" : {
+      "src" : "assets/img/bannerDiscount.jpg",
+      "title" : "discountBanner",
+      "blockClass" : "banner__image--zero"
+    }
+  },
+  "flex-layout.col#banner__cta--zero":{
+    "title" : "banner zero details container",
+    "children": [
+      "rich-text#banner__title--zero",
+      "rich-text#banner__info--zero"
+    ],
+    "props" : {
+      "blockClass": "banner__cta--zero"
+    }
+  },
+  "rich-text#banner__title--zero" : {
+    "title" : "banner-zero title",
+    "props" : {
+      "text" : "HASTA 40% OFF",
+      "textColor": "c-on-emphasis",
+      "font" : "t-heading-2",
+      "blockClass": "banner__title--zero",
+      "textAlignment" : "CENTER",
+      "textPosition" : "CENTER"
+    }
+  },
+  "rich-text#banner__info--zero" : {
+    "title" : "banner-zero paragraph",
+    "props" : {
+      "text" : "Además recibe 20% adicional al comprar más de $249.900 en el catálogo seleccionado. ¡No dejes pasar las ofertas! *El descuento se verá reflejado en el carrito.",
+      "textColor": "c-on-emphasis",
+      "font" : "t-heading-5",
+      "blockClass": "banner__info--zero",
+      "textAlignment" : "CENTER",
+      "textPosition" : "CENTER"
+    }
+  },
+  "image#banner__image--one" : {
+    "title" : "banner-one image",
+    "props" : {
+      "src" : "assets/img/banner.jpg",
+      "title": "banner",
+      "blockClass" : "banner__image--one"
+    }
+  },
+  "flex-layout.col#banner__cta--one" : {
+    "title" : "banner one details container",
+    "children": [
+      "rich-text#banner__title--one",
+      "rich-text#banner__info--one",
+      "link#cta__bannerOne--one",
+      "link#cta__bannerOne--two"
+    ],
+    "props" : {
+      "blockClass": "banner__cta--one",
+      "rowGap" :  5
+    }
+  },
+  "rich-text#banner__title--one" : {
+    "title" : "banner-one title",
+    "props": {
+      "text": "DESBLOQUEA EL PODER DE TUS PUNTOS",
+      "font": "t-heading-2",
+      "blockClass": "banner__title--one"
+    }
+  },
+  "rich-text#banner__info--one" : {
+    "title" : "banner-one paragraph",
+    "props" : {
+      "text" : "Comienza a canjear tus puntos de adiClub para obtener más de lo que te gusta.",
+      "font" : "t-heading-5",
+      "blockClass": "banner__info--one"
+    }
+  },
+  "link#cta__bannerOne--one" : {
+    "title" : "banner-one cta-link one",
+    "props" : {
+      "label" : "Ver mis puntos →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
+  },
+  "link#cta__bannerOne--two" : {
+    "title" : "banner-one cta-link two",
+    "props" : {
+      "label" : "Descubre más →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
+  },
+  "image#banner__image--two" : {
+    "title" : "banner-two image",
+    "props" : {
+      "src" : "assets/img/bannerTwo.jpg",
+      "title": "banner",
+      "blockClass" : "banner__image--two"
+    }
+  },
+  "flex-layout.col#banner__cta--two" : {
+    "title" : "banner two details container",
+    "children": [
+      "rich-text#banner__title--two",
+      "rich-text#banner__info--two",
+      "link#cta__bannerTwo--one",
+      "link#cta__bannerTwo--two"
+    ],
+    "props" : {
+      "blockClass": "banner__cta--two",
+      "rowGap" :  5
+    }
+  },
+  "rich-text#banner__title--two" : {
+    "title" : "banner-two title",
+    "props": {
+      "text": "INSPIRADA EN LA COPA MUNDIAL DE LA FIFA™",
+      "font": "t-heading-2",
+      "blockClass": "banner__title--two"
+    }
+  },  
+  "rich-text#banner__info--two" : {
+    "title" : "banner-two paragraph",
+    "props" : {
+      "text" : "Brilla con una colección inspirada en los llamativos colores del balón del Mundial.",
+      "font" : "t-heading-5",
+      "blockClass": "banner__info--two"
+    }
+  },  
+  "link#cta__bannerTwo--one" : {
+    "title" : "banner-two cta-link one",
+    "props" : {
+      "label" : "Comprar ahora →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
+  },
+  "link#cta__bannerTwo--two" : {
+    "title" : "banner-two cta-link two",
+    "props" : {
+      "label" : "Comprar al rihla pack →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
+  },
+  "image#banner__image--three" : {
+    "title" : "banner-three imag",
+    "props" : {
+      "src" : "assets/img/bannerThree.jpg",
+      "title": "banner",
+      "blockClass" : "banner__image--three"
+    }
+  },
+  "flex-layout.col#banner__cta--three" : {
+    "title" : "banner three details container",
+    "children": [
+      "rich-text#banner__title--three",
+      "rich-text#banner__info--three",
+      "link#cta__bannerOne--two"
+    ],
+    "props" : {
+      "blockClass": "banner__cta--three",
+      "rowGap" :  5
+    }
+  },
+  "rich-text#banner__title--three" : {
+    "title" : "banner-three title",
+    "props": {
+      "text": "INICIA TU VIAJE A QATAR",
+      "font": "t-heading-2",
+      "blockClass": "banner__title--three",
+      "textAlignment" : "CENTER",
+      "textPosition" : "CENTER"
+    }
+  },  
+  "rich-text#banner__info--three" : {
+    "title" : "banner-three paragraph",
+    "props" : {
+      "text" : "Entra para disfrutar como nunca la Copa Mundial y compartamos el sueño de nuestros hermanos latinos.",
+      "font" : "t-heading-5",
+      "blockClass": "banner__info--three",
+      "textAlignment" : "CENTER",
+      "textPosition" : "CENTER"
+    }
+  },
+  "link#cta__bannerOne--three" : {
+    "title" : "banner-three cta-link",
+    "props" : {
+      "label" : "Descubre más →",
+      "href" : "#",
+      "displayMode" : "button",
+      "blockClass" : "cta__bannerThree--one"
+    }
+  }
+  
+}

@@ -1,0 +1,86 @@
+{
+  "flex-layout.col#cards__tendenciesTwo--one" : {
+    "title" : "tendencies card container",
+    "children" : [
+      "image#tendenciesTwo__image--one",
+      "flex-layout.col#card__tendenciesTwo--details"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "colGap": 5
+    }
+  }, 
+  "image#tendenciesTwo__image--one" : {
+    "title" : "tendencies card-one image",
+    "props" : {
+      "src" : "assets/img/tendencies__twoOne.jpg"
+    }
+  },
+  "flex-layout.col#cards__tendenciesTwo--two" : {
+    "title" : "tendencies card container",
+    "children" : [
+      "image#tendenciesTwo__image--two",
+      "flex-layout.col#card__tendenciesTwo--details"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "colGap": 5
+    }
+  },
+  "image#tendenciesTwo__image--two" : {
+    "title" : "tendencies card-two image",
+    "props" : {
+      "src" : "assets/img/tendencies__twoTwo.jpg"
+    }
+  },
+  "flex-layout.col#cards__tendenciesTwo--three" : {
+    "title" : "tendencies card container",
+    "children" : [
+      "image#tendenciesTwo__image--three",
+      "flex-layout.col#card__tendenciesTwo--details"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "colGap": 5
+    }
+  },
+  "image#tendenciesTwo__image--three" : {
+    "title" : "tendencies card-three image",
+    "props" : {
+      "src" : "assets/img/tendencies__twoThree.jpg"
+    }
+  },
+  "flex-layout.col#card__tendenciesTwo--details" : {
+    "title" : "tendencies card details container",
+    "children" : [
+      "rich-text#card__tendenciesTwo--title",
+      "rich-text#card__tendenciesTwo--paragraph",
+      "link#card__tendenciesTwo--url"
+    ],
+    "props" : {
+      "blockClass" : "tendencies__details"
+    }
+  },
+  "rich-text#card__tendenciesTwo--title" : {
+    "title" : "tendencies card details title",
+    "props" : {
+      "text" : "COMODIDAD",
+      "blockClass" : "tendencies__title"
+    }
+  },
+  "rich-text#card__tendenciesTwo--paragraph" : {
+    "title" : "tendencies card details paragraph",
+    "props" : {
+      "text" : "Tennis de running para principiantes",
+      "blockClass" : "tendencies__paragraph"
+    }
+  },
+  "link#card__tendenciesTwo--url" : {
+    "title" : "tendencies card details link",
+    "props" : {
+      "href" : "#",
+      "label" : "COMPRAR AHORA",
+      "blockClass" : "tendencies__url"
+    }
+  }
+}

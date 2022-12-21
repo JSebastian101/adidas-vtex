@@ -1,0 +1,62 @@
+{
+  "flex-layout.col#gender__category--best-products" : {
+    "title" : "gender menu category best products",
+    "children" : [
+      "rich-text#category__best-products--title",
+      "vtex.menu@2.x:menu#best-products__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#gender__category--shoes" : {
+    "title" : "gender menu category shoes",
+    "children" : [
+      "rich-text#category__shoes--title",
+      "vtex.menu@2.x:menu#shoes__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column-one"
+    }
+  },
+  "flex-layout.col#gender__category--clothes" : {
+    "title" : "gender menu category clothes",
+    "children" : [
+      "rich-text#category__clothes--title",
+      "vtex.menu@2.x:menu#clothes__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#gender__category--accessories" : {
+    "title" : "gender menu category accesories",
+    "children" : [
+      "rich-text#category__accessories--title",
+      "vtex.menu@2.x:menu#accessories__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#gender__category--sports" : {
+    "title" : "gender menu category sports",
+    "children" : [
+      "rich-text#category__sports--title",
+      "vtex.menu@2.x:menu#sports__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#gender__category--world-cup" : {
+    "title" : "gender menu category world-cup",
+    "children" : [
+      "rich-text#category__world-cup--title",
+      "vtex.menu@2.x:menu#world-cup__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  }
+}

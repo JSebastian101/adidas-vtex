@@ -1,0 +1,17 @@
+{
+  "footer": {
+    "title" : "footer",
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+
+  
+  "footer-layout.mobile": { 
+    "title" : "footer-mobile",
+    "children": [
+      "flex-layout.row#home__section--adiClub",
+      "flex-layout.row#footer__section--oneMobile",
+      "flex-layout.row#footer__section--twoMobile",
+      "rich-text#footer__copyright"
+    ]
+  }
+}

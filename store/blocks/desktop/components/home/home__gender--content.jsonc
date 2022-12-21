@@ -1,0 +1,77 @@
+{
+  "flex-layout.col#card__gender--one" : {
+    "title" : "gender card container",
+    "children" : [
+      "image#cards__image--one",
+      "rich-text#cards__text--one"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "colGap": 5
+    }
+  },
+  "image#cards__image--one" : {
+    "title" : "gender card-one image",
+    "props" : {
+      "src" : "assets/img/cardWomen.jpg",
+      "link" : "#"
+    }
+  },
+  "rich-text#cards__text--one" : {
+    "title" : "gender card-one text",
+    "props" : {
+      "text" : "Mujer",
+      "blockClass" : "card__gender--text"
+    }
+  },
+  "flex-layout.col#card__gender--two" : {
+    "title" : "gender card container",
+    "children" : [
+      "image#cards__image--two",
+      "rich-text#cards__text--two"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "rowGap": 5
+    }
+  },
+  "image#cards__image--two" : {
+    "title" : "gender card-two image",
+    "props" : {
+      "src" : "assets/img/cardMen.jpg",
+      "link" : "#"
+    }
+  },
+  "rich-text#cards__text--two" : {
+    "title" : "gender card-two text",
+    "props" : {
+      "text" : "Hombre",
+      "blockClass" : "card__gender--text"
+    }
+  }, 
+  "flex-layout.col#card__gender--three" : {
+    "title" : "gender card container",
+    "children" : [
+      "image#cards__image--three",
+      "rich-text#cards__text--three"
+    ],
+    "props" : {
+      "blockClass" : "container__card",
+      "rowGap": 5
+    }
+  },
+  "image#cards__image--three" : {
+    "title" : "gender card-three image",
+    "props" : {
+      "src" : "assets/img/cardKid.jpg",
+      "link" : "#"
+    }
+  },
+  "rich-text#cards__text--three" : {
+    "title" : "gender card-three text",
+    "props" : {
+      "text" : "Niños",
+      "blockClass" : "card__gender--text"
+    }
+  }
+}

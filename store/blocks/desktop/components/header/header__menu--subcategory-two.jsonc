@@ -1,0 +1,139 @@
+{
+  "rich-text#category__futbol--title" : {
+    "title" : "category futbol title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "FUTBOL"
+    }
+  },
+  "vtex.menu@2.x:menu#futbol__subcategory" : {
+    "title" : "futbol subcategory-menu",
+    "props" : {
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__futbol--image",
+      "menu-item#shoes__subcategory--item-one",
+      "menu-item#shoes__subcategory--item-two",
+      "menu-item#shoes__subcategory--item-three",
+      "menu-item#shoes__subcategory--item-four",
+      "menu-item#shoes__subcategory--item-five",
+      "menu-item#shoes__subcategory--item-six",
+      "menu-item#shoes__subcategory--item-seven",
+      "menu-item#shoes__subcategory--item-eight",
+      "menu-item#shoes__subcategory--item-nine",
+      "menu-item#shoes__subcategory--item-ten"
+    ]
+  },
+  "rich-text#category__running--title" : {
+    "title" : "category running title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "RUNNING"
+    }
+  },
+  "vtex.menu@2.x:menu#running__subcategory" : {
+    "title" : "running subcategory-menu",
+    "props" : {
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__running--image",
+      "menu-item#sports__subcategory--item-one",
+      "menu-item#sports__subcategory--item-two",
+      "menu-item#sports__subcategory--item-three",
+      "menu-item#sports__subcategory--item-four",
+      "menu-item#sports__subcategory--item-five",
+      "menu-item#sports__subcategory--item-six",
+      "menu-item#sports__subcategory--item-seven",
+      "menu-item#sports__subcategory--item-eight",
+      "menu-item#sports__subcategory--item-nine",
+      "menu-item#sports__subcategory--item-ten",
+      "menu-item#sports__subcategory--item-eleven"
+    ]
+  },
+  "rich-text#category__training--title" : {
+    "title" : "category training title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "TRAINING"
+    }
+  },
+  "vtex.menu@2.x:menu#training__subcategory" : {
+    "title" : "training subcategory-menu",
+    "props" : {
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__training--image",
+      "menu-item#accessories__subcategory--item-one",
+      "menu-item#accessories__subcategory--item-two",
+      "menu-item#accessories__subcategory--item-three",
+      "menu-item#accessories__subcategory--item-four",
+      "menu-item#accessories__subcategory--item-five",
+      "menu-item#accessories__subcategory--item-six",
+      "menu-item#accessories__subcategory--item-seven",
+      "menu-item#accessories__subcategory--item-eight"
+    ]
+  },
+  "rich-text#category__tennis--title" : {
+    "title" : "category tennis title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "TENNIS"
+    }
+  },
+  "vtex.menu@2.x:menu#tennis__subcategory" : {
+    "title" : "tennis subcategory-menu",
+    "props" : {
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__tennis--image",
+      "menu-item#accessories__subcategory--item-one",
+      "menu-item#accessories__subcategory--item-two",
+      "menu-item#accessories__subcategory--item-three",
+      "menu-item#accessories__subcategory--item-four"
+    ]
+  },
+  "rich-text#category__cycling--title" : {
+    "title" : "category cycling title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "CYCLING"
+    }
+  },
+  "vtex.menu@2.x:menu#cycling__subcategory" : {
+    "title" : "cycling subcategory-menu",
+    "props" : {
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#subcategory__cycling--image",
+      "menu-item#accessories__subcategory--item-one",
+      "menu-item#accessories__subcategory--item-two",
+      "menu-item#accessories__subcategory--item-three",
+      "menu-item#accessories__subcategory--item-four"
+    ]
+  },
+  "rich-text#category__others--title" : {
+    "title" : "category others title",
+    "props" : {
+      "blockClass" : "menu__category--title",
+      "text" : "OTROS DEPORTES"
+    }
+  },
+  "vtex.menu@2.x:menu#others__subcategory" : {
+    "title" : "others subcategory-menu",
+    "props" : {
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "menu-item#shoes__subcategory--item-one",
+      "menu-item#shoes__subcategory--item-two",
+      "menu-item#shoes__subcategory--item-three",
+      "menu-item#shoes__subcategory--item-four",
+      "menu-item#shoes__subcategory--item-five"
+    ]
+  }
+}

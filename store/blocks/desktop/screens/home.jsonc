@@ -14,7 +14,7 @@
   "flex-layout.col#home" : {
     "title" : "home desktop content",
     "children" : [
-      "bullets-diagramation",
+      "list-context.bullet-group",
       "flex-layout.col#home__banner--container",
       "flex-layout.col#home__links--popular",
       "flex-layout.col#home__cards--gender",
