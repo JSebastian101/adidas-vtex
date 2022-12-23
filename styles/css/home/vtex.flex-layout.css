@@ -1,16 +1,93 @@
-.flexColChild--banners__container {
+.flexCol--banner__content--zero,
+.flexCol--banner__content--one,
+.flexCol--banner__content--two,
+.flexCol--banner__content--three,
+.flexCol--home__ocean-banner__container {
   position: relative;
 }
-.flexCol--banner__cta {
+.flexCol--banner__content--zero,
+.flexCol--banner__content--one,
+.flexCol--banner__content--two,
+.flexCol--banner__content--three {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.flexColChild--banner__content--zero:first-child,
+.flexColChild--banner__content--three:first-child,
+.flexColChild--home__ocean-banner__container:first-child {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.flexColChild--banner__content--one:first-child,
+.flexColChild--banner__content--two:first-child {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: absolute;
   z-index: 10;
+  width: 40%;
+  margin: 0 auto;
+}
+.flexCol--ocean-banner__content {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
 }
-.flexColChild--shelf__cart {
-  width: 70%;
-  margin-left: 10rem;
+
+@media(max-width: 900px) {
+  .flexColChild--banner__content--zero:first-child,
+  .flexColChild--banner__content--three:first-child,
+  .flexColChild--home__ocean-banner__container:first-child {
+    width: 85%;
+  }
+
+  .flexColChild--banner__content--one:first-child,
+  .flexColChild--banner__content--two:first-child {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
+
+@media(max-width: 600px) {
+  .flexColChild--banner__content--zero:first-child,
+  .flexColChild--banner__content--three:first-child,
+  .flexColChild--home__ocean-banner__container:first-child {
+    width: 90%;
+  }
+
+  .flexColChild--banner__content--one:first-child,
+  .flexColChild--banner__content--two:first-child {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.flexCol--banner__cta--zero,
+.flexCol--banner__cta--one,
+.flexCol--banner__cta--two,
+.flexCol--banner__cta--three  {
+  height: max-content;
+}
+.flexColChild--banner__cta--one,
+.flexColChild--banner__cta--two {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexColChild--banner__cta--zero,
+.flexColChild--banner__cta--three {
+  margin: 0 auto;
+}
+
 .flexRowContent--cards__container {
   width: 80%;
   display: flex;
@@ -21,4 +98,145 @@
 }
 .flexRow--cards__container{
   margin: 0 0 50px 0;
+}
+.flexColChild--container__card {
+  padding: 0;
+}
+.flexColChild--container__card:hover {
+  cursor: pointer;
+}
+
+.flexRowContent--home__links--popular {
+  width: 80%;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.flexRowContent--home__links--popular :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 33% !important;
+}
+@media (min-width: 750px) and (max-width : 1024px) {
+  .flexRowContent--home__links--popular {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 750px) {
+  .flexRowContent--home__links--popular :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 50% !important;
+  }
+  .flexRowContent--home__links--popular {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 639px) {
+  .flexRowContent--home__links--popular {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .flexRowContent--home__links--popular :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+}
+.flexCol--home__section--soccerTeams {
+  background-color: #EBEDEE;
+  padding: 26px 0px;
+}
+.flexRowContent--home__soccerTeams--section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) and (max-width:950px) {
+  .flexRowContent--home__soccerTeams--section {
+    width: 65%;
+  }
+}
+@media (min-width: 640px) and (max-width: 800px) {
+  .flexRowContent--home__soccerTeams--section {
+    width: 80%;
+  }
+}
+@media (max-width: 640px) {
+  .flexRowContent--home__soccerTeams--section {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+.flexRow--home__section--history {
+  padding: 50px 0;
+  background-color: #F5F5E5; 
+}
+.flexRowContent--home__section--history {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexCol--history__section--content {
+  width: 90% !important;
+  display: flex;
+  justify-content: start;
+}
+.flexColChild--history__section--content {
+  height: max-content !important;
+}
+@media (min-width: 900px) and (max-width: 1260px) {
+ .flexRowContent--home__section--history {
+  width: 90%;
+ }
+}
+@media (max-width: 900px) {
+  .flexRowContent--home__section--history {
+   width: 100%;
+  }
+ }
+.flexRow--home__section--adiClub {
+  height: 100%;
+  background-color: #EDE734;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--home__section--adiClub {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.flexCol--shelf__cart {
+  max-width: 300px;
+}
+.flexCol--home__slider--bestProducts {
+  width: 80%;
+  margin: 0 auto 30px auto;
+}
+.flexColChild--home__slider--bestProducts {
+  height: max-content;
+}
+@media(max-width: 1250px) {
+  .flexCol--home__slider--bestProducts {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+.flexCol--shelf__cart {
+  width: max-content;
+}
+@media(max-width:1024px) {
+  .flexCol--banner__content--zero {
+    height: 600px;
+  }
+  .flexCol--banner__content--three {
+    height: 400px;
+  }
+  .flexCol--banner__content--one,
+  .flexCol--banner__content--two {
+    height: 800px;
+  }
+  .flexCol--home__ocean-banner__container {
+    height: 500px;
+  }
 }

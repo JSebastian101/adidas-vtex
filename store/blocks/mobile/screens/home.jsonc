@@ -1,0 +1,30 @@
+{
+  "responsive-layout.phone" : {
+    "title" : "home phone container",
+    "children" : [
+      "flex-layout.row#home__mobile--container"
+    ]
+  },
+  "flex-layout.row#home__mobile--container" : {
+    "title" : "home phone columns container",
+    "children" : [
+      "flex-layout.col#home__mobile--content"
+    ]
+  },
+  "flex-layout.col#home__mobile--content" : {
+    "title" : "home phone content",
+    "children" : [
+      "list-context.bullet-group",
+      "flex-layout.col#home__banner--container",
+      "flex-layout.col#home__links--popular",
+      "flex-layout.col#home-mobile__cards__gender",
+      "flex-layout.col#home__section--soccerTeams",
+      "tab-layout#home__tabs--container",
+      "flex-layout.col#home-mobile__cards__tendencies-one",
+      "flex-layout.col#home-mobile__cards--tendencies-two",
+      "flex-layout.col#home__banner--oceans",
+      "flex-layout.col#home__slider--bestProducts",
+      "flex-layout.row#home__section--history"
+    ]
+  }
+}

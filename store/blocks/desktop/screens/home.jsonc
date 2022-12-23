@@ -1,0 +1,31 @@
+{
+  "responsive-layout.desktop" : {
+    "title" : "home desktop container",
+    "children" : [
+      "flex-layout.row#home__container"
+    ]
+  },
+  "flex-layout.row#home__container" : {
+    "title" : "home desktop columns container",
+    "children": [
+      "flex-layout.col#home"
+    ] 
+  },
+  "flex-layout.col#home" : {
+    "title" : "home desktop content",
+    "children" : [
+      "list-context.bullet-group",
+      "flex-layout.col#home__banner--container",
+      "flex-layout.col#home__links--popular",
+      "flex-layout.col#home__cards--gender",
+      "flex-layout.col#home__section--soccerTeams",
+      "tab-layout#home__tabs--container",
+      "flex-layout.col#home__cards--tendencies",
+      "flex-layout.col#home__cards--tendenciesTwo",
+      "flex-layout.col#home__banner--oceans",
+      "flex-layout.col#home__slider--bestProducts",
+      "flex-layout.row#home__section--history",
+      "whatsapp-button"
+    ]
+  }
+}

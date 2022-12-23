@@ -1,0 +1,54 @@
+{
+  "flex-layout.col#pdp__left-section--container" : {
+    "title" : "Product Detail Page left section container",
+    "children" : [
+      "flex-layout.col#pdp__image--container",
+      "disclosure-layout-group#pdp__disclosure-group--container"
+    ],
+    "props" : {
+      "blockClass" : "pdp__left-section--container"
+    }
+  },
+  "flex-layout.col#pdp__image--container" : {
+    "title" : "Product Detail Page image container",
+    "children" : [
+      "breadcrumb#pdp__image--breadcrumb",
+      "product-images#pdp"
+    ],
+    "props" : {
+      "blockClass" : "pdp__image--container"
+    }
+  },
+  "disclosure-layout-group#pdp__disclosure-group--container" : {
+    "title" : "Product Detail Page Disclosure left",
+    "children"  :  [
+      "disclosure-layout#pdp__disclosure--description",
+      "disclosure-layout#pdp__disclosure--specifications",
+      "disclosure-layout#pdp__disclosure--rating"
+    ],
+    "props" : {
+      "blockClass" : "pdp__disclosure-group--container"
+    }
+  },
+  "disclosure-layout#pdp__disclosure--description" : {
+    "title" : "Product Detail Page Disclosure Description",
+    "children" : [
+      "disclosure-trigger#pdp__disclosure-description--trigger",
+      "disclosure-content#pdp__disclosure-description--content"
+    ]
+  },
+  "disclosure-layout#pdp__disclosure--specifications" : {
+    "title" : "Product Detail Page Disclosure Description",
+    "children" : [
+      "disclosure-trigger#pdp__disclosure-specifications--trigger",
+      "disclosure-content#pdp__disclosure-specifications--content"
+    ]
+  },
+  "disclosure-layout#pdp__disclosure--rating" : {
+    "title" : "Product Detail Page Disclosure Rating",
+    "children" : [
+      "disclosure-trigger#pdp__disclosure-rating--trigger",
+      "disclosure-content#pdp__disclosure-rating--content"
+    ]
+  }
+}

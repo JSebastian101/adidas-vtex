@@ -1,0 +1,71 @@
+.styledLinkContainer--menu__department--name-one,
+.styledLinkContainer--menu__department--name {
+  margin: 0 20px 0 0;
+  font-size: 14px;
+}
+.styledLinkContent--menu__department--name-one {
+  font-weight: bold;
+  font-size: 18px;
+}
+.submenuWrapper--submenu--department__gender--isOpen,
+.submenuWrapper--submenu__department--sports--isOpen {
+  z-index: 20;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.styledLinkContainer--menu__subcategory--name {
+  margin-left: 0;
+}
+.styledLinkContent--menu__subcategory--name {
+  font-size: 13px;
+}
+.styledLinkContent--menu__subcategory--name:hover {
+  text-decoration: underline;
+}
+
+.submenu--submenu--department__gender,
+.submenu--submenu__department--sports,
+.menuContainerNav--header__menu-user--mobile {
+  border-top: 1px solid rgb(232, 226, 226);;
+}
+.menuContainerNav--header__menu-department--mobile,
+.menuContainerNav--header__menu-category-mobile,
+.menuContainerNav--header__menu-subcategory--mobile {
+width: 100%
+}
+.menuContainer--header__menu-department--mobile,
+.menuContainer--header__menu-category-mobile,
+.menuContainer--header__menu-user--mobile,
+.menuContainer--header__menu-subcategory--mobile {
+  width: 90%;
+  margin: 0 auto
+}
+.menuContainer--header__menu-department--mobile {
+  margin-bottom: 15px;
+}
+
+.menuContainer--header__menu-user--mobile {
+  margin-top: 15px;
+}
+
+.styledLinkContent--menu__user--section {
+  font-size: 18px
+}
+.styledLinkContainer--menu__user--section {
+ margin: 0;
+ padding: 0.75rem;
+}
+@media (max-width: 1024px) {
+  .styledLinkContent--menu__department--name {
+    font-size: 17px;
+  }
+  .styledLinkContent--menu__subcategory--name {
+    font-size: 17px;
+    color: #000000ab
+  }
+  .styledLinkContainer--menu__subcategory--name {
+    margin: 0;
+    padding: 0.75rem;
+  }
+}

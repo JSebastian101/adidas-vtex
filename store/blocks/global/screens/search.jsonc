@@ -1,0 +1,77 @@
+{
+  "store.search": {
+    "title" : "store search",
+    "blocks": [
+      "search-result-layout#global"
+    ],
+    "props" : {
+      "skusFilter" : "ALL",
+      "simulationBehavior" : "default"
+    }
+  },
+  "store.search#department" : {
+    "title" : "store search department",
+    "blocks" : [
+      "search-result-layout#global"
+    ],
+    "props" : {
+      "skusFilter" : "ALL",
+      "simulationBehavior" : "default"
+    }
+  },
+  "store.search#category" : {
+    "title" : "store search category",
+    "blocks" : [
+      "search-result-layout#global"
+    ],
+    "props" : {
+      "skusFilter" : "ALL",
+      "simulationBehavior" : "default"
+    }
+  },
+  "store.search#subcategory" : {
+    "title" : "store search subcategory",
+    "blocks" : [
+      "search-result-layout#global"
+    ],
+    "props" : {
+      "skusFilter" : "ALL",
+      "simulationBehavior" : "default"
+    }
+  },
+  "store.search#brand" : {
+    "title" : "store search brand",
+    "blocks" : [
+      "search-result-layout#global"
+    ],
+    "props" : {
+      "skusFilter" : "ALL",
+      "simulationBehavior" : "default"
+    }
+  },
+  "search-result-layout#global" : {
+    "title" : "search result global",
+    "blocks" : [
+      "search-result-layout.desktop#global",
+      "search-result-layout.mobile#global",
+      "search-not-found-layout"
+    ]
+  },
+  "search-not-found-layout": {
+    "title" : "search not found container",
+    "children": ["not-found"]
+  },
+  "store.not-found#search": {
+    "title" : "search not found content",
+    "blocks": ["rich-text#not-found"]
+  },
+  "rich-text#not-found": {
+    "title" : "search not found message",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**SEARCH NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  }
+}

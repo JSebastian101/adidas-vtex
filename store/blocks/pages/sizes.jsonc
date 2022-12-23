@@ -1,0 +1,48 @@
+{
+  "store.custom#sizes-guide" : {
+    "blocks" : [
+      "flex-layout.row#sizes-guide__container"
+    ],
+    "props" : {
+      "blockClass" : "size-guide__container"
+    }
+  },
+  "flex-layout.row#sizes-guide__container" : {
+    "title" : "custom page sizes",
+    "children" : [
+      "flex-layout.col#sizes-guide__container"
+    ],
+    "props" : {
+      "blockClass" : "size-guide__container"
+    }
+  },
+  "flex-layout.col#sizes-guide__container" : {
+    "title" : "custom pages sizes container",
+    "children" : [
+      "flex-layout.row#sg__breadcrumb",
+      "flex-layout.row#sg__page--title",
+      "rich-text#sg__paragraph--one",
+      "rich-text#sg__paragraph--space",
+      "rich-text#sg__paragraph--two",
+      "rich-text#sg__paragraph--space",
+      "rich-text#sg__title--disclaimer",
+      "rich-text#sg__paragraph--three",
+      "image#sg__size-disclaimer--image",
+      "rich-text#sg__size-disclaimer--note",
+      "rich-text#sg__paragraph--space",
+      "rich-text#sg__title--exchange",
+      "rich-text#sg__paragraph--exchange",
+      "rich-text#sg__men-guide--title",
+      "rich-text#sg__men-table--title",
+      "flex-layout.row#sg__table--image",
+      "rich-text#sg__paragraph--space",
+      "rich-text#sg__paragraph--space",
+      "rich-text#sg__title--my-size",
+      "flex-layout.row#sg__my-size--list",
+      "flex-layout.row#sg__store-details"
+    ],
+    "props" : {
+      "blockClass" : "sizes-guide__container"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#search-results__banner" : {
+    "title" : "search result banner container",
+    "children" : [
+      "rich-text#search-results__banner--title"
+    ],
+    "props" : {
+      "blockClass" : "search-results__banner"
+    }
+  },
+  "rich-text#search-results__banner--title" : {
+    "title" : "search result banner paragraph",
+    "props" : {
+      "text" : "Te recomendamos seleccionar tu talla de  ropa y calzado para facilitar tu búsqueda",
+      "blockClass" : "search-results__banner--title"
+    }
+  }
+}

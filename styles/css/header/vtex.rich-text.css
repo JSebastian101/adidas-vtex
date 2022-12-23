@@ -7,3 +7,20 @@
 .paragraph--menu__item--one {
   font-weight: 700;
 }
+
+.paragraph--menu__category--title {
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.paragraph--menu__category--title:hover,
+.paragraph--menu__all-products:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.paragraph--menu__all-products {
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 13px;
+  font-weight: bold;
+}

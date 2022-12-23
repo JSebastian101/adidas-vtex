@@ -1,15 +1,81 @@
-/* .container--section--one-title{
-  position: absolute;
-} */
-.container--home--banner__title,
-.container--home--banner__info {
-  position: relative;
+
+.paragraph--banner__title--zero {
+  line-height: 35px ;
+  margin: 0;
+  text-shadow: 1px 1px 2px black;
 }
-.paragraph--cards__title {
+
+.paragraph--banner__title--one,
+.paragraph--banner__title--two,
+.paragraph--banner__title--three {
+  line-height: 35px ;
+  margin: 0;
+  text-shadow: 1px 1px 0px white;
+}
+
+.paragraph--banner__info--zero,
+.paragraph--banner__info--one,
+.paragraph--banner__info--two,
+.paragraph--banner__info--three {
+  line-height: 20px;
+  margin: 0;
+}
+.paragraph--banner__title--zero {
+  padding-bottom: 16px;
+} 
+.paragraph--banner__info--three,
+.paragraph--banner__title--three {
+  text-shadow: 1px 1px 0px white;
+} 
+@media(max-width: 900px) {
+  .paragraph--banner__info--two {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  .paragraph--banner__info--zero {
+    text-shadow: 1px 1px 2px black;
+  }
+}
+
+.container--cards__title{
+  width: 80%;
+  margin: 0 auto;
+}
+@media(max-width:1024px) {
+  .container--cards__title{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+}
+
+@media(max-width: 639px) {
+  .wrapper--popularLink {
+    width: 90%;
+    padding-top: 10px !important;
+  }
+}
+.paragraph--cards__title{
   font-size: 40px;
   font-weight: 700;
-  margin: 0 0 15px 0;
+  margin: 40px 0 25px 0;
+  line-height: 35px;
 }
+.paragraph--card__gender--text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 15px 0px;
+}
+@media(max-width: 900px) {
+  .paragraph--card__gender--text {
+    margin: 5px 0 15px 0;
+  }
+}
+
+
+
+
+
 .paragraph--tendencies__title{
   font-size: 1rem;
   font-weight: 700;
@@ -19,10 +85,8 @@
   margin: 10px 0 0 0;
   font-size: 0.8rem;
 }
-.container--cards__title{
-  width: 80%;
-  margin: 0 auto;
-}
+
+/* product details */
 .paragraph--name {
   margin: 2px 0 2px 0;
   font-size: 0.9rem;
@@ -35,6 +99,9 @@
   font-size: 0.9rem;
   margin: 2px 0 2px 0;
 }
+
+
+/* header top */
 .paragraph--header__support--text {
   white-space: nowrap;
   font-size: 13px;
@@ -42,4 +109,76 @@
   padding: 0 10px;
   font-weight: lighter;
   color: gray;
+}
+
+
+/* POPULAR LINK */
+
+.wrapper--popularLink {
+  width: 90%;
+  border-bottom: 1px solid black;
+  padding-top: 4px;
+}
+.wrapper--popularLink:hover {
+  cursor: pointer;
+  padding: 0;
+  border-bottom: 4px solid black;
+}
+.paragraph--popularLink {
+  font-size: 2.7rem;
+  font-weight: bolder;
+  line-height: 40px;
+  padding-top: 15px;
+}
+.paragraph--popularLink:first-child {
+  margin: 10px 0;
+}
+.container--popularLink {
+  align-items: flex-end;
+}
+
+@media (max-width: 900px) {
+  .paragraph--popularLink {
+    font-size: 2.3rem;
+  }
+} 
+
+/* TEAMS */
+
+.paragraph--teams__title {
+  margin: 0 0 8px 0;
+}
+
+/* History */
+.wrapper--home__history--title {
+  width: 75%;
+}
+.paragraph--home__history--title {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+/* Adiclub */
+
+/* vtex-flex-layout-0-x- */.flexRowContent--home__section--adiClub:last-child {
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+/* slider 2 BEST PRODUCTS */ 
+.paragraph--slider__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 40px 0px 20px 0px;
+}
+
+
+/* banner oceans */
+.paragraph--home--ocean-banner__title {
+  text-shadow: 1px 1px 2px black;
 }

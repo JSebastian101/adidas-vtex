@@ -1,0 +1,10 @@
+{
+  "search-result-layout.mobile#global" : {
+    "title" : "search result mobile",
+    "children" : [
+      "flex-layout.row#search-results__navbar--mobile",
+      "flex-layout.row#search-results__banner",
+      "flex-layout.row#search-results__products"
+    ]
+  }
+}

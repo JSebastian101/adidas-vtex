@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#pdp__container--mobile" : {
+    "title" : "Product Detail Page row Container",
+    "children" : [
+      "flex-layout.col#pdp__container--mobile"
+    ],
+    "props" : {
+      "blockClass" : "pdp__container--mobile"
+    }
+  },
+  "flex-layout.col#pdp__container--mobile" : {
+    "title" : "Product Detail Page col mobile",
+    "children" : [
+      "flex-layout.row#pdp__breadcrumb-rating",
+      "vtex.store-components:product-name",
+      "flex-layout.col#pdp__right-section--price",
+      "flex-layout.col#pdp__image--container",
+      "flex-layout.col#pdp__right-section--sku-selector",
+      "rich-text#pdp__right-section--size-selected",
+      "flex-layout.row#pdp__right-section--actions",
+      "flex-layout.col#pdp__right-section--info",
+      "disclosure-layout-group#pdp__disclosure-group--container"
+    ],
+    "props" : {
+      "blockClass" : "pdp__container--mobile"
+    }
+  },
+  "flex-layout.row#pdp__breadcrumb-rating" : {
+    "title" : "pdp breadcrumb and rating",
+    "children" : [
+      "breadcrumb#pdp__breadcrumb--mobile",
+      "product-rating-summary"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--reviews",
+      "colSizing" : "auto"
+    }
+  },
+  "breadcrumb#pdp__breadcrumb--mobile" : {
+    "title" : "pdp breadcrumb",
+    "props" : {
+      "showOnMobile" : true,
+      "blockClass" : "pdp__image--breadcrumb-mobile"
+    }
+  }
+}

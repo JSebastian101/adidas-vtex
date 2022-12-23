@@ -1,0 +1,56 @@
+.paragraph--pdp__price--details {
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.paragraph--pdp__price--details:hover {
+  color: white;
+}
+.wrapper--pdp__price--details:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.paragraph--pdp__sku-selector--title {
+  font-weight: bold;
+}
+.wrapper--pdp__right-section--size-guide:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.paragraph--pdp__right-section--size-guide:hover {
+  color: white;
+}
+.paragraph--pdp__right-section--size-guide {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0;
+}
+.wrapper--pdp__right-section--size-selected {
+  margin: 30px 0;
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.paragraph-pdp__right-section--size-selected {
+  font-size: 14px;
+}
+.paragraph--pdp__right-section--info {
+  margin: 5px 0;
+  text-decoration: underline;
+  line-height: 20px;
+}
+.paragraph--pdp__right-section--info:hover{
+  color: white;
+  text-decoration: underline;
+}
+.wrapper--pdp__right-section--info:hover {
+  background-color: black;
+}
+.paragraph--pdp__disclosure--trigger {
+  font-weight: bolder;
+} 
+.paragraph--pdp__price-details--title {
+  margin: 0;
+}

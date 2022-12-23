@@ -1,0 +1,152 @@
+{
+  "flex-layout.col#pdp__right-section--container" : {
+    "title" : "Product Detail Page right section",
+    "children" : [
+      "flex-layout.row#pdp__right-section--reviews",
+      "vtex.store-components:product-name",
+      "flex-layout.col#pdp__right-section--price",
+      "flex-layout.col#pdp__right-section--sku-selector",
+      "rich-text#pdp__right-section--size-selected",
+      "flex-layout.row#pdp__right-section--actions",
+      "flex-layout.col#pdp__right-section--info"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--container"
+    }
+  },
+  "flex-layout.row#pdp__right-section--reviews" : {
+    "title" : "Product Detail Page right section reviews",
+    "children" : [
+      "rich-text#pdp__right-section--category",
+      "product-rating-summary"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--reviews"
+    }
+  },
+  "flex-layout.col#pdp__right-section--price" : {
+    "title" : "Product Detail Page right section price",
+    "children" : [
+      "product-price#product-detail-page",
+      "modal-trigger#pdp__price--details"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--price"
+    }
+  },
+  "modal-trigger#pdp__price--details" : {
+    "title" : "Product Detail Page right section price details",
+    "children" : [
+      "rich-text#pdp__price--details",
+      "modal-layout#pdp__price--details"
+    ]
+  },
+  "modal-layout#pdp__price--details" : {
+    "title" : "Product Detail Page right modal price details",
+    "children" : [
+      "flex-layout.col#pdp__price--details"
+    ],
+    "props" : {
+      "blockClass" : "pdp__price--details"
+    }
+  },
+  "flex-layout.col#pdp__price--details" : {
+    "title" : "Product Detail Page right modal-content price details",
+    "children" : [
+      "rich-text#pdp__price-details--title",
+      "rich-text#pdp__price-details--payment"
+    ],
+    "props" : {
+      "blockClass" : "pdp__price--details"
+    }
+  },
+  "flex-layout.col#pdp__right-section--sku-selector" : {
+    "title" : "Product Detail Page right section sku-selector",
+    "children" : [
+      "rich-text#pdp__sku-selector--title",
+      "sku-selector",
+      "flex-layout.row#pdp__right-section--size-guide"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--sku-selector"
+    }
+  },
+  "rich-text#pdp__sku-selector--title" : {
+    "title" : "pdp sku-selector title",
+    "props" : {
+      "text" : "Tallas",
+      "blockClass" : "pdp__sku-selector--title"
+    }
+  },
+  "flex-layout.row#pdp__right-section--size-guide" : {
+    "title" : "Product Detail Page right section size guide",
+    "children" : [
+      "image#pdp__right-section--size-guide",
+      "link#pdp__right-section--size-guide"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "pdp__right-section--size-guide",
+      "colGap" : 4
+    }
+  },
+  "flex-layout.row#pdp__right-section--actions" : {
+    "title" : "Product Detail Page right section actions",
+    "children" : [
+      "buy-button#pdp",
+      "add-to-list-btn#pdp"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "pdp__right-section--actions",
+      "preserveLayoutOnMobile" : true
+    }
+  },
+  "flex-layout.col#pdp__right-section--info" : {
+    "title" : "Product Detail Page right section info",
+    "children" : [
+      "flex-layout.row#pdp__right-section--info-one",
+      "flex-layout.row#pdp__right-section--info-two",
+      "flex-layout.row#pdp__right-section--info-three"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--information"
+    }
+  },
+  "flex-layout.row#pdp__right-section--info-one" : {
+    "title": "Product Detail Page right section info-one",
+    "children" : [
+      "image#pdp__right-section--info-one",
+      "rich-text#pdp__right-section--info-one"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--info",
+      "colSizing" : "auto",
+      "colGap" : 5
+    }
+  },
+  "flex-layout.row#pdp__right-section--info-two" : {
+    "title": "Product Detail Page right section info-two",
+    "children" : [
+      "image#pdp__right-section--info-two",
+      "rich-text#pdp__right-section--info-two"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--info",
+      "colSizing" : "auto",
+      "colGap" : 5
+    }
+  },
+  "flex-layout.row#pdp__right-section--info-three" : {
+    "title": "Product Detail Page right section info-three",
+    "children" : [
+      "image#pdp__right-section--info-three",
+      "rich-text#pdp__right-section--info-three"
+    ],
+    "props" : {
+      "blockClass" : "pdp__right-section--info",
+      "colSizing" : "auto",
+      "colGap" : 5
+    }
+  }
+}

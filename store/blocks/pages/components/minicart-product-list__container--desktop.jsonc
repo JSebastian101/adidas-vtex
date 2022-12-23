@@ -1,0 +1,87 @@
+
+{
+  "product-list-content-desktop" : {
+    "title" : "product-list-content desktop",
+    "children" : [
+      "flex-layout.col#product-list__product-row"
+    ],
+    "props" : {
+      "blockClass" : "product-list-content__container--desktop"
+    }
+  },
+  "flex-layout.col#product-list__product-row" : {
+    "title" : "product-list product-row",
+    "children" : [
+      "product-list-image#product-list__product--image",
+      "flex-layout.col#product-list__product--details",
+      "price",
+      "flex-layout.col#product-list__product--actions"
+    ],
+    "props" : {
+      "blockClass" : "product-list__product-row",
+      "colSizing" : "auto"
+    }
+  },
+  "product-list-image#product-list__product--image" : {
+    "title" : "product-list product image",
+    "props" : {
+      "width" : 240,
+      "height": 240,
+      "blockClass" : "product-list__product--image"
+    }
+  },
+  "flex-layout.col#product-list__product--details" : {
+    "title" : "product details",
+    "children" : [
+      "vtex.product-list:product-name",
+      "vtex.product-list:product-brand",
+      "quantity-selector"
+    ],
+    "props" : {
+      "blockClass" : "product-list__product--details",
+      "colGap" : 5
+    }
+  },
+  "flex-layout.col#product-list__product--actions" : {
+    "title" : "product actions",
+    "children" : [
+      "remove-button"
+    ],
+    "props" : {
+      "blockClass" : "product-list__product--actions"
+    }
+  },
+  "rich-text#product-list__disclaimer--paragraph" : {
+    "title" : "product-list disclaimer paragraph",
+    "props" : {
+      "text" : "Los artículos en tu carrito no están reservados. Termina el proceso de compra ahora para hacerte con ellos.",
+      "blockClass" : "product-list__disclaimer--paragraph"
+    }
+  },
+  "rich-text#product-list__title" : {
+    "title" : "product-list title",
+    "props" : {
+      "text" : "TU CARRITO",
+      "font" : "t-heading-2",
+      "blockClass" : "product-list__title"
+    }
+  },
+  "minicart-summary#product-list__total" : {
+    "title" : "minicart product-list summary",
+    "blocks" : ["checkout-summary.compact#minicart-checkout-summary"],
+    "props" : {
+      "blockClass" : "product-list__total"
+    }
+  },
+  "checkout-summary.compact#minicart-checkout-summary" : {
+    "title" : "minicart product-list checkout-summary",
+    "children": ["summary-totalizers#minicart"]
+  },
+  "summary-totalizers#product-list__total": {
+    "title" : "minicart checkout-summary price",
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  }
+}

@@ -1,0 +1,88 @@
+.flexRow--header__user-section--mobile {
+  width: 17%;
+}
+.flexRow--header__bottom--user {
+  width: 9%;
+}
+.flexRowContent--header__bottom--user {
+  padding: 0 10px;
+}
+.flexRowContent--header__bottom--user :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  max-width: max-content;
+}
+@media(max-width: 550px) {
+  .flexRow--header__user-section--mobile {
+    width: 25%;
+  }
+}
+.flexRowContent--header__user-section--mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover {
+  cursor: pointer;
+}
+.flexRowContent--header__user-section--mobile :global(.vtex-minicart-2-x-openIconContainer) {
+  padding: 0;
+}
+.flexRowContent--header__user-section--mobile :global(.vtex-button):hover {
+  background-color: transparent;
+}
+.flexRowContent--header__user-section--mobile :global(.vtex-modal-layout-0-x-triggerContainer) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexRowContent--header__user-section--mobile :global(.vtex-button__label) {
+  padding-left: 6px
+}
+.flexColChild--header__menu--container {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexColChild--header__menu--container:last-child {
+  width: 100%;
+  border-top: 1px solid rgb(232, 226, 226);
+}
+.flexRow--menu__all-products--global {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexRow--submenu--department__gender,
+.flexRow--submenu--department--sports {
+  width: 100%;
+}
+.flexRow--submenu__department--sports {
+  width: 100%;
+}
+.flexRowContent--submenu--department__gender :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: auto !important;
+  border-right: 1px solid rgb(232, 226, 226);
+}
+.flexRowContent--menu__all-products--global :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 22% !important;
+}
+.flexColChild--menu__category--column,
+.flexColChild--menu__category--column-one {
+  height: max-content !important;
+}
+.flexColChild--menu__category--column-one {
+  padding-left: 15px;
+}
+.flexRow--header__drawer--header {
+  width: 60%;
+  margin-left: auto;
+}
+.flexRowContent--header__drawer--header {
+  display: flex;
+}
+
+.flexRow--drawer__header--department {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexRowContent--drawer__header--department {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexRowContent--department__trigger--container {
+  display: flex;
+  align-items: center;
+}

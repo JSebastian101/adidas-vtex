@@ -1,0 +1,26 @@
+{
+  "flex-layout.col#home__cards--gender" : {
+    "title" : "home gender cards col container",
+    "children" : [
+      "rich-text#cards__gender--title",
+      "flex-layout.row#cards__gender--container"
+    ]
+  },
+  "rich-text#cards__gender--title" : {
+    "props" : {
+      "text" : "¿Para quién compras?",
+      "blockClass" : "cards__title"
+    }
+  },
+  "flex-layout.row#cards__gender--container" : {
+    "title" : "home gender cards row container",
+    "children" : [
+      "flex-layout.col#card__gender--one", 
+      "flex-layout.col#card__gender--two",
+      "flex-layout.col#card__gender--three"  
+    ],
+    "props" : {
+      "blockClass" : "cards__container"
+    }
+  }
+}

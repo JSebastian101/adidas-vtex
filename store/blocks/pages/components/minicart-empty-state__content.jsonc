@@ -1,0 +1,42 @@
+{
+  "rich-text#minicart-empty__cta--title" : {
+    "title" : "minicart-empty cta title",
+    "props" : {
+      "text" : "EL CARRITO ESTÁ VACÍO",
+      "font": "t-heading-2",
+      "blockClass" : "minicart-empty__cta--title"
+    }
+  },
+  "rich-text#minicart-empty__cta--paragraph" : {
+    "title" : "minicart-empty cta paragraph",
+    "props" : {
+      "text" : "Una vez que añadas algo a tu carrito, aparecerá aquí. ¿Listo para empezar?",
+      "blockClass" : "minicart-empty__cta--paragraph"
+    }
+  },
+  "link#minicart-empty__cta--link" : {
+    "title" : "minicart-empty cta title",
+    "props" : {
+      "label" : "COMENZAR →",
+      "href" : "/electrodomesticos",
+      "displayMode" : "button",
+      "blockClass" : "home__button--one"
+    }
+  },
+  "rich-text#minicart-empty__payment--paragraph" : {
+    "title" : "minicart empty payment paragraph",
+    "props" : {
+      "text" : "FORMAS DE PAGO ACEPTADA",
+      "blockClass" : "minicart-empty__payment--paragraph"
+    }
+  },
+  "image#minicart-empty__payment--logos" : {
+    "title" : "minicart-empty payment logos",
+    "props" : {
+      "src" : "assets/img/minicart-empty__payment--logos.webp",
+      "blockClass" : "minicart-empty__payment--logos",
+      "maxWidth" : 365,
+      "maxHeight" : 25
+    }
+  }
+}

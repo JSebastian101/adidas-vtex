@@ -1,0 +1,388 @@
+{
+  "rich-text#groupOne__li--one" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Calzado",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--two" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Tenis",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--three" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Ropa",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--four" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Accesorios",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--five" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Guayos",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--six" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Rompevientos",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--seven" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Sudaderas",
+      "blockClass" : "footer-li-breaker"
+    }
+  },
+  "rich-text#groupOne__li--eight" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Novedades",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--nine" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Black Friday",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--ten" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Outlet",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--eleven" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Hot Sale",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--twelve" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "Cyber Lunes",
+      "blockClass" : "footer-li-breaker"
+    }
+  },
+  "rich-text#groupOne__li--thirteen" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "adiClub",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--fourteen" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "adidas en Casa",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--fiveteen" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "adidas app",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupOne__li--sixteen" : {
+    "title" : "footer section-one group-one list-item",
+    "props" : {
+      "text" : "adidas Runners",
+      "blockClass" : "footer-li"
+    }
+  },
+
+  "rich-text#groupTwo__li--one" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Selección Colombia",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--two" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Millonarios",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--three" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Fútbol",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--four" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Ciclismo",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--five" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Running",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--six" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Basketball",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--seven" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Training",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--eight" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Originals",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--nine" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Forum",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--ten" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Stan Smith",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--eleven" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "adicolor",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupTwo__li--twelve" : {
+    "title" : "footer section-one group-two list-item",
+    "props" : {
+      "text" : "Superstar",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--one" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Servicio al cliente",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--two" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Dudas Frecuentes",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--three" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Guía de Tallas",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--four" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Realizar Pedidos",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--five" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Productos adidas",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--six" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Ventas por Whatsapp",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--seven" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Pago",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--eight" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Envío",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--nine" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Solicitar mi Devolución",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--ten" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Devoluciones",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--eleven" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Cambio en Tiendas",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--twelve" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Como usar nuestro sitio",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--thirteen" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Como Saber la Talla de tu Bra",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupThree__li--fourteen" : {
+    "title" : "footer section-one group-three list-item",
+    "props" : {
+      "text" : "Mapa del Sitio",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupFour__li--one" : {
+    "title" : "footer section-one group-four list-item",
+    "props" : {
+      "text" : "Acerca de adidas",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupFour__li--two" : {
+    "title" : "footer section-one group-four list-item",
+    "props" : {
+      "text" : "Trabaja en Nuestro Equipo",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupFour__li--three" : {
+    "title" : "footer section-one group-four list-item",
+    "props" : {
+      "text" : "Prensa",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#groupFour__li--four" : {
+    "title" : "footer section-one group-four list-item",
+    "props" : {
+      "text" : "Buscador de Tiendas",
+      "blockClass" : "footer-li"
+    }
+  },
+  "rich-text#footerTwo__li--one" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Nuestros Datos",
+      "blockClass" : "footer-li-two"
+    }
+  },
+  "rich-text#footerTwo__li--two" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Términos y Condiciones",
+      "blockClass" : "footer-li-two"
+    }
+  },
+  "rich-text#footerTwo__li--three" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Politica de Privacidad",
+      "blockClass" : "footer-li-two"
+    }
+  },
+  "rich-text#footerTwo__li--four" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Terminos #YESadidas",
+      "blockClass" : "footer-li-two"
+    }
+  },
+  "rich-text#footerTwo__li--five" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Seleccionar País",
+      "blockClass" : "footer-li-two"
+    }
+  },
+  "rich-text#footerTwo__li--six" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Aviso de Privacidad",
+      "blockClass" : "footer-li-two"
+    }
+  },
+  "rich-text#footerTwo__li--seven" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Uso del Sitio",
+      "blockClass" : "footer-li-two"
+    }
+  },
+  "rich-text#footerTwo__li--eight" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "SIC",
+      "blockClass" : "footer-li-two"
+    }
+  },
+  "rich-text#footer__copyright" : {
+    "title" : "footer section-two copyright",
+    "props" : {
+      "text" : "© 2022 adidas Colombia LTDA",
+      "blockClass" : "footer-copyright"
+    }
+  }
+}

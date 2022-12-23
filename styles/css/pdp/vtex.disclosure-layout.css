@@ -1,0 +1,9 @@
+.content--pdp__disclosure--content--visible,
+.content--pdp__disclosure--content {
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+.content--pdp__disclosure--content--visible :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+  display: flex;
+}

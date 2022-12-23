@@ -4,3 +4,61 @@
   font-size: .9rem;
   margin-bottom: 100px;
 }
+.buttonLink--home__button--one {
+  position: relative;
+  border-radius: 0;
+  height: max-content;
+  background-color: black;
+  border: none;
+  align-self: center;
+  padding: 15px 0 20px 0;
+}
+.label--home__button--one:hover {
+  border: none;
+  color: rgba(255, 255, 255, 0.774);
+}
+.buttonLink--home__button--one:hover {
+  border: none;
+  background-color: black;
+}
+.buttonLink--home__button--one::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  height: 100%;
+  right: -5px;
+  top: 4px;
+  width: 3px;
+}
+.buttonLink--home__button--one::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 3px;
+  width: 100%;
+  bottom: -5px;
+  left: 5px;
+}
+
+.buttonLink--home--ocean-banner__cta {
+  border-radius: 0;
+  border : 2px solid white;
+  background-color: black;
+  padding: 15px 0 20px 0;
+}
+.label--home__button--one,
+.label--home--ocean-banner__cta {
+  color: white;
+  font-weight: 600;
+}
+.label--home--ocean-banner__cta:hover {
+  color: rgba(255, 255, 255, 0.744);
+}
+.buttonLink--home--ocean-banner__cta:hover  {
+  background-color: black;
+  border : 2px solid white;
+}

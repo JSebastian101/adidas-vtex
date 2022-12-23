@@ -1,3 +1,6 @@
+.headerRowContentContainer--header__bottom {
+  border-bottom: 1px solid gainsboro;
+}
 .headerRowContainer--header__middle {
   justify-content: flex-end;
   width: 90%;
@@ -10,4 +13,10 @@
 .headerRowBackground--header__top {
   height: 30px;
   background-color: black;
+}
+
+/* MOBILE */
+.headerRowContainer--header__bottom--mobile {
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,0 +1,54 @@
+.container--home__tabs--container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+@media(max-width: 1250px) {
+  .container--home__tabs--container,
+  .flexCol--home__slider--bestProducts {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+
+
+.listContainer--tabs__list {
+  justify-content: start;
+}
+
+.listItem--tabs__list--item :global(.vtex-button__label) {
+  font-size: 26px;
+  font-weight: 600;
+  color: #D3D7DA;
+  padding: 0;
+}
+
+.listItem--tabs__list--item :global(.vtex-button):hover {
+  background-color: transparent !important;
+}
+
+.listItemActive--tabs__list--item :global(.vtex-button__label) {
+  color: black;
+  margin-left: 30px;
+}
+.listItemActive--tabs__list--item :global(.vtex-button) {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  font-size: 26px;
+  font-weight: 600;
+}
+.listItemActive--tabs__list--item :global(.vtex-button):hover {
+  background-color: transparent !important;
+  border: none;
+  position: relative;
+}
+.listItemActive--tabs__list--item :global(.vtex-button)::after {
+  content: "→";
+  color: black;
+  font-weight: 30px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

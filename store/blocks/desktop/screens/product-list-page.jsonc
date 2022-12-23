@@ -1,0 +1,13 @@
+{
+  "search-result-layout.desktop#global" : {
+    "title" : "search result desktop",
+    "children" : [
+      "flex-layout.row#search-results__navbar--desktop",
+      "flex-layout.row#search-results__banner",
+      "flex-layout.row#search-results__products"
+    ],
+    "props" : {
+      "blockClass" : "search-results__global--container"
+    }
+  }
+}

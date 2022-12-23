@@ -1,0 +1,9 @@
+{
+  "store.product": {
+    "title" : "Product Detail Page",
+    "children": [
+      "responsive-layout.desktop#pdp",
+      "responsive-layout.mobile#pdp"
+    ]
+  }
+}

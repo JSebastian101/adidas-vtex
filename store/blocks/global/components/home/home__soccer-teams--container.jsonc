@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#home__section--soccerTeams" : {
+    "title" : "home soccer teams container",
+    "children" : [
+      "rich-text#section__soccerTeams--title",
+      "flex-layout.row#section__soccerTeams--logos"
+    ],
+    "props" : {
+      "blockClass" : "home__section--soccerTeams"
+
+    }
+  },
+  "rich-text#section__soccerTeams--title" : {
+    "title" : "home soccer teams title",
+    "props" : {
+      "text" : "Encuentra tu equipo",
+      "blockClass" : "teams__title",
+      "textPosition" : "CENTER"
+    }
+  },
+  "flex-layout.row#section__soccerTeams--logos" : {
+    "title" : "home soccer teams content",
+    "children" : [
+      "image#soccerTeams__logo--one",
+      "image#soccerTeams__logo--two",
+      "image#soccerTeams__logo--three",
+      "image#soccerTeams__logo--four",
+      "image#soccerTeams__logo--five",
+      "image#soccerTeams__logo--six",
+      "image#soccerTeams__logo--seven",
+      "image#soccerTeams__logo--eight"
+    ],
+    "props" : {
+      "blockClass" : "home__soccerTeams--section",
+      "preserveLayoutOnMobile" : true
+    }
+  }
+}

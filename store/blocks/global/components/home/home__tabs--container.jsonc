@@ -1,0 +1,100 @@
+{
+  "tab-layout#home__tabs--container" : {
+    "title" : "home tablayout container",
+    "children" : [
+      "tab-list#home__tabs--list",
+      "tab-content#home__tabs--content"
+    ],
+    "props" : {
+      "defaultActiveTabId" : "product1",
+      "blockClass" : "home__tabs--container"
+    }
+  },
+  "tab-list#home__tabs--list": {
+    "title" : "home tab-list",
+    "children" : [
+      "slider-layout#home__tabs--list"
+    ],
+    "props" : {
+      "blockClass" : "tabs__list"
+    }
+  },
+  "slider-layout#home__tabs--list" : {
+    "title" : "home tabs-list slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop" : 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "never",
+      "blockClass": "home__cards__carousel"
+    },
+    "children" : [
+      "tab-list.item#tabs__list--one",
+      "tab-list.item#tabs__list--two",
+      "tab-list.item#tabs__list--three" 
+    ]
+  },
+  "tab-list.item#tabs__list--one": {
+    "title" : "home tab-list item-one",
+    "props" : {
+      "tabId" : "product1",
+      "label": "NOVEDADES",
+      "blockClass" : "tabs__list--item"
+    }
+  },
+  "tab-list.item#tabs__list--two" : {
+    "title" : "home tab-list item-two",
+    "props" : {
+      "tabId" : "product2",
+      "label": "EXCLUSIVO MIEMBROS ADICLUB",
+      "blockClass" : "tabs__list--item"
+    }
+  },
+  "tab-list.item#tabs__list--three" : {
+    "title" : "home tab-list item-three",
+    "props" : {
+      "tabId" : "product3",
+      "label" : "COLECCIONES",
+      "blockClass" : "tabs__list--item"
+    }
+  },
+  "tab-content#home__tabs--content" : {
+    "title" : "home tabs-content container",
+    "children" : [
+      "tab-content.item#tabs__content--one",
+      "tab-content.item#tabs__content--two",
+      "tab-content.item#tabs__content--three"
+    ]
+  },
+  "tab-content.item#tabs__content--one" : {
+    "title" : "home tabs-content item-one",
+    "children" : [
+      "slider-layout#tabs__products--sliderOne"
+    ],
+    "props" : {
+      "tabId" : "product1"
+    }
+  },
+  "tab-content.item#tabs__content--two" : {
+    "title" : "home tabs-content item-two",
+    "children" : [
+      "slider-layout#tabs__products--sliderTwo"
+    ],
+    "props" : {
+      "tabId" : "product2"
+    }
+  },
+  "tab-content.item#tabs__content--three" : {
+    "title" : "home tabs-content item-three",
+    "children" : [
+      "slider-layout#tabs__products--sliderOne"
+    ],
+    "props" : {
+      "tabId" : "product3"
+    }
+  }
+}

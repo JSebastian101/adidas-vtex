@@ -1,0 +1,25 @@
+{
+  "responsive-layout.desktop#pdp" : {
+    "title" : "Product Detail Page Desktop",
+    "children" : [
+      "flex-layout.row#pdp__container--desktop"
+    ]
+  },
+  "flex-layout.row#pdp__container--desktop" : {
+    "title" : "Product Detail Page row container",
+    "children" : [
+      "flex-layout.col#pdp__container--desktop"
+    ]
+  },
+  "flex-layout.col#pdp__container--desktop" : {
+    "title" : "Product Detail Page Desktop Container",
+    "children" : [
+      "flex-layout.col#pdp__left-section--container",
+      "flex-layout.col#pdp__right-section--container"
+    ],
+    "props" : {
+      "blockClass" : "pdp__container--desktop",
+      "colSizing" : "auto"
+    }
+  }
+}

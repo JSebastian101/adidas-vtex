@@ -1,0 +1,164 @@
+{
+  /* Department gender categories */
+
+    /* HEADERS */
+    "drawer-header#category__best-products" : {
+      "title" : "menu category-drawer header",
+      "children" : [
+        "flex-layout.row#category__best-products-header"
+      ]
+    },
+    "drawer-header#category__shoes" : {
+      "title" : "menu category-drawer header",
+      "children" : [
+        "flex-layout.row#category__shoes-header"
+      ]
+    },
+    "drawer-header#category__clothes" : {
+      "title" : "menu category-drawer header",
+      "children" : [
+        "flex-layout.row#category__clothes-header"
+      ]
+    },
+    "drawer-header#category__accesories" : {
+      "title" : "menu category-drawer header",
+      "children" : [
+        "flex-layout.row#category__accesories-header"
+      ]
+    },
+    "drawer-header#category__sports" : {
+      "title" : "menu category-drawer header",
+      "children" : [
+        "flex-layout.row#category__sports-header"
+      ]
+    },
+    "drawer-header#category__world-cup" : {
+      "title" : "menu category-drawer header",
+      "children" : [
+        "flex-layout.row#category__world-cup-header"
+      ]
+    },
+
+    /* TRIGGERS */
+  "drawer-trigger#category__best-products" : {
+    "title" : "drawer-trigger category",
+    "children" : [
+      "flex-layout.row#category__best-products-trigger"
+    ]
+  },
+  "drawer-trigger#category__shoes" : {
+    "title" : "drawer-trigger category",
+    "children" : [
+      "flex-layout.row#category__shoes-trigger"
+    ]
+  },
+  "drawer-trigger#category__clothes" : {
+    "title" : "drawer-trigger category",
+    "children" : [
+      "flex-layout.row#category__clothes-trigger"
+    ]
+  },
+  "drawer-trigger#category__accesories" : {
+    "title" : "drawer-trigger category",
+    "children" : [
+      "flex-layout.row#category__accesories-trigger"
+    ]
+  },
+  "drawer-trigger#category__sports" : {
+    "title" : "drawer-trigger category",
+    "children" : [
+      "flex-layout.row#category__sports-trigger"
+    ]
+  },
+  "drawer-trigger#category__world-cup" : {
+    "title" : "drawer-trigger category",
+    "children" : [
+      "flex-layout.row#category__world-cup-trigger"
+    ]
+  },
+
+  /* Department sports categories */
+
+    /* HEADERS */
+
+    "drawer-header#category__sports-two" : {
+      "title" : "menu category-drawer two header",
+      "children" : [
+        "flex-layout.row#category__sports-two-header"
+      ]
+    },
+    "drawer-header#category__futbol" : {
+      "title" : "menu category-drawer two header",
+      "children" : [
+        "flex-layout.row#category__futbol-trigger"
+      ]
+    },
+    "drawer-header#category__running" : {
+      "title" : "menu category-drawer two header",
+      "children" : [
+        "flex-layout.row#category__running-header"
+      ]
+    },
+    "drawer-header#category__training" : {
+      "title" : "menu category-drawer two header",
+      "children" : [
+        "flex-layout.row#category__training-header"
+      ]
+    },
+    "drawer-header#category__tennis" : {
+      "title" : "menu category-drawer two header",
+      "children" : [
+        "flex-layout.row#category__tennis-header"
+      ]
+    },
+    "drawer-header#category__cycling" : {
+      "title" : "menu category-drawer two header",
+      "children" : [
+        "flex-layout.row#category__cycling-header"
+      ]
+    },
+    "drawer-header#category__others" : {
+      "title" : "menu category-drawer two header",
+      "children" : [
+        "flex-layout.row#category__others-header"
+      ]
+    },
+
+    /* TRIGGERS */
+  "drawer-trigger#category__sports-two" : {
+    "title" : "drawer-trigger category-two",
+    "children" : [
+      "flex-layout.row#category__sports-two-trigger"
+    ]
+  },
+  "drawer-trigger#category__running" : {
+    "title" : "drawer-trigger category-two",
+    "children" : [
+      "flex-layout.row#category__running-trigger"
+    ]
+  },
+  "drawer-trigger#category__training" : {
+    "title" : "drawer-trigger category-two",
+    "children" : [
+      "flex-layout.row#category__training-trigger"
+    ]
+  },
+  "drawer-trigger#category__tennis" : {
+    "title" : "drawer-trigger category-two",
+    "children" : [
+      "flex-layout.row#category__tennis-trigger"
+    ]
+  },
+  "drawer-trigger#category__cycling" : {
+    "title" : "drawer-trigger category-two",
+    "children" : [
+      "flex-layout.row#category__cycling-trigger"
+    ]
+  },
+  "drawer-trigger#category__others" : {
+    "title" : "drawer-trigger category-two",
+    "children" : [
+      "flex-layout.row#category__others-trigger"
+    ]
+  }
+}

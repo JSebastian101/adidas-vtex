@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#home__section--history" : {
+    "title" : "home history-section container",
+    "children" : [
+      "flex-layout.col#home__section--historyOne",
+      "flex-layout.col#home__section--historyTwo"
+    ],
+    "props" : {
+      "blockClass" : "home__section--history"
+    }
+  },
+  "flex-layout.col#home__section--historyOne" : {
+    "title" : "home history-section content-one",
+    "children" : [
+      "rich-text#home__title--historyOne",
+      "rich-text#home__paragraph--historyOne"
+    ],
+    "props" : {
+      "blockClass" : "history__section--content"
+    }
+  },
+  "flex-layout.col#home__section--historyTwo" : {
+    "title" : "home history-section content-two",
+    "children" : [
+      "rich-text#home__title--historyTwo",
+      "rich-text#home__paragraph--historyTwo"
+    ],
+    "props" : {
+      "blockClass" : "history__section--content"
+    }
+  }
+}

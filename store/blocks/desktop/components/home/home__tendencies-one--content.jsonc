@@ -1,0 +1,86 @@
+{
+    "flex-layout.col#cards__tendencies--one" : {
+      "title" : "tendencies card container",
+      "children" : [
+        "image#tendencies__image--one",
+        "flex-layout.col#card__tendencies--details"
+      ],
+      "props" : {
+        "blockClass" : "container__card",
+        "colGap": 5
+      }
+    }, 
+    "image#tendencies__image--one" : {
+      "title" : "tendencies card-one image",
+      "props" : {
+        "src" : "assets/img/tendenciesOne.jpg"
+      }
+    },
+    "flex-layout.col#cards__tendencies--two" : {
+      "title" : "tendencies card container",
+      "children" : [
+        "image#tendencies__image--two",
+        "flex-layout.col#card__tendencies--details"
+      ],
+      "props" : {
+        "blockClass" : "container__card",
+        "colGap": 5
+      }
+    },
+    "image#tendencies__image--two" : {
+      "title" : "tendencies card-two image",
+      "props" : {
+        "src" : "assets/img/tendenciesTwo.jpg"
+      }
+    },
+    "flex-layout.col#cards__tendencies--three" : {
+      "title" : "tendencies card container",
+      "children" : [
+        "image#tendencies__image--three",
+        "flex-layout.col#card__tendencies--details"
+      ],
+      "props" : {
+        "blockClass" : "container__card",
+        "colGap": 5
+      }
+    },
+    "image#tendencies__image--three" : {
+      "title" : "tendencies card-three image",
+      "props" : {
+        "src" : "assets/img/tendenciesThree.jpg"
+      }
+    },
+    "flex-layout.col#card__tendencies--details" : {
+      "title" : "tendencies card details container",
+      "children" : [
+        "rich-text#card__tendencies--title",
+        "rich-text#card__tendencies--paragraph",
+        "link#card__tendencies--url"
+      ],
+      "props" : {
+        "blockClass" : "tendencies__details"
+      }
+    },
+    "rich-text#card__tendencies--title" : {
+      "title" : "tendencies card details title",
+      "props" : {
+        "text" : "Evans Chebet domina Nueva York",
+        "blockClass" : "tendencies__title"
+      }
+    },
+    "rich-text#card__tendencies--paragraph" : {
+      "title" : "tendencies card details paragraph",
+      "props" : {
+        "text" : "Ganando en su debut con un tiempo de 02:08:41 con las Adizero Adios Pro 3.",
+        "blockClass" : "tendencies__paragraph"
+      }
+    },
+    "link#card__tendencies--url" : {
+      "title" : "tendencies card details link",
+      "props" : {
+        "href" : "#",
+        "label" : "DESCUBRE MÁS",
+        "blockClass" : "tendencies__url"
+      }
+    }
+}

@@ -1,0 +1,77 @@
+{
+  /* HEADER */
+  "drawer-header#department__gender--female-header" : {
+    "title" : "menu department-drawer header",
+    "children" : [
+      "flex-layout.row#department__gender--female-header"
+    ]
+  },
+  "drawer-header#department__gender--male-header" : {
+    "title" : "menu department-drawer header",
+    "children" : [
+      "flex-layout.row#department__gender--male-header"
+    ]
+  },
+  "drawer-header#department__gender--kids-header" : {
+    "title" : "menu department-drawer header",
+    "children" : [
+      "flex-layout.row#department__gender--kids-header"
+    ]
+  },
+  "drawer-header#department__sports-header" : {
+    "title" : "menu department-drawer header",
+    "children" : [
+      "flex-layout.row#department__sports-header"
+    ]
+  },
+  "drawer-header#department__adidas-header" : {
+    "title" : "menu department-drawer header",
+    "children" : [
+      "flex-layout.row#department__adidas-header"
+    ]
+  },
+  "drawer-header#department__gifts-header" : {
+    "title" : "menu department-drawer header",
+    "children" : [
+      "flex-layout.row#department__gifts-header"
+    ]
+  },
+
+  /* TRIGGERS */
+  "drawer-trigger#department__gender--female" : {
+    "title" : "drawer-trigger department",
+    "children" : [
+      "flex-layout.row#department__gender--female-trigger"
+    ]
+  },
+  "drawer-trigger#department__gender--male" : {
+    "title" : "drawer-trigger department",
+    "children" : [
+      "flex-layout.row#department__gender--male-trigger"
+    ]
+  },
+  "drawer-trigger#department__gender--kids" : {
+    "title" : "drawer-trigger department",
+    "children" : [
+      "flex-layout.row#department__gender--kids-trigger"
+    ]
+  },
+  "drawer-trigger#department__sports" : {
+    "title" : "drawer-trigger department",
+    "children" : [
+      "flex-layout.row#department__sports-trigger"
+    ]
+  },
+  "drawer-trigger#department__adidas" : {
+    "title" : "drawer-trigger department",
+    "children" : [
+      "flex-layout.row#department__adidas-trigger"
+    ]
+  },
+  "drawer-trigger#department__gifts" : {
+    "title" : "drawer-trigger department",
+    "children" : [
+      "flex-layout.row#department__gifts-trigger"
+    ]
+  }
+}
