@@ -1,8 +1,8 @@
 # adidas Store Theme
 
-This SPA was created based on the VTEX IO Store Framework.
+This SPA is created based on the VTEX IO Store Framework.
 
-Throug use of vtex native components adidas Store Theme, count with features like
+Through the use of vtex native components adidas Store Theme allow users to access e-commerce features like:
 
 * Navigation menu
 * Login
@@ -14,9 +14,9 @@ Throug use of vtex native components adidas Store Theme, count with features lik
   * products based on: department, category or subcategory
   * filters and orders
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+and custom components: 
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+* Whatsapp contact button
 
 ## Configuration
 
@@ -26,26 +26,13 @@ Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/buil
 
 By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+### Step 2 - Cloning adidas Store Theme
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+[Clone](https://github.com/JSebastian101/adidas-vtex) this repository to your local files to be able to effectively start working on it.
 
 Then, access the repository's directory using your terminal. 
 
-### Step 3 - Editing the `Manifest.json`
-
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
-
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
-
-```json
-{
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
-}
-```
-
-### Step 4 -  Installing required apps
+### Step 3 -  Installing required apps
 
 In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
 
@@ -53,7 +40,7 @@ Run  `vtex list`  and check whether those apps are already installed.
 
 If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
 
-### Step 5 -  Uninstalling any existing theme
+### Step 4 -  Uninstalling any existing theme
 
 By running `vtex list`,  you can verify if any theme is installed.
 
