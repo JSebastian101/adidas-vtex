@@ -1,5 +1,6 @@
 {
   "store.custom#cart" : {
+    "title" : "custom page cart global container",
     "blocks" : [
       "flex-layout.row#cart__container"
     ],
@@ -25,6 +26,7 @@
     "children": ["minicart-base-content"]
   },
   "minicart-base-content": {
+    "title" : "minicart base-content",
     "blocks": ["minicart-empty-state"],
     "children": [
       "flex-layout.row#minicart__row--desktop"
@@ -34,6 +36,7 @@
     }
   },
   "flex-layout.row#minicart__row--desktop" : {
+    "title" : "minicart container desktop",
     "children" : [
       "flex-layout.col#product-list__container",
       "flex-layout.col#minicart-summary__container"

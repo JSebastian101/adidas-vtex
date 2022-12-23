@@ -29,10 +29,6 @@
 .menuContainerNav--header__menu-user--mobile {
   border-top: 1px solid rgb(232, 226, 226);;
 }
-
-
-/* Mobile */
-
 .menuContainerNav--header__menu-department--mobile,
 .menuContainerNav--header__menu-category-mobile,
 .menuContainerNav--header__menu-subcategory--mobile {
@@ -60,7 +56,6 @@ width: 100%
  margin: 0;
  padding: 0.75rem;
 }
-
 @media (max-width: 1024px) {
   .styledLinkContent--menu__department--name {
     font-size: 17px;

@@ -1,5 +1,6 @@
 {
   "header-layout.desktop" : {
+    "title" : "header layout container desktop",
     "children" : [
       "header-row#header__top",
       "header-row#header__middle",

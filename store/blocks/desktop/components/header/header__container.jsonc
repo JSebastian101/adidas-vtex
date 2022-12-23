@@ -22,7 +22,7 @@
       "header-spacer", 
       "flex-layout.row#header__bottom--menu", 
       "header-spacer", 
-      "search-bar#test", 
+      "search-bar#global", 
       "flex-layout.row#header__bottom--user"],
     "props" : {
       "blockClass" : "header__bottom"

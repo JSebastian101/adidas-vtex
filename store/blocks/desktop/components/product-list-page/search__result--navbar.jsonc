@@ -54,19 +54,5 @@
       "text" : "Filtrar y Ordenar",
       "blockClass" : "filters__modal--header"
     }
-  },
-
-  /* Mobile */
-  "flex-layout.row#search-results__navbar--mobile" : {
-    "title" : "search result desktop navbar",
-    "children" : [
-      "breadcrumb.search#search-results__navbar--breadcrumb",
-      "filter-navigator.v3"
-    ],
-    "props" : {
-      "preserveLayoutOnMobile" : true,
-      "colSizing" : "auto",
-      "blockClass" : "search-results__navbar"
-    }
   }
 }

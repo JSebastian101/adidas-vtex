@@ -61,8 +61,6 @@
       "modal-trigger#header__user-section--login",
       "modal-trigger#header__user-section--search",
       "image#home__user--cartshop"
-      /* ,
-      "minicart.v2" */
     ],
     "props" : {
       "blockClass" : "header__user-section--mobile",
@@ -72,8 +70,7 @@
   "modal-trigger#header__user-section--login" : {
     "title" : "modal-trigger login",
     "children" : [
-      "image#home__user--login",/* 
-      "icon#user-section__login--icon", */
+      "image#home__user--login",
       "modal-layout#header__modal--login"
     ]
   },
@@ -96,7 +93,7 @@
   "modal-layout#header__modal--searchbar" : {
     "title" : "modal-content searchbar",
     "children" : [
-      "search-bar#test"
+      "search-bar#global"
     ],
     "props" : {
       "blockClass" : "header__modal--searchbar"

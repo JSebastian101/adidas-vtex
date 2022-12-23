@@ -24,12 +24,6 @@
       "blockClass" : "pdp__right-section--reviews"
     }
   },
-  "rich-text#pdp__right-section--category" : {
-    "title" : "Product Detail Page right section category",
-    "props" : {
-      "text" : "Hombre ● Originals"
-    }
-  },
   "flex-layout.col#pdp__right-section--price" : {
     "title" : "Product Detail Page right section price",
     "children" : [
@@ -40,25 +34,12 @@
       "blockClass" : "pdp__right-section--price"
     }
   },
-  "product-price#product-detail-page" : {
-    "props" : {
-      "showInstallments": true,
-      "blockClass" : "pdp__price"
-    }
-  },
   "modal-trigger#pdp__price--details" : {
     "title" : "Product Detail Page right section price details",
     "children" : [
       "rich-text#pdp__price--details",
       "modal-layout#pdp__price--details"
     ]
-  },
-  "rich-text#pdp__price--details" : {
-    "title" : "pdp right section modal trigger",
-    "props" : {
-      "text" : "ver más",
-      "blockClass" : "pdp__price--details"
-    }
   },
   "modal-layout#pdp__price--details" : {
     "title" : "Product Detail Page right modal price details",
@@ -77,21 +58,6 @@
     ],
     "props" : {
       "blockClass" : "pdp__price--details"
-    }
-  },
-  "rich-text#pdp__price-details--title" : {
-    "title" : "pdp price-details modal title",
-    "props" : {
-      "text" : "OPCIONES DE FINANCIACIÓN",
-      "font" : "t-heading-2",
-      "blockClass" : "pdp__price-details--title"
-    }
-  },
-  "rich-text#pdp__price-details--payment" : {
-    "title" : "pdp price-details modal payment",
-    "props" : {
-      "text" : "Hasta 12 x $14.999,17 más interés bancario.<br>Pagá en hasta 12 cuotas sin interés con tu tarjeta de crédito Visa, Mastercard, American Express y<br> otras más.* Toda Compra con Tarjeta de Credito financiada a cuotas, estan sujeta a tasa de Interés<br> según banco emisor.",
-      "blockClass" : "pdp__price-details--payment"
     }
   },
   "flex-layout.col#pdp__right-section--sku-selector" : {
@@ -124,30 +90,6 @@
       "colGap" : 4
     }
   },
-  "image#pdp__right-section--size-guide" : {
-    "title" : "pdp right section size guide icon",
-    "props" : {
-      "src" : "assets/img/pdp-size-guide.svg",
-      "blockClass" : "#pdp__right-section--size-guide",
-      "maxWidth" : 16,
-      "maxHeight" : 16
-    }
-  },
-  "link#pdp__right-section--size-guide" : {
-    "title" : "pdp right section size guide link",
-    "props" : {
-      "href" : "/sizes-guide",
-      "label" : "Guía de tallas",
-      "blockClass" : "pdp__right-section--size-guide"
-    }
-  },
-  "rich-text#pdp__right-section--size-selected" : {
-    "title" : "pdp right section size selected",
-    "props" : {
-      "text" : "Tu talla es la **US 10.5**, según tu elección anterior",
-      "blockClass" : "pdp__right-section--size-selected"
-    }
-  },
   "flex-layout.row#pdp__right-section--actions" : {
     "title" : "Product Detail Page right section actions",
     "children" : [
@@ -158,19 +100,6 @@
       "colSizing" : "auto",
       "blockClass" : "pdp__right-section--actions",
       "preserveLayoutOnMobile" : true
-    }
-  },
-  "add-to-list-btn#pdp" : {
-    "title" : "wish-list btn pdp",
-    "props" : {
-      "blockClass" : "pdp__product--whislist"
-    }
-  },
-  "buy-button#pdp" : {
-    "props" : {
-      "shouldOpenMinicart" : true,
-      "showTooltipOnSkuNotSelected" : true,
-      "blockClass" : "buy-button#pdp"
     }
   },
   "flex-layout.col#pdp__right-section--info" : {
@@ -218,51 +147,6 @@
       "blockClass" : "pdp__right-section--info",
       "colSizing" : "auto",
       "colGap" : 5
-    }
-  },
-  "image#pdp__right-section--info-one" : {
-    "title" : "pdp right section info icons",
-    "props" : {
-      "src" : "assets/img/pdp-delivery.svg",
-      "maxWidth": 18,
-      "maxHeight": 18
-    }
-  },
-  "rich-text#pdp__right-section--info-one" : {
-    "title" : "pdp right section info text",
-    "props" : {
-      "text" : "ENVÍO GRATIS A PARTIR DE $149.900 POR +<br>$14.990 SOLICITA EL ENVÍO EXPRESS",
-      "blockClass" : "pdp__right-section--info"
-    }
-  },
-  "image#pdp__right-section--info-two" : {
-    "title" : "pdp right section info icons",
-    "props" : {
-      "src" : "assets/img/pdp-safe-payment.svg",
-      "maxWidth": 18,
-      "maxHeight": 18
-    }
-  },
-  "rich-text#pdp__right-section--info-two" : {
-    "title" : "pdp right section info text",
-    "props" : {
-      "text" : "PAGA SEGURO PUEDES PAGAR EN LÍNEA",
-      "blockClass" : "pdp__right-section--info"
-    }
-  },
-  "image#pdp__right-section--info-three" : {
-    "title" : "pdp right section info icons",
-    "props" : {
-      "src" : "assets/img/pdp-size-guide.svg",
-      "maxWidth": 18,
-      "maxHeight": 18
-    }
-  },
-  "rich-text#pdp__right-section--info-three" : {
-    "title" : "pdp right section info text",
-    "props" : {
-      "text" : "DEVOLUCIONES GRATIS ¿NO ES TU TALLA? DEVUELVE EN UN PLAZO DE 60 DÍAS",
-      "blockClass" : "pdp__right-section--info"
     }
   }
 }

@@ -62,7 +62,7 @@
     }
   },
   "flex-layout.col#search-results__product--top" : {
-    "title" : "",
+    "title" : "search-result product details-top",
     "children" : [
       "product-summary-image#product-image",
       "add-to-list-btn#plp",
@@ -74,7 +74,7 @@
     }
   },
   "flex-layout.col#search-results__product--botton" : {
-    "title" : "",
+    "title" : "search-result product details-bottom",
     "children" : [
       "product-summary-name",
       "product-summary-brand"
@@ -83,8 +83,6 @@
       "blockClass" : "search-result__product--botton"
     }
   },
-  /* Product summary details */
-      /* top */
   "product-summary-image#product-image" : {
     "title" : "search-results product image",
     "props" : {
@@ -113,7 +111,6 @@
       "blockClass" : "search-result__product--selling-price"
     }
   },
-      /* botton */
   "product-summary-name" : {
     "title" : "search-results product name",
      "props" : {

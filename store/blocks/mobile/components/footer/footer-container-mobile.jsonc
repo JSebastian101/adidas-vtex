@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__section--oneMobile" : {
+    "title" : "footer section-one mobile",
     "children" : [
       "flex-layout.col#footer__group--oneMobile",
       "flex-layout.col#footer__group--TwoMobile"
@@ -10,7 +11,7 @@
     }
   },
   "flex-layout.col#footer__group--oneMobile" : {
-    "title" : "footer-group-mobile",
+    "title" : "footer group-one mobile",
     "children" : [
       "rich-text#groupOne__li--oneMobile",
       "rich-text#groupOne__li--twoMobile",
@@ -19,7 +20,7 @@
     ]
   },
   "flex-layout.col#footer__group--TwoMobile" : {
-    "title" : "footer-group-mobile",
+    "title" : "footer group-two mobile",
     "children" : [
       "rich-text#groupTwo__li--oneMobile",
       "rich-text#groupTwo__li--twoMobile",

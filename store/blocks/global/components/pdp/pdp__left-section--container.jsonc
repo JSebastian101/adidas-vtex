@@ -19,18 +19,6 @@
       "blockClass" : "pdp__image--container"
     }
   },
-  "breadcrumb#pdp__image--breadcrumb" : {
-    "title" : "pdp breadcrumb",
-    "props" : {
-      "showOnMobile" : false,
-      "blockClass" : "pdp__image--breadcrumb"
-    }
-  },
-  "product-images#pdp" : {
-    "props" : {
-      "displayMode" : "list"
-    }
-  },
   "disclosure-layout-group#pdp__disclosure-group--container" : {
     "title" : "Product Detail Page Disclosure left",
     "children"  :  [

@@ -3,9 +3,6 @@
   overflow: hidden;
 }
 
-/* .imageElement--home__user--login {
-  margin-right: 15px;
-} */
 .imageElement--home__user--logo,
 .imageElement--home__user--login:hover {
   cursor: pointer;
@@ -17,8 +14,6 @@
   border: none;
 }
 
-
-/* desktop */
 .imageElement--banner__image--zero,
 .imageElement--banner__image--one,
 .imageElement--banner__image--two,
@@ -26,8 +21,6 @@
   height: 100%;
 }
 
-
-/* tablet */
 @media(max-width: 1024px) {
   .imageElement--banner__image--zero {
     height: 100%;
@@ -50,10 +43,6 @@
     object-position: center;
   }
 } 
-
-
-/* PRECIO */
-
 .price_installment--pdp__price:last-child {
   font-weight: bold;
 }

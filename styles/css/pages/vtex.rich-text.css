@@ -69,7 +69,6 @@
   font-size: 28px;
 }
 
-/* INSTRUCTIONS */
 .paragraph--sg__my-size--list-item {
   font-size: 13px;
   font-weight: lighter;
@@ -103,12 +102,6 @@
 .paragraph--store-details__client-service--schedule-two {
   margin: 10px 0 30px
 }
-
-
-
-/* CART */
-
-
 .paragraph--minicart-empty__cta--title {
   line-height: 35px ;
   margin: 0;

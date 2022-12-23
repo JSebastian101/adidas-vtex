@@ -23,7 +23,6 @@
 .container--footer-copyright {
   background-color: #363738;
 }
-/* mobile */
 .container--footer__li--mobile {
   display: flex;
   justify-content: center;

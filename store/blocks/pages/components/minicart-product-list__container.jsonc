@@ -1,5 +1,6 @@
 {
   "minicart-product-list" : {
+    "title" : "minicart global",
     "blocks" : [
       "product-list#minicart"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "product-list#minicart": {
+    "title" : "minicart product-list global container",
     "blocks" : [
       "product-list-content-mobile",
       "product-list-content-desktop"

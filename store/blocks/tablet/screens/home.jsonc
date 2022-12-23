@@ -1,18 +1,18 @@
 {
-  "responsive-layout.phone" : {
-    "title" : "home phone container",
+  "responsive-layout.tablet" : {
+    "title" : "home tablet container",
     "children" : [
-      "flex-layout.row#home__mobile--container"
+      "flex-layout.row#home-tablet__banner--container"
     ]
   },
-  "flex-layout.row#home__mobile--container" : {
-    "title" : "home phone columns container",
+  "flex-layout.row#home-tablet__banner--container" : {
+    "title" : "home tablet columns container",
     "children" : [
-      "flex-layout.col#home__mobile--content"
+      "flex-layout.col#home-tablet__banner--container"
     ]
   },
-  "flex-layout.col#home__mobile--content" : {
-    "title" : "home phone content",
+  "flex-layout.col#home-tablet__banner--container" : {
+    "title" : "home tablet content",
     "children" : [
       "list-context.bullet-group",
       "flex-layout.col#home__banner--container",

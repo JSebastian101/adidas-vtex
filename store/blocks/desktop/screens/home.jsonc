@@ -27,12 +27,5 @@
       "flex-layout.row#home__section--history",
       "whatsapp-button"
     ]
-  },
-  "whatsapp-button" : {
-    "props" : {
-      "logo" : "assets/img/whatsapp-logo.png",
-      "phone" : "3176723596",
-      "message" : "Bienvenido"
-    }
   }
 }

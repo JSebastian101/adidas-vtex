@@ -2,9 +2,6 @@
   display: flex;
   justify-content: center;
 }
-
-/* header mobile */
-
 .paper--header__modal--searchbar {
   height: 100%;
   width: 100%;

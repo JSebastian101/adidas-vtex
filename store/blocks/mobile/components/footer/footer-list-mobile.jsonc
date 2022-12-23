@@ -1,55 +1,55 @@
 {
   "rich-text#groupOne__li--oneMobile" : {
-    //"title" : "",
+    "title" : "footer group-one list-item",
     "props" : {
       "text" : "Buscador de Tiendas",
       "blockClass" : "footer__li--mobile"
     }
   },
   "rich-text#groupOne__li--twoMobile" : {
-    //"title" : "",
+    "title" : "footer group-one list-item",
     "props" : {
       "text" : "Preguntas Frecuentes",
       "blockClass" : "footer__li--mobile"
     }
   },
   "rich-text#groupOne__li--threeMobile" : {
-    //"title" : "",
+    "title" : "footer group-one list-item",
     "props" : {
       "text" : "Solicitar mi Devolución",
       "blockClass" : "footer__li--mobile"
     }
   },
   "rich-text#groupOne__li--fourMobile" : {
-    //"title" : "",
+    "title" : "footer group-one list-item",
     "props" : {
       "text" : "Pago",
       "blockClass" : "footer__li--mobile"
     }
   },
   "rich-text#groupTwo__li--oneMobile" : {
-    //"title" : "",
+    "title" : "footer group-two list-item",
     "props" : {
       "text" : "Devoluciones",
       "blockClass" : "footer__li--mobile"
     }
   },
   "rich-text#groupTwo__li--twoMobile" : {
-    //"title" : "",
+    "title" : "footer group-two list-item",
     "props" : {
       "text" : "Guía de Tallas",
       "blockClass" : "footer__li--mobile"
     }
   },
   "rich-text#groupTwo__li--threeMobile" : {
-    //"title" : "",
+    "title" : "footer group-two list-item",
     "props" : {
       "text" : "Mapa del Sitio",
       "blockClass" : "footer__li--mobile"
     }
   },
   "rich-text#groupTwo__li--fourMobile" : {
-    //"title" : "",
+    "title" : "footer group-two list-item",
     "props" : {
       "text" : "Envío",
       "blockClass" : "footer__li--mobile"

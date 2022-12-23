@@ -4,10 +4,6 @@
   font-size: .9rem;
   margin-bottom: 100px;
 }
-
-
-/* button type one */
-
 .buttonLink--home__button--one {
   position: relative;
   border-radius: 0;
@@ -47,8 +43,6 @@
   bottom: -5px;
   left: 5px;
 }
-
-/* Butoon type two */
 
 .buttonLink--home--ocean-banner__cta {
   border-radius: 0;

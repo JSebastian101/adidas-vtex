@@ -1,5 +1,4 @@
 {
-  /* BREADCRUMB */
   "icon#sg__breadcrumb--back" : {
     "title" : "sg breadcrumb icon",
     "props" : {
@@ -21,8 +20,6 @@
       "blockClass" : "sg__breadcrumb--products"
     }
   },
-  /* TITLE */
-  
   "rich-text#sg__page--title" : {
     "title" : "sg page title",
     "props" : {
@@ -37,8 +34,6 @@
       "blockClass" : "sp__page--update"
     }
   },
-
-  /* Paragraphs */
   "rich-text#sg__paragraph--one" : {
     "title" : "sg paragraph one",
     "props" : {
@@ -46,7 +41,6 @@
       "blockClass" : "sg__paragraph--one"
     }
   },
-
   "rich-text#sg__paragraph--space": {
     "title" : "sg paragraph space",
     "props" : {
@@ -62,9 +56,6 @@
       "url" : "/electrodomesticos"
     }
   },
-
-  /* Paragraph section 2 */
-
   "rich-text#sg__title--disclaimer" : {
     "title" : "sg title disclaimer",
     "props" : {
@@ -109,8 +100,6 @@
       "blockClass" : "sg__paragraph--exchange"
     }
   },
-
-  /* TABLE */
   "rich-text#sg__men-guide--title" : {
     "title" : "sg title men-guide title",
     "props" : {
@@ -139,8 +128,6 @@
       "blockClass" : "sg__title--disclaimer"
     }
   },
-
-  /* INSTRUCTION LIST */
   "rich-text#sg__my-size--list-item-one" : {
     "title" : "sg my-size list-item",
     "props" : {
@@ -193,8 +180,6 @@
       "blockClass" : "sg__my-size--list-item"
     }
   },
-
-  /* STORE DETAILS LEFT SIDE */
   "rich-text#store-details__delivery--title" : {
     "title" : "store-details delivery title",
     "props" : {
@@ -227,8 +212,6 @@
       "blockClass" : "store-details__button"
     }
   },
-
-  /* STORE DETAILS RIGHT SIDE */
   "rich-text#store-details__client-service--question" : {
     "title" : "store-details cliente-service question",
     "props" : {

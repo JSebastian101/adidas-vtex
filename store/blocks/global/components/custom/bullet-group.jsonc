@@ -1,0 +1,77 @@
+{
+  "list-context.bullet-group" : {
+    "title" : "bullet group",
+    "children" : ["slider-layout#bullet-group"],
+    "props" : {
+      "bullets" : [
+        {
+          "image" : "assets/img/shelfProduct1.jpg",
+          "titleBullet" : "Computadores",
+          "link" : {
+            "url" : "/"
+          }
+        },
+        {
+          "image" : "assets/img/shelfProduct1.jpg",
+          "titleBullet" : "Prendas",
+          "link" : {
+            "url" : "/"
+          }
+        },
+        {
+          "image" : "assets/img/shelfProduct1.jpg",
+          "titleBullet" : "Computadores",
+          "link" : {
+            "url" : "/"
+          }
+        },
+        {
+          "image" : "assets/img/shelfProduct1.jpg",
+          "titleBullet" : "Prendas",
+          "link" : {
+            "url" : "/"
+          }
+        },
+        {
+          "image" : "assets/img/shelfProduct1.jpg",
+          "titleBullet" : "Computadores",
+          "link" : {
+            "url" : "/"
+          }
+        },
+        {
+          "image" : "assets/img/shelfProduct1.jpg",
+          "titleBullet" : "Prendas",
+          "link" : {
+            "url" : "/"
+          }
+        },
+        {
+          "image" : "assets/img/shelfProduct1.jpg",
+          "titleBullet" : "Computadores",
+          "link" : {
+            "url" : "/"
+          }
+        },
+        {
+          "image" : "assets/img/shelfProduct1.jpg",
+          "titleBullet" : "Prendas",
+          "link" : {
+            "url" : "/"
+          }
+        }
+      ] 
+    }  
+  },
+  "slider-layout#bullet-group" : {
+    "title" : "slider layout bullet group",
+    "props" : {
+      "itemsPerPage" : {
+        "desktop" : 5,
+        "tablet" : 5,
+        "mobile" : 5
+      },
+      "infinite" : true
+    }
+  }
+}

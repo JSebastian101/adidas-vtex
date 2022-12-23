@@ -1,5 +1,6 @@
 {
-  "search-bar#test" : {
+  "search-bar#global" : {
+    "title" : "global search bar",
     "blocks" : ["autocomplete-result-list.v2"],
     "props" : {
       "placeholder" : "Buscar",
