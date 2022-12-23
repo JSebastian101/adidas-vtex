@@ -14,7 +14,6 @@
   "flex-layout.col#home-tablet__banner--container" : {
     "title" : "home tablet content",
     "children" : [
-      "list-context.bullet-group",
       "flex-layout.col#home__banner--container",
       "flex-layout.col#home__links--popular",
       "flex-layout.col#home-mobile__cards__gender",
