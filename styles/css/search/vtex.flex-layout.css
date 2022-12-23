@@ -1,4 +1,4 @@
-/* search navbar */
+
   .flexRow--search-results__navbar {
     padding: 30px 0;
   }
@@ -23,11 +23,11 @@
   .flexRowContent--search-results__navbar :global(.vtex-search-result-3-x-filterPopupTitle):hover {
     color: #767677;
   }
-/* banner tallas */
+
   .flexRow--search-results__banner {
     margin: 0 0 30px 0;
   }
-/* navbar - banner media queries */
+
 @media(max-width:900px) {
   .flexRow--search-results__navbar {
     padding: 20px 0;
@@ -45,7 +45,6 @@
 }
 
 
-/* Gallery */
   .flexColChild--search-results__products--col :global(.vtex-search-result-3-x-gallery){
     margin: 0;
     padding: 0;
@@ -55,7 +54,7 @@
   .flexCol--search-results__product--summary:hover{
     border: 1px solid black;
   }
-/* Product card */
+
   .flexCol--search-result__product--top {
     position: relative;
   }

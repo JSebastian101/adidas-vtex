@@ -1,0 +1,11 @@
+.link--pdp__right-section--size-guide:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.label--pdp__right-section--size-guide {
+  padding: 5px;
+  cursor: pointer;
+}
+.label--pdp__right-section--size-guide:hover {
+  color: white;
+}

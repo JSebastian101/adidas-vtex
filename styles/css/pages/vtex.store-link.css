@@ -1,0 +1,19 @@
+.buttonLink--store-details__button,
+.buttonLink--store-details__cliente-service--cta {
+  margin-bottom: 20px;
+  min-width: 270px;
+  border: none;
+  background: linear-gradient(to right,#025f8e,#0286cd)
+}
+
+.label--store-details__button,
+.label--store-details__cliente-service--cta {
+ font-weight: bold;
+ position: relative;
+}
+.label--store-details__button::after,
+.label--store-details__cliente-service--cta::after {
+  content: "🢂";
+  position: absolute;
+  padding-left: 5px;
+}

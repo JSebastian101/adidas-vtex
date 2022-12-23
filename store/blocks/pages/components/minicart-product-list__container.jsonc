@@ -1,0 +1,21 @@
+{
+  "minicart-product-list" : {
+    "title" : "minicart global",
+    "blocks" : [
+      "product-list#minicart"
+    ],
+    "props" : {
+      "blockClass" : "minicart-product-list__container"
+    }
+  },
+  "product-list#minicart": {
+    "title" : "minicart product-list global container",
+    "blocks" : [
+      "product-list-content-mobile",
+      "product-list-content-desktop"
+    ],
+    "props" : {
+      "blockClass" : "product-list__container"
+    }
+  }
+}

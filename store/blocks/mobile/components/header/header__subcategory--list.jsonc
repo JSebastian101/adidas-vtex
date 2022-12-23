@@ -1,0 +1,138 @@
+{
+  "vtex.menu@2.x:menu#subcategory__best-products" : {
+    "title" : "header subcategory menu mobile",
+    "children" : [
+      "menu-item#best-products__subcategory--item-one",
+      "menu-item#best-products__subcategory--item-two",
+      "menu-item#best-products__subcategory--item-three",
+      "menu-item#best-products__subcategory--item-four",
+      "menu-item#best-products__subcategory--item-five",
+      "menu-item#best-products__subcategory--item-six",
+      "menu-item#best-products__subcategory--item-seven",
+      "menu-item#best-products__subcategory--item-eight",
+      "menu-item#best-products__subcategory--item-nine",
+      "menu-item#best-products__subcategory--item-ten",
+      "menu-item#best-products__subcategory--item-eleven"
+    ],
+    "props" : {
+      "orientation" : "vertical",
+      "blockClass" : "header__menu-subcategory--mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#subcategory__shoes" : {
+    "title" : "header subcategory menu mobile",
+    "children" : [
+      "menu-item#shoes__subcategory--item-one",
+      "menu-item#shoes__subcategory--item-two",
+      "menu-item#shoes__subcategory--item-three",
+      "menu-item#shoes__subcategory--item-four",
+      "menu-item#shoes__subcategory--item-five",
+      "menu-item#shoes__subcategory--item-six",
+      "menu-item#shoes__subcategory--item-seven",
+      "menu-item#shoes__subcategory--item-eight",
+      "menu-item#shoes__subcategory--item-nine",
+      "menu-item#shoes__subcategory--item-ten",
+      "menu-item#shoes__subcategory--item-eleven",
+      "menu-item#shoes__subcategory--item-twelve",
+      "menu-item#shoes__subcategory--item-thirteen",
+      "menu-item#shoes__subcategory--item-fourteen"
+    ],
+    "props" : {
+      "orientation" : "vertical",
+      "blockClass" : "header__menu-subcategory--mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#subcategory__accesories" : {
+    "title" : "header subcategory menu mobile",
+    "children" : [
+      "menu-item#accessories__subcategory--item-one",
+      "menu-item#accessories__subcategory--item-two",
+      "menu-item#accessories__subcategory--item-three",
+      "menu-item#accessories__subcategory--item-four",
+      "menu-item#accessories__subcategory--item-five",
+      "menu-item#accessories__subcategory--item-six",
+      "menu-item#accessories__subcategory--item-seven",
+      "menu-item#accessories__subcategory--item-eight"
+    ],
+    "props" : {
+      "orientation" : "vertical",
+      "blockClass" : "header__menu-subcategory--mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#subcategory__sports" : {
+    "title" : "header subcategory menu mobile",
+    "children" : [
+      "menu-item#sports__subcategory--item-one",
+      "menu-item#sports__subcategory--item-two",
+      "menu-item#sports__subcategory--item-three",
+      "menu-item#sports__subcategory--item-four",
+      "menu-item#sports__subcategory--item-five",
+      "menu-item#sports__subcategory--item-six",
+      "menu-item#sports__subcategory--item-seven",
+      "menu-item#sports__subcategory--item-eight",
+      "menu-item#sports__subcategory--item-nine",
+      "menu-item#sports__subcategory--item-ten",
+      "menu-item#sports__subcategory--item-eleven"
+    ],
+    "props" : {
+      "orientation" : "vertical",
+      "blockClass" : "header__menu-subcategory--mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#subcategory__futbol" : {
+    "title" : "header subcategory menu mobile",
+    "children" : [
+      "menu-item#shoes__subcategory--item-one",
+      "menu-item#shoes__subcategory--item-two",
+      "menu-item#shoes__subcategory--item-three",
+      "menu-item#shoes__subcategory--item-four",
+      "menu-item#shoes__subcategory--item-five",
+      "menu-item#shoes__subcategory--item-six",
+      "menu-item#shoes__subcategory--item-seven",
+      "menu-item#shoes__subcategory--item-eight",
+      "menu-item#shoes__subcategory--item-nine",
+      "menu-item#shoes__subcategory--item-ten"
+    ],
+    "props" : {
+      "orientation" : "vertical",
+      "blockClass" : "header__menu-subcategory--mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#subcategory__running" : {
+    "title" : "header subcategory menu mobile",
+    "children" : [
+      "menu-item#sports__subcategory--item-one",
+      "menu-item#sports__subcategory--item-two",
+      "menu-item#sports__subcategory--item-three",
+      "menu-item#sports__subcategory--item-four",
+      "menu-item#sports__subcategory--item-five",
+      "menu-item#sports__subcategory--item-six",
+      "menu-item#sports__subcategory--item-seven",
+      "menu-item#sports__subcategory--item-eight",
+      "menu-item#sports__subcategory--item-nine",
+      "menu-item#sports__subcategory--item-ten",
+      "menu-item#sports__subcategory--item-eleven"
+    ],
+    "props" : {
+      "orientation" : "vertical",
+      "blockClass" : "header__menu-subcategory--mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#subcategory__training" : {
+    "title" : "header subcategory menu mobile",
+    "children" : [
+      "menu-item#accessories__subcategory--item-one",
+      "menu-item#accessories__subcategory--item-two",
+      "menu-item#accessories__subcategory--item-three",
+      "menu-item#accessories__subcategory--item-four",
+      "menu-item#accessories__subcategory--item-five",
+      "menu-item#accessories__subcategory--item-six",
+      "menu-item#accessories__subcategory--item-seven",
+      "menu-item#accessories__subcategory--item-eight"
+    ],
+    "props" : {
+      "orientation" : "vertical",
+      "blockClass" : "header__menu-subcategory--mobile"
+    }
+  }
+}

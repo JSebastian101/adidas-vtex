@@ -1,0 +1,45 @@
+{
+  "image#home__user--login" : {
+    "title" : "header user-section login logo",
+    "props" : {
+      "src" : "assets/img/userProfile.svg",
+      "blockClass" : "home__user--login",
+      "maxWidth" : 20,
+      "maxHeigth" : 24
+    }
+  },
+  "image#home__user--favourites" : {
+    "title" : "header user-section wishlist logo",
+    "props" : {
+      "src" : "assets/img/userWishlist.svg",
+      "blockClass" : "home__user--logo",
+      "maxWidth" : 20,
+      "maxHeigth" : 24
+    }
+  },
+  "image#home__user--cartshop" : {
+    "title" : "header user-section cart logo",
+    "props" : {
+      "src" : "assets/img/userBag.svg",
+      "blockClass" : "home__user--logo",
+      "link" : {
+        "url" : "/cart",
+        "newTab" : true
+      },
+      "maxWidth" : 20,
+      "maxHeigth" : 24
+    }
+  },
+  "modal-layout#home__user--login" : {
+    "title" : "header modal-content user login",
+    "children" : [
+      "login-content#modal__login"
+    ]
+  },
+  "login-content#modal__login" : {
+    "title" : "header modal login-content",
+    "props" : {
+      "defaultOption" : 0
+    }
+  }
+}

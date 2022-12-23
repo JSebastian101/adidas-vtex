@@ -58,12 +58,15 @@
     ]
   },
   "search-not-found-layout": {
+    "title" : "search not found container",
     "children": ["not-found"]
   },
   "store.not-found#search": {
+    "title" : "search not found content",
     "blocks": ["rich-text#not-found"]
   },
   "rich-text#not-found": {
+    "title" : "search not found message",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

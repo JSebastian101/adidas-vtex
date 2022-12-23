@@ -14,6 +14,7 @@
   "flex-layout.col#home" : {
     "title" : "home desktop content",
     "children" : [
+      "list-context.bullet-group",
       "flex-layout.col#home__banner--container",
       "flex-layout.col#home__links--popular",
       "flex-layout.col#home__cards--gender",
@@ -26,12 +27,5 @@
       "flex-layout.row#home__section--history",
       "whatsapp-button"
     ]
-  },
-  "whatsapp-button" : {
-    "props" : {
-      "logo" : "assets/img/whatsapp-logo.png",
-      "phone" : "3176723596",
-      "message" : "Bienvenido"
-    }
   }
 }

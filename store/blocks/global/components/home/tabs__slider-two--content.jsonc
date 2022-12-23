@@ -1,0 +1,98 @@
+{
+  "image#sliderTwo__image--one" : {
+    "title" : "tabs slider-two product-one image",
+    "props" : {
+      "src" : "assets/img/slider-image-one.jpg",
+      "title": "product-one"
+    }
+  },
+  "flex-layout.col#sliderTwo__details--one" : {
+    "title" : "tabs slider-two product-one details",
+    "children" : [
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
+    ]
+  },
+  "image#sliderTwo__image--two" : {
+    "title" : "tabs slider-two product-two image",
+    "props" : {
+      "src" : "assets/img/slider-image-two.jpg",
+      "title": "product-two" 
+    }
+  },
+  "flex-layout.col#sliderTwo__details--two" : {
+    "title" : "tabs slider-two product-two details",
+    "children" : [
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
+    ]
+  },
+  "image#sliderTwo__image--three" : {
+    "title" : "tabs slider-two product-three image",
+    "props" : {
+      "src" : "assets/img/slider-image-three.jpg",
+      "title": "product-three"
+    }
+  },
+  "flex-layout.col#sliderTwo__details--three" : {
+    "title" : "tabs slider-two product-three details",
+    "children" : [
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
+    ]
+  },
+  "image#sliderTwo__image--four" : {
+    "title" : "tabs slider-two product-four image",
+    "props" : {
+      "src" : "assets/img/slider-image-four.jpg",
+      "title": "product-four"
+    }
+  },
+  "flex-layout.col#sliderTwo__details--four" : {
+    "title" : "tabs slider-two product-four details",
+    "children" : [
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
+    ]
+  },
+  "image#sliderTwo__image--five" : {
+    "title" : "tabs slider-two product-five image",
+    "props" : {
+      "src" : "assets/img/slider-image-five.jpg",
+      "title": "product-five"
+    }
+  },
+  "flex-layout.col#sliderTwo__details--five" : {
+    "title" : "tabs slider-two product-five details",
+    "children" : [
+      "rich-text#details__name--two",
+      "rich-text#details__gender--two",
+      "rich-text#details__freeShipping--two"
+    ]
+  },
+  "rich-text#details__name--two" : {
+    "title" : "tablayout slider-two product-name",
+    "props" : {
+      "text" : "CHAQUETA",
+      "blockClass" : "name"
+    }
+  },
+  "rich-text#details__gender--two" : {
+    "title" : "tablayout slider-two product-name",
+    "props" : {
+      "text" : "Hombre originals",
+      "blockClass" : "gender"
+    }
+  },
+  "rich-text#details__freeShipping--two" : {
+    "title" : "tablayout slider-two product-name",
+    "props" : {
+      "text" : "Solo para miembros",
+      "blockClass" : "shipping"
+    }
+  }
+}

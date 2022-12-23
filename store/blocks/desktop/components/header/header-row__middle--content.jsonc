@@ -1,0 +1,34 @@
+{
+  "rich-text#header__support--help" : {
+    "title" : "header user-support help",
+    "props" : {
+      "text" : "ayuda",
+      "blockClass" : "header__support--text",
+      "textPosition" : "CENTER"
+    }
+  }, 
+  "rich-text#header__support--refunds" : {
+    "title" : "header user-support refunds",
+    "props" : {
+      "text" : "cambios y devoluciones",
+      "blockClass" : "header__support--text",
+      "textPosition" : "CENTER"
+    }
+  }, 
+  "rich-text#header__support--shipping" : {
+    "title" : "header user-support shipping",
+    "props" : {
+      "text" : "seguimiento de pedidos",
+      "blockClass" : "header__support--text",
+      "textPosition" : "CENTER"
+    }
+  }, 
+  "rich-text#header__support--club" : {
+    "title" : "header user-support club",
+    "props" : {
+      "text" : "únete al club",
+      "blockClass" : "header__support--text",
+      "textPosition" : "CENTER"
+    }
+  }
+}

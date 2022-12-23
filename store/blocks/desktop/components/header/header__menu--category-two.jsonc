@@ -1,0 +1,62 @@
+{
+  "flex-layout.col#sports__category--futbol" : {
+    "title" : "sports menu category futbol",
+    "children" : [
+      "rich-text#category__futbol--title",
+      "vtex.menu@2.x:menu#futbol__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#sports__category--running" : {
+    "title" : "sports menu category running",
+    "children" : [
+      "rich-text#category__running--title",
+      "vtex.menu@2.x:menu#running__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#sports__category--training" : {
+    "title" : "sports menu category training",
+    "children" : [
+      "rich-text#category__training--title",
+      "vtex.menu@2.x:menu#training__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#sports__category--tennis" : {
+    "title" : "sports menu category tennis",
+    "children" : [
+      "rich-text#category__tennis--title",
+      "vtex.menu@2.x:menu#tennis__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#sports__category--cycling" : {
+    "title" : "sports menu category cycling",
+    "children" : [
+      "rich-text#category__cycling--title",
+      "vtex.menu@2.x:menu#cycling__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  },
+  "flex-layout.col#sports__category--others" : {
+    "title" : "sports menu category others",
+    "children" : [
+      "rich-text#category__others--title",
+      "vtex.menu@2.x:menu#others__subcategory"
+    ],
+    "props" : {
+      "blockClass" : "menu__category--column"
+    }
+  }
+}

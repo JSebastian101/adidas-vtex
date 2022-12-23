@@ -1,0 +1,74 @@
+{
+  "slider-layout#tabs__products--sliderTwo": {
+    "title" : "tabs slider-two container",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.col#product-one", 
+      "flex-layout.col#product-two", 
+      "flex-layout.col#product-three", 
+      "flex-layout.col#product-four", 
+      "flex-layout.col#product-five",
+      "flex-layout.col#product-one",
+      "flex-layout.col#product-three"]
+  },
+  "flex-layout.col#product-one": {
+    "title" : "tabs slider-two item-one",
+    "children" : [
+      "image#sliderTwo__image--one",
+      "flex-layout.col#sliderTwo__details--one"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },
+  "flex-layout.col#product-two": {
+    "title" : "tabs slider-two item-two",
+    "children" : [
+      "image#sliderTwo__image--two",
+      "flex-layout.col#sliderTwo__details--two"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },
+  "flex-layout.col#product-three": {
+    "title" : "tabs slider-two item-three",
+    "children" : [
+      "image#sliderTwo__image--three",
+      "flex-layout.col#sliderTwo__details--three"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },  
+  "flex-layout.col#product-four": {
+    "title" : "tabs slider-two item-four",
+    "children" : [
+      "image#sliderTwo__image--four",
+      "flex-layout.col#sliderTwo__details--four"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  },
+  "flex-layout.col#product-five": {
+    "title" : "tabs slider-two item-five",
+    "children" : [
+      "image#sliderTwo__image--five",
+      "flex-layout.col#sliderTwo__details--five"
+    ],
+    "props" : {
+      "blockClass" : "shelf__cart"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "minicart-empty-state" : {
+    "title" : "minicart empty state",
+    "children" : [
+      "flex-layout.row#minicart-empty__container"
+    ],
+    "props" : {
+      "blockClass" : "minicart-empty__container"
+    }
+  },
+  "flex-layout.row#minicart-empty__container" : {
+    "title" : "minicart empty container",
+    "children" : [
+      "flex-layout.col#minicart-empty__cta--section",
+      "flex-layout.col#minicart-empty__payment--section"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "minicart-empty__row--container"
+    }
+  },
+  "flex-layout.col#minicart-empty__cta--section" : {
+    "title" : "minicart-empty section cta",
+    "children" : [
+      "rich-text#minicart-empty__cta--title",
+      "rich-text#minicart-empty__cta--paragraph",
+      "link#minicart-empty__cta--link"
+    ],
+    "props" : {
+      "blockClass" : "minicart-empty__section--cta"
+    }
+  },
+  "flex-layout.col#minicart-empty__payment--section" : {
+    "title" : "minicart-empty section payment",
+    "children" : [
+      "rich-text#minicart-empty__payment--paragraph",
+      "image#minicart-empty__payment--logos"
+    ],
+    "props" : {
+      "blockClass" : "minicart-empty__section--payment"
+    }
+  }
+}

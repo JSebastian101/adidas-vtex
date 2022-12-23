@@ -1,0 +1,31 @@
+{
+  "flex-layout.col#home__links--popular" : {
+    "title" : "home popular-links col container",
+    "children" : [
+      "rich-text#hlinks__popular--title",
+      "flex-layout.row#home__links--popular"
+    ]
+  },
+  "rich-text#hlinks__popular--title" : {
+    "title" : "home popular-links title",
+    "props" : {
+      "text" : "Popular ahora",
+      "blockClass" : "cards__title"
+      }
+  },
+  "flex-layout.row#home__links--popular" : {
+    "title" : "home popular-links row container",
+    "children" : [
+      "rich-text#links__popular--one",
+      "rich-text#links__popular--two",
+      "rich-text#links__popular--three",
+      "rich-text#links__popular--four",
+      "rich-text#links__popular--five",
+      "rich-text#links__popular--six"
+    ],
+    "props" : {
+      "blockClass" : "home__links--popular",
+      "rowGap" : 3
+    }
+  }
+}

@@ -40,6 +40,9 @@
       "rich-text#sg__title--my-size",
       "flex-layout.row#sg__my-size--list",
       "flex-layout.row#sg__store-details"
-    ]
+    ],
+    "props" : {
+      "blockClass" : "sizes-guide__container"
+    }
   }
 }

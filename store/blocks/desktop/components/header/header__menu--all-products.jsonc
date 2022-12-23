@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#menu__all-products--global" : {
+    "title" : "menu all-products",
+    "children" : [
+      "rich-text#menu__all-products",
+      "rich-text#menu__all-products--shoes",
+      "rich-text#menu__all-products--clothes",
+      "rich-text#menu__all-products--accesories",
+      "rich-text#menu__all-products--sports",
+      "rich-text#menu__all-products--world-cup"
+    ],
+    "props" : {
+      "blockClass" : "menu__all-products--global"
+    }
+  },
+  "rich-text#menu__all-products" : {
+    "title" : "menu all-products title",
+    "props" : {
+      "text" : "Todos los Productos",
+      "blockClass" : "menu__all-products"
+    }
+  },
+  "rich-text#menu__all-products--shoes" : {
+    "title" : "menu all-products shoes",
+    "props" : {
+      "text" : "Todo el Calzado",
+      "blockClass" : "menu__all-products"
+    }
+  },
+  "rich-text#menu__all-products--clothes" : {
+    "title" : "menu all-products clothes",
+    "props" : {
+      "text" : "Toda la Ropa",
+      "blockClass" : "menu__all-products"
+    }
+  },
+  "rich-text#menu__all-products--accesories" : {
+    "title" : "menu all-products accesories",
+    "props" : {
+      "text" : "Todos los accesorios",
+      "blockClass" : "menu__all-products"
+    }
+  },
+  "rich-text#menu__all-products--sports" : {
+    "title" : "menu all-products sports",
+    "props" : {
+      "text" : "Todos los Deportes",
+      "blockClass" : "menu__all-products"
+    }
+  },
+  "rich-text#menu__all-products--world-cup" : {
+    "title" : "menu all-products world-cup",
+    "props" : {
+      "text" : "Todos del Mundial",
+      "blockClass" : "menu__all-products"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
   "store.home": { 
+    "title" : "home global container",
     "blocks": [
       "responsive-layout.desktop",
       "responsive-layout.tablet",

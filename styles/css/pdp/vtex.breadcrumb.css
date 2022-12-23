@@ -1,0 +1,37 @@
+.arrow--pdp__image--breadcrumb,
+.caretIcon--pdp__image--breadcrumb,
+.term--pdp__image--breadcrumb,
+.link--pdp__image--breadcrumb,
+.arrow--pdp__image--breadcrumb-mobile,
+.caretIcon--pdp__image--breadcrumb-mobile,
+.term--pdp__image--breadcrumb-mobile,
+.link--pdp__image--breadcrumb-mobile 
+{
+  color: black;
+}
+
+.arrow--pdp__image--breadcrumb,
+.arrow--pdp__image--breadcrumb-mobile  {
+  padding: 5px;
+}
+.link--pdp__image--breadcrumb,
+.term--pdp__image--breadcrumb,
+.link--pdp__image--breadcrumb-mobile,
+.term--pdp__image--breadcrumb-mobile  {
+  text-decoration: underline;
+
+}
+.link--pdp__image--breadcrumb:hover,
+.term--pdp__image--breadcrumb:hover,
+.link--pdp__image--breadcrumb-mobile:hover,
+.term--pdp__image--breadcrumb-mobile:hover {
+  background-color: black;
+  color: white;
+}
+.homeLink--pdp__image--breadcrumb-mobile {
+  display: none;
+}
+.term--pdp__image--breadcrumb-mobile,
+.link--pdp__image--breadcrumb-mobile {
+ font-size: 14px;
+}

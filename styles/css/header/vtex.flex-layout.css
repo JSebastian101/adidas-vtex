@@ -1,12 +1,20 @@
 .flexRow--header__user-section--mobile {
-  width: 15%;
+  width: 17%;
+}
+.flexRow--header__bottom--user {
+  width: 9%;
+}
+.flexRowContent--header__bottom--user {
+  padding: 0 10px;
+}
+.flexRowContent--header__bottom--user :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  max-width: max-content;
 }
 @media(max-width: 550px) {
   .flexRow--header__user-section--mobile {
     width: 25%;
   }
 }
-
 .flexRowContent--header__user-section--mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover {
   cursor: pointer;
 }
@@ -24,11 +32,6 @@
 .flexRowContent--header__user-section--mobile :global(.vtex-button__label) {
   padding-left: 6px
 }
-
-
-
-/* MENU */
-
 .flexColChild--header__menu--container {
   width: 80%;
   margin: 0 auto;
@@ -41,8 +44,6 @@
   width: 80%;
   margin: 0 auto;
 }
-
-
 .flexRow--submenu--department__gender,
 .flexRow--submenu--department--sports {
   width: 100%;
@@ -57,9 +58,6 @@
 .flexRowContent--menu__all-products--global :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
   width: 22% !important;
 }
-
-
-
 .flexColChild--menu__category--column,
 .flexColChild--menu__category--column-one {
   height: max-content !important;
@@ -67,10 +65,6 @@
 .flexColChild--menu__category--column-one {
   padding-left: 15px;
 }
-
-
-/* Mobile menu */
-
 .flexRow--header__drawer--header {
   width: 60%;
   margin-left: auto;
@@ -88,7 +82,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
 .flexRowContent--department__trigger--container {
   display: flex;
   align-items: center;

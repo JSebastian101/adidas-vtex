@@ -1,0 +1,50 @@
+{
+  "rich-text#links__popular--one": {
+    "title" : "home popular-link one",
+    "props" : {
+      "url" : "#",
+      "text" : "Materiales Reciclados",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--two": {
+    "title" : "home popular-link two",
+    "props" : {
+      "url" : "#",
+      "text" : "Guayos",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--three": {
+    "title" : "home popular-link three",
+    "props" : {
+      "url" : "#",
+      "text" : "Superstar",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--four": {
+    "title" : "home popular-link four",
+    "props" : {
+      "url" : "#",
+      "text" : "Forum",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--five": {
+    "title" : "home popular-link five",
+    "props" : {
+      "url" : "#",
+      "text" : "Lego",
+      "blockClass" : "popularLink"
+    }
+  },
+  "rich-text#links__popular--six": {
+    "title" : "home popular-link six",
+    "props" : {
+      "url" : "#",
+      "text" : "Samba",
+      "blockClass" : "popularLink"
+    }
+  }
+}
