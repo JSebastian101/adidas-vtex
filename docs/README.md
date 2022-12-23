@@ -1,6 +1,18 @@
-# Minimum Boilerplate Theme
+# adidas Store Theme
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+This SPA was created based on the VTEX IO Store Framework.
+
+Throug use of vtex native components adidas Store Theme, count with features like
+
+* Navigation menu
+* Login
+* Minicart
+* Product detail page
+  * Reviews and ratings
+  * review form
+* Product list page
+  * products based on: department, category or subcategory
+  * filters and orders
 
 It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
 
