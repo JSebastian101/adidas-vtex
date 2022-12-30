@@ -24,7 +24,7 @@ and custom components:
 #### 3 - Tab-layout - slider-layout
 #### 4 - Footer
 
-![alt text](https://ibb.co/2Nsc7z9)
+[![home-preview.jpg](https://i.postimg.cc/rsYqYNDk/home-preview.jpg)](https://postimg.cc/wRLK1J5f)
 
 ## Configuration
 
