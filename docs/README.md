@@ -18,6 +18,14 @@ and custom components:
 
 * Whatsapp contact button
 
+## Preview
+#### 1 - Home Page 
+#### 2 - Mega menu 
+#### 3 - Tab-layout - slider-layout
+#### 4 - Footer
+
+![alt text](https://ibb.co/2Nsc7z9)
+
 ## Configuration
 
 ### Step 1 -  Basic setup
